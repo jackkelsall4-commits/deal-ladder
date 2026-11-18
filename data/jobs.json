@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18T20:22:36Z",
- "seconds": 1671,
+ "generated_at": "2026-11-18T20:49:26Z",
+ "seconds": 1551,
  "sources": [
   {
    "source": "Adzuna",
@@ -11,8 +11,9 @@
   {
    "source": "Apollo",
    "kind": "workday",
-   "ok": true,
-   "count": 28
+   "ok": false,
+   "error": "https://athene.wd5.myworkdayjobs.com/wday/cxs/athene/Apollo_Careers/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
+   "carried": 1
   },
   {
    "source": "BDO UK",
@@ -23,45 +24,47 @@
   {
    "source": "Bank of America",
    "kind": "workday",
-   "ok": true,
-   "count": 80
+   "ok": false,
+   "error": "https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/Lateral-US/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)"
   },
   {
    "source": "Barclays",
    "kind": "workday",
-   "ok": true,
-   "count": 103
+   "ok": false,
+   "error": "https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/job -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
+   "carried": 1
   },
   {
    "source": "Blackstone",
    "kind": "workday",
-   "ok": true,
-   "count": 66
+   "ok": false,
+   "error": "https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/Blackstone_Careers/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)"
   },
   {
    "source": "Carlyle",
    "kind": "workday",
-   "ok": true,
-   "count": 33
+   "ok": false,
+   "error": "https://carlyle.wd1.myworkdayjobs.com/wday/cxs/carlyle/Carlyle/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)"
   },
   {
    "source": "Citi",
    "kind": "workday",
-   "ok": true,
-   "count": 159
+   "ok": false,
+   "error": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
+   "carried": 6
   },
   {
    "source": "Deloitte UK",
    "kind": "avature",
-   "ok": false,
-   "error": "https://apply.deloitte.co.uk/UKCareers/SearchJobs/?search=due%20diligence&jobOffset=0 -> <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1129)>",
-   "carried": 34
+   "ok": true,
+   "count": 60
   },
   {
    "source": "Deutsche Bank",
    "kind": "workday",
-   "ok": true,
-   "count": 101
+   "ok": false,
+   "error": "https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
+   "carried": 5
   },
   {
    "source": "EY",
@@ -102,26 +105,28 @@
   {
    "source": "Grant Thornton UK",
    "kind": "workday",
-   "ok": true,
-   "count": 77
+   "ok": false,
+   "error": "https://ukgrantt.wd3.myworkdayjobs.com/wday/cxs/ukgrantt/CareersGrantThornton/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
+   "carried": 13
   },
   {
    "source": "HSBC",
    "kind": "eightfold",
    "ok": true,
-   "count": 71
+   "count": 70
   },
   {
    "source": "Houlihan Lokey",
    "kind": "workday",
-   "ok": true,
-   "count": 36
+   "ok": false,
+   "error": "https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)"
   },
   {
    "source": "ICG",
    "kind": "workday",
-   "ok": true,
-   "count": 9
+   "ok": false,
+   "error": "https://icg.wd3.myworkdayjobs.com/wday/cxs/icg/External_Careers/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
+   "carried": 3
   },
   {
    "source": "Interpath Advisory",
@@ -133,7 +138,7 @@
    "source": "J.P. Morgan",
    "kind": "oracle",
    "ok": true,
-   "count": 388
+   "count": 387
   },
   {
    "source": "Jefferies",
@@ -162,38 +167,40 @@
   {
    "source": "Lloyds Banking Group",
    "kind": "workday",
-   "ok": true,
-   "count": 59
+   "ok": false,
+   "error": "https://lbg.wd3.myworkdayjobs.com/wday/cxs/lbg/LBG_Careers/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)"
   },
   {
    "source": "MUFG",
    "kind": "workday",
    "ok": true,
-   "count": 115
+   "count": 11
   },
   {
    "source": "Mizuho",
    "kind": "workday",
-   "ok": true,
-   "count": 76
+   "ok": false,
+   "error": "https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)"
   },
   {
    "source": "Morgan Stanley",
    "kind": "workday",
-   "ok": true,
-   "count": 111
+   "ok": false,
+   "error": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
+   "carried": 2
   },
   {
    "source": "PwC",
    "kind": "workday",
-   "ok": true,
-   "count": 3
+   "ok": false,
+   "error": "https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)"
   },
   {
    "source": "RSM UK",
    "kind": "workday",
-   "ok": true,
-   "count": 34
+   "ok": false,
+   "error": "https://rsmuk.wd103.myworkdayjobs.com/wday/cxs/rsmuk/RSM/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
+   "carried": 3
   },
   {
    "source": "Reed",
@@ -226,7 +233,7 @@
    "count": 274
   }
  ],
- "total_seen": 1340,
+ "total_seen": 982,
  "jobs": [
   {
    "source": "greenhouse",
@@ -367,7 +374,8 @@
    ],
    "match": 53454,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "oracle",
@@ -501,7 +509,8 @@
    "pros": [],
    "match": 49600,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "workday",
@@ -546,55 +555,8 @@
    "pros": [],
    "match": 49600,
    "deal_exp": null,
-   "advert_read": true
-  },
-  {
-   "source": "efinancialcareers",
-   "company": "Options Group",
-   "category": "other",
-   "title": "Investment Manager (m/f/d) - Private Equity",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Investment_Manager_mfd_-_Private_Equity.id25010760",
-   "posted": "2026-11-18",
-   "department": "",
-   "description": "About the Role We are seeking a highly motivated and commercially driven Investment Manager – Private Equity to join our client's London-based investment team. This is an exciting opportunity to play a key role in originating, executing, and managing private equity investments ac",
-   "salary_min": 210000.0,
-   "salary_max": 240000.0,
-   "salary_currency": null,
-   "salary_text": "140k - 160k fix + 50% bonus + Carry",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Private equity"
-   ],
-   "workplace_type": "unknown",
-   "summary": "The ideal candidate will have 6–9 years of relevant experience within private equity, investment banking, or a related field, and a strong track record of evaluating and executing transactio",
-   "currency": "GBP",
-   "base_pay": 225000,
-   "comp": 236200.0,
-   "comp_basis": "advertised",
-   "base_range": [
-    210000.0,
-    240000.0
-   ],
-   "pay_all_in": false,
-   "reach": 0.21,
-   "flags": [
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
-    "Advert text not read - check whether deal experience is required"
-   ],
-   "pros": [],
-   "match": 49199,
-   "deal_exp": null,
-   "advert_read": false
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "successfactors",
@@ -686,7 +648,8 @@
    ],
    "match": 45817,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "efinancialcareers",
@@ -875,8 +838,7 @@
    ],
    "match": 39717,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "workable",
@@ -918,96 +880,6 @@
     "Open to audit backgrounds (\"antageous, we are equally keen to hear from high-performing audit professionals…\")",
     "Wants a qualified accountant - you're ICAEW ACA qualified",
     "Asks for audit, financial statements - core to your 5 yrs of audit",
-    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
-   ],
-   "match": 39681,
-   "deal_exp": "open",
-   "advert_read": true
-  },
-  {
-   "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Transaction Advisory Services, Assistant Manager",
-   "location": "Birmingham (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Birmingham/Transaction-Advisory-Services--Assistant-Manager_R1037726",
-   "posted": "2026-11-18",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "About the team Our Transaction Advisory Services (TAS) team advises clients on deals. That includes financial due diligence (FDD), sale and purchase agreement (SPA) advisory and data analytics.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 44200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.95,
-   "flags": [],
-   "pros": [
-    "Open to audit backgrounds (\"experience in audit or another advisory service line\")",
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit",
-    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
-   ],
-   "match": 39681,
-   "deal_exp": "open",
-   "advert_read": true
-  },
-  {
-   "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Transaction Advisory Services, Assistant Manager",
-   "location": "Bristol (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Bristol/TAS-AM_R1037798",
-   "posted": "2026-11-18",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "About the team Our Transaction Advisory Services (TAS) team advises clients on deals. That includes financial due diligence (FDD), sale and purchase agreement (SPA) advisory and data analytics.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 44200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.95,
-   "flags": [],
-   "pros": [
-    "Open to audit backgrounds (\"experience in audit or another advisory service line\")",
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit",
     "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
    ],
    "match": 39681,
@@ -1061,6 +933,98 @@
    "match": 39681,
    "deal_exp": "open",
    "advert_read": true
+  },
+  {
+   "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Transaction Advisory Services, Assistant Manager",
+   "location": "Birmingham (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Birmingham/Transaction-Advisory-Services--Assistant-Manager_R1037726",
+   "posted": "2026-11-18",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "About the team Our Transaction Advisory Services (TAS) team advises clients on deals. That includes financial due diligence (FDD), sale and purchase agreement (SPA) advisory and data analytics.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 44200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.95,
+   "flags": [],
+   "pros": [
+    "Open to audit backgrounds (\"experience in audit or another advisory service line\")",
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for audit - core to your 5 yrs of audit",
+    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
+   ],
+   "match": 39681,
+   "deal_exp": "open",
+   "advert_read": true,
+   "stale_since": "2026-11-18"
+  },
+  {
+   "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Transaction Advisory Services, Assistant Manager",
+   "location": "Bristol (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Bristol/TAS-AM_R1037798",
+   "posted": "2026-11-18",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "About the team Our Transaction Advisory Services (TAS) team advises clients on deals. That includes financial due diligence (FDD), sale and purchase agreement (SPA) advisory and data analytics.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 44200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.95,
+   "flags": [],
+   "pros": [
+    "Open to audit backgrounds (\"experience in audit or another advisory service line\")",
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for audit - core to your 5 yrs of audit",
+    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
+   ],
+   "match": 39681,
+   "deal_exp": "open",
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "efinancialcareers",
@@ -1156,8 +1120,7 @@
    ],
    "match": 36016,
    "deal_exp": "desirable",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "radancy",
@@ -1295,7 +1258,8 @@
    "pros": [],
    "match": 33442,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "efinancialcareers",
@@ -1430,7 +1394,8 @@
    ],
    "match": 32002,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "workday",
@@ -1476,7 +1441,8 @@
    ],
    "match": 31248,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "oracle",
@@ -1568,7 +1534,8 @@
    "pros": [],
    "match": 30000,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "workday",
@@ -1613,7 +1580,8 @@
    "pros": [],
    "match": 30000,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "smartrecruiters",
@@ -1660,144 +1628,6 @@
    "match": 28363,
    "deal_exp": null,
    "advert_read": true
-  },
-  {
-   "source": "workday",
-   "company": "MUFG",
-   "category": "bulge_bracket",
-   "title": "Analyst, Portfolio Monitoring and Support",
-   "location": "London (United Kingdom)",
-   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/Analyst--Portfolio-Monitoring-and-Support_10080630-WD-1",
-   "posted": "2026-11-16",
-   "department": "",
-   "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world’s leading financial groups. Across the globe, we’re 150,000 colleagues, striving to make a difference for every client, organization, and",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "MUFG",
-   "category_label": "Investment bank",
-   "level": "entry",
-   "function": "front",
-   "region": "UK",
-   "interest": 0.8,
-   "tracks": [
-    "PE portfolio / fund finance",
-    "Finance",
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Provide proactive, thorough and accurate support by conducting key monitoring and reporting tasks, working closely with the Portfolio teams and RMs to provide valuable support to ensure as a business there are…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 100000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.32,
-   "flags": [
-    "Analyst roles at banks and funds are very competitive, and you'd join below your current grade"
-   ],
-   "pros": [
-    "Asks for assurance - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 28114,
-   "deal_exp": null,
-   "advert_read": true
-  },
-  {
-   "source": "efinancialcareers",
-   "company": "Metis Search",
-   "category": "other",
-   "title": "French speaking | Investment Banking M&A Generalist Analyst & Associate",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-French_speaking__Investment_Banking_MA_Generalist_Analyst__Associate.id25010694",
-   "posted": "2026-11-18",
-   "department": "",
-   "description": "A well-established European investment banking platform is looking to appoint a French-speaking Analyst and Associate into their growing Generalist M&A team in London. The platform is recognised for delivering high-quality advice across the UK mid-market, on a broad range of tran",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "competitive",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Investment banking",
-    "Finance"
-   ],
-   "workplace_type": "unknown",
-   "summary": "A well-established European investment banking platform is looking to appoint a French-speaking Analyst and Associate into their growing Generalist M&A team in London.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 52000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.53,
-   "flags": [
-    "Advert text not read - check whether deal experience is required"
-   ],
-   "pros": [],
-   "match": 27404,
-   "deal_exp": null,
-   "advert_read": false
-  },
-  {
-   "source": "efinancialcareers",
-   "company": "Boston Consulting Group",
-   "category": "other",
-   "title": "AI Tech Consultant - Private Equity / M&A - London | BCG Platinion",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-AI_Tech_Consultant_-_Private_Equity__MA_-_London__BCG_Platinion.id24885244",
-   "posted": "2026-10-13",
-   "department": "",
-   "description": "Who We Are Boston Consulting Group partners with leaders in business and society to tackle their most important challenges and capture their greatest opportunities. BCG was the pioneer in business strategy when it was founded in 1963. Today, we work closely with clients to embrac",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Private equity"
-   ],
-   "workplace_type": "unknown",
-   "summary": "Who We Are Boston Consulting Group partners with leaders in business and society to tackle their most important challenges and capture their greatest opportunities.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 52000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.53,
-   "flags": [
-    "Advert text not read - check whether deal experience is required"
-   ],
-   "pros": [],
-   "match": 27404,
-   "deal_exp": null,
-   "advert_read": false
   },
   {
    "source": "efinancialcareers",
@@ -1989,50 +1819,6 @@
    "advert_read": true
   },
   {
-   "source": "efinancialcareers",
-   "company": "Universities Superannuation Scheme Limited",
-   "category": "other",
-   "title": "Associate – Private Equity Funds & Co-investments",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Associate_%E2%80%93_Private_Equity_Funds__Co-investments.id25010777",
-   "posted": "2026-11-18",
-   "department": "",
-   "description": "Associate – Private Equity Funds & Co-investments Place of Work: London Contract Type: Permanent When you join USS, the size and scale of our pension scheme means you will have numerous opportunities to learn and develop your career. Given our size you'll have real autonomy and i",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Private equity"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Associate – Private Equity Funds & Co-investments Place of Work: London Contract Type: Permanent When you join USS, the size and scale of our pension scheme means you will have numerous opportunities to learn…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 48000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.53,
-   "flags": [
-    "Advert text not read - check whether deal experience is required"
-   ],
-   "pros": [],
-   "match": 26561,
-   "deal_exp": null,
-   "advert_read": false
-  },
-  {
    "source": "kpmg",
    "company": "KPMG UK",
    "category": "big4",
@@ -2127,7 +1913,8 @@
    ],
    "match": 26164,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "efinancialcareers",
@@ -2323,141 +2110,6 @@
    "advert_read": true
   },
   {
-   "source": "efinancialcareers",
-   "company": "Metis Search",
-   "category": "other",
-   "title": "Restructuring Analyst to Associate | Investment bank",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Restructuring_Analyst_to_Associate__Investment_bank.id25010693",
-   "posted": "2026-11-18",
-   "department": "",
-   "description": "A leading UK mid-market investment banking platform is looking to appoint an Analyst/Associate into its growing Restructuring team in London. The platform is recognised for advising corporates, sponsors, lenders and other stakeholders on a broad range of stressed and distressed s",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "competitive",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Investment banking",
-    "Valuations / restructuring",
-    "Finance"
-   ],
-   "workplace_type": "unknown",
-   "summary": "A leading UK mid-market investment banking platform is looking to appoint an Analyst/Associate into its growing Restructuring team in London.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 48000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.53,
-   "flags": [
-    "Advert text not read - check whether deal experience is required"
-   ],
-   "pros": [],
-   "match": 25296,
-   "deal_exp": null,
-   "advert_read": false
-  },
-  {
-   "source": "efinancialcareers",
-   "company": "twentyAI",
-   "category": "other",
-   "title": "Interim FP&A Specialist | Private Equity - 3 months initial contract",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Interim_FPA_Specialist__Private_Equity_-_3_months_initial_contract.id25007208",
-   "posted": "2026-11-17",
-   "department": "",
-   "description": "Interim FP&A Specialist | Private Equity London | Immediate Start | Outside IR35 Contract We are supporting a leading Private Equity firm looking to appoint an experienced Interim FP&A Specialist to build and establish its financial planning and analysis capabilities from the gro",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Outside IR35 Dayrate Contract",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Private equity",
-    "PE portfolio / fund finance"
-   ],
-   "workplace_type": "unknown",
-   "summary": "Interim FP&A Specialist | Private Equity London | Immediate Start | Outside IR35 Contract We are supporting a leading Private Equity firm looking to appoint an experienced Interim FP&A Specialist to build and…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 48000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.53,
-   "flags": [
-    "Advert text not read - check whether deal experience is required"
-   ],
-   "pros": [],
-   "match": 25296,
-   "deal_exp": null,
-   "advert_read": false
-  },
-  {
-   "source": "efinancialcareers",
-   "company": "PER, Private Equity Recruitment",
-   "category": "other",
-   "title": "Experienced Investment Associate, Leading Mid-Market Fund, London, UK",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Experienced_Investment_Associate_Leading_Mid-Market_Fund_London_UK.id24795100",
-   "posted": "2026-11-14",
-   "department": "",
-   "description": "When you click apply, you will be redirected to the company’s website . Please ensure you have completed the company’s application process on their platform to fully apply. About our client Our client is a highly regarded private equity firm that is widely recognised as a leader ",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Private equity"
-   ],
-   "workplace_type": "unknown",
-   "summary": "About our client Our client is a highly regarded private equity firm that is widely recognised as a leader within the mid-market space.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 48000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.53,
-   "flags": [
-    "Advert text not read - check whether deal experience is required"
-   ],
-   "pros": [],
-   "match": 25296,
-   "deal_exp": null,
-   "advert_read": false
-  },
-  {
    "source": "kpmg",
    "company": "KPMG UK",
    "category": "big4",
@@ -2505,6 +2157,55 @@
    "advert_read": true
   },
   {
+   "source": "efinancialcareers",
+   "company": "Options Group",
+   "category": "other",
+   "title": "Investment Manager (m/f/d) - Private Equity",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Investment_Manager_mfd_-_Private_Equity.id25010760",
+   "posted": "2026-11-18",
+   "department": "",
+   "description": "About the Role We are seeking a highly motivated and commercially driven Investment Manager – Private Equity to join our client's London-based investment team. This is an exciting opportunity to play a key role in originating, executing, and managing private equity investments ac",
+   "salary_min": 210000.0,
+   "salary_max": 240000.0,
+   "salary_currency": null,
+   "salary_text": "140k - 160k fix + 50% bonus + Carry",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Private equity"
+   ],
+   "workplace_type": "unknown",
+   "summary": "The ideal candidate will have 6–9 years of relevant experience within private equity, investment banking, or a related field, and a strong track record of evaluating and executing transactio",
+   "currency": "GBP",
+   "base_pay": 225000,
+   "comp": 236200.0,
+   "comp_basis": "advertised",
+   "base_range": [
+    210000.0,
+    240000.0
+   ],
+   "pay_all_in": false,
+   "reach": 0.1,
+   "flags": [
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
+    "Advert text not read - check whether deal experience is required",
+    "IB / PE associate roles nearly always ask for prior deal experience - check the advert"
+   ],
+   "pros": [],
+   "match": 24600,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
    "source": "workday",
    "company": "Apollo",
    "category": "pe_megafund",
@@ -2549,52 +2250,8 @@
    ],
    "match": 24500,
    "deal_exp": null,
-   "advert_read": true
-  },
-  {
-   "source": "efinancialcareers",
-   "company": "IQ-EQ",
-   "category": "other",
-   "title": "Client Accountant - Funds (Private Equity)",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Client_Accountant_-_Funds_Private_Equity.id24875638",
-   "posted": "2026-10-10",
-   "department": "",
-   "description": "Company Description ABOUT IQ-EQ Is a global investor services group with deep expertise in private markets. We support investment managers, asset owners and global businesses with the administration, compliance, governance, data and reporting that their structures depend on. Acro",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "mid",
-   "function": "back",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Private equity",
-    "Finance"
-   ],
-   "workplace_type": "unknown",
-   "summary": "Company Description ABOUT IQ-EQ Is a global investor services group with deep expertise in private markets. We support investment managers, asset owners and global businesses with the administration…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 45600.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.53,
-   "flags": [
-    "Advert text not read - check whether deal experience is required"
-   ],
-   "pros": [],
-   "match": 24031,
-   "deal_exp": null,
-   "advert_read": false
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "goldman",
@@ -2830,7 +2487,8 @@
    "pros": [],
    "match": 22950,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "efinancialcareers",
@@ -2921,6 +2579,94 @@
    "match": 22100,
    "deal_exp": null,
    "advert_read": false
+  },
+  {
+   "source": "workday",
+   "company": "MUFG",
+   "category": "bulge_bracket",
+   "title": "Analyst, Portfolio Monitoring and Support",
+   "location": "London",
+   "url": "https://mufgub.wd3.myworkdayjobs.com/en-US/MUFG-Careers/job/London/Analyst--Portfolio-Monitoring-and-Support_10080630-WD-1",
+   "posted": "2026-11-16",
+   "department": "",
+   "description": "",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "MUFG",
+   "category_label": "Investment bank",
+   "level": "entry",
+   "function": "front",
+   "region": "UK",
+   "interest": 0.8,
+   "tracks": [
+    "PE portfolio / fund finance",
+    "Finance"
+   ],
+   "workplace_type": "unknown",
+   "summary": "",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 100000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.26,
+   "flags": [
+    "Advert text not read - check whether deal experience is required",
+    "Analyst roles at banks and funds are very competitive, and you'd join below your current grade"
+   ],
+   "pros": [],
+   "match": 21675,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
+   "source": "avature",
+   "company": "Deloitte UK",
+   "category": "big4",
+   "title": "Manager, Project Manager – M&A (TMT Industry), Technical Programme Delivery",
+   "location": "London",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Manager-Project-Manager-M-A-TMT-Industry-Technical-Programme-Delivery/23460",
+   "posted": "2026-11-09",
+   "department": "Technology & Transformation",
+   "description": "article__content__view\"> Location London Business Line Technology & Transformation Job Type Permanent / FTC Date published 09-Nov-2026 Req # 23460 Job description Connect to your Industry Want to work with the latest technologies, as part of a team helping organisations transform",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deloitte UK",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "back",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Your responsibilities will include: Leading the planning and execution of M&A-related projects within the Technology, Media, and Telecommunications (TMT) sector, ensuring successful delivery and value creation…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 78200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.26,
+   "flags": [
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Asks for audit - core to your 5 yrs of audit"
+   ],
+   "match": 21123,
+   "deal_exp": null,
+   "advert_read": true
   },
   {
    "source": "efinancialcareers",
@@ -3291,7 +3037,8 @@
    ],
    "match": 18623,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "smartrecruiters",
@@ -3374,7 +3121,7 @@
    "pay_all_in": null,
    "reach": 0.24,
    "flags": [
-    "Deal experience is a plus, not required (\"ash, procure to pay and inventory optimisation track record in business…\")",
+    "Deal experience is a plus, not required (\"s development, including generation of new leads and building out existing…\")",
     "Manager-level: a step up from Assistant Manager while changing field - a stretch"
    ],
    "pros": [
@@ -3383,8 +3130,7 @@
    ],
    "match": 18540,
    "deal_exp": "desirable",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "efinancialcareers",
@@ -3483,6 +3229,55 @@
    "advert_read": true
   },
   {
+   "source": "avature",
+   "company": "Deloitte UK",
+   "category": "big4",
+   "title": "Manager, Financial Due Diligence, Mergers and Acquisitions, Consumer",
+   "location": "Manchester",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Manager-Financial-Due-Diligence-Mergers-and-Acquisitions-Consumer/25270",
+   "posted": "2026-11-10",
+   "department": "Strategy, Risk & Transactions Advisory",
+   "description": "article__content__view\"> Location Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 10-Nov-2026 Req # 25270 Job description Connect to your Industry This is your opportunity to join Deloitte's M&A Transaction Services team. Wo",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deloitte UK",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Transaction services",
+    "Corporate finance / M&A",
+    "Finance",
+    "Private equity"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Our core services include acquisition and vendor financial due diligence, bid defence and support and reporting accountant services for capital market transactions.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 72200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.26,
+   "flags": [
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for audit - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 17564,
+   "deal_exp": null,
+   "advert_read": true
+  },
+  {
    "source": "workday",
    "company": "Grant Thornton UK",
    "category": "mid_tier",
@@ -3525,7 +3320,8 @@
    ],
    "match": 17199,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "workday",
@@ -3570,7 +3366,8 @@
    ],
    "match": 17199,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "successfactors",
@@ -3613,53 +3410,6 @@
    "match": 16681,
    "deal_exp": null,
    "advert_read": true
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Senior Manager, Technical Accounting and Financial Instruments",
-   "location": "London",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Senior-Manager-Technical-Accounting-and-Financial-Instruments/25500",
-   "posted": "2026-10-15",
-   "department": "Audit & Assurance",
-   "description": "article__content__view\"> Location London Business Line Audit & Assurance Job Type Permanent / FTC Date published 15-Oct-2026 Req # 25500 Job description Connect to your Industry As a Senior Manager, you will be at the forefront of complex accounting advisory for corporate clients",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "other",
-   "region": "UK",
-   "interest": 0.4,
-   "tracks": [
-    "Finance",
-    "Valuations / restructuring"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "You will lead high-profile engagements involving financial instruments and wider technical accounting, shape trusted relationships with senior stakeholders, and help grow an ambitious non-audit business.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 85000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.34,
-   "flags": [
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Open to audit backgrounds (\"deep knowledge of ifrs 9 and ifrs 7; experience of frs 102, us gaap, new…\")",
-    "Asks for audit, financial reporting, accounting - core to your 5 yrs of audit"
-   ],
-   "match": 16596,
-   "deal_exp": "open",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
   },
   {
    "source": "smartrecruiters",
@@ -3734,52 +3484,6 @@
    ],
    "workplace_type": "unknown",
    "summary": "The Apex Group was established in Bermuda in 2003 and is now one of the world's largest fund administration and middle office solutions providers.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 38800.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.53,
-   "flags": [
-    "Advert text not read - check whether deal experience is required"
-   ],
-   "pros": [],
-   "match": 15626,
-   "deal_exp": null,
-   "advert_read": false
-  },
-  {
-   "source": "efinancialcareers",
-   "company": "Meraki Talent",
-   "category": "other",
-   "title": "Fund Accounting Opportunities",
-   "location": "Edinburgh, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-Edinburgh-Fund_Accounting_Opportunities.id24941788",
-   "posted": "2026-11-15",
-   "department": "",
-   "description": "Are you an Audit professional looking to make your first move into industry? Meraki Talent are working with a leading financial services organisation in Edinburgh that are looking to hire a Fund Accounting professional with audit experience across Private Equity, Private Capital,",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Excellent Package",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "mid",
-   "function": "back",
-   "region": "UK",
-   "interest": 0.8,
-   "tracks": [
-    "PE portfolio / fund finance",
-    "Finance",
-    "Private equity"
-   ],
-   "workplace_type": "unknown",
-   "summary": "Meraki Talent are working with a leading financial services organisation in Edinburgh that are looking to hire a Fund Accounting professional with audit experience across Private Equity, Private Capital, Hedge…",
    "currency": "GBP",
    "base_pay": null,
    "comp": 38800.0,
@@ -4116,186 +3820,6 @@
   },
   {
    "source": "efinancialcareers",
-   "company": "",
-   "category": "other",
-   "title": "Private Equity Portfolio Manager - Snr Associate / Associate",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Private_Equity_Portfolio_Manager_-_Snr_Associate__Associate.id25006910",
-   "posted": "2026-11-17",
-   "department": "",
-   "description": "This role sits in the Portfolio Management team of a successful Private Markets Investment house that invests across multiple asset classes and investment structures. The Opportunity: This role is a fantastic opportunity for the successful candidate to build a career in Private M",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Private equity"
-   ],
-   "workplace_type": "unknown",
-   "summary": "This role sits in the Portfolio Management team of a successful Private Markets Investment house that invests across multiple asset classes and investment structures.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 68000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.21,
-   "flags": [
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
-    "Advert text not read - check whether deal experience is required"
-   ],
-   "pros": [],
-   "match": 14161,
-   "deal_exp": null,
-   "advert_read": false
-  },
-  {
-   "source": "efinancialcareers",
-   "company": "GIC Private Limited",
-   "category": "other",
-   "title": "AVP, Transaction Management, Private Equity (2-Year Contract)",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-AVP_Transaction_Management_Private_Equity_2-Year_Contract.id24555905",
-   "posted": "2026-10-17",
-   "department": "",
-   "description": "GIC is one of the world's largest sovereign wealth funds. With over 2,000 employees across 11 offices around the world, we invest in more than 40 countries globally across asset classes and businesses. Working at GIC gives you exposure to an extraordinary network of the world's i",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Private equity"
-   ],
-   "workplace_type": "unknown",
-   "summary": "The Investment Services and Transaction Management tea",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 68000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.21,
-   "flags": [
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
-    "Advert text not read - check whether deal experience is required"
-   ],
-   "pros": [],
-   "match": 14161,
-   "deal_exp": null,
-   "advert_read": false
-  },
-  {
-   "source": "efinancialcareers",
-   "company": "DWS Group",
-   "category": "other",
-   "title": "Infrastructure Investment Manager - private equity",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Infrastructure_Investment_Manager_-_private_equity.id23471087",
-   "posted": "2026-09-20",
-   "department": "",
-   "description": "Job Description: Employer: DWS Group Title: Infrastructure Investment Manager - private equity Location: London About DWS: Today, markets face a whole new set of pressures - but also a whole lot of opportunity too. Opportunity to innovate differently. Opportunity to invest respon",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Private equity"
-   ],
-   "workplace_type": "unknown",
-   "summary": "Employer: DWS Group Title: Infrastructure Investment Manager - private equity Location: London About DWS: Today, markets face a whole new set of pressures - but also a whole lot of opportunity too.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 68000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.21,
-   "flags": [
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
-    "Advert text not read - check whether deal experience is required"
-   ],
-   "pros": [],
-   "match": 14161,
-   "deal_exp": null,
-   "advert_read": false
-  },
-  {
-   "source": "efinancialcareers",
-   "company": "LegalAndGeneral",
-   "category": "other",
-   "title": "Investment Manager - Risk Sharing",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Investment_Manager_-_Risk_Sharing.id24953687",
-   "posted": "2026-10-30",
-   "department": "",
-   "description": "Company Description Legal & General (L&G) is a leading UK financial services group and major global investor. We've been safeguarding people's financial futures since 1836, and strive to build a better society, while improving the lives of our customers and creating value for sha",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Private equity"
-   ],
-   "workplace_type": "unknown",
-   "summary": "We've been safeguarding people's financial futures since 1836, and strive to build a better society, while improving the lives of our customers and creating value for shareholders.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 68000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.21,
-   "flags": [
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
-    "Advert text not read - check whether deal experience is required"
-   ],
-   "pros": [],
-   "match": 14161,
-   "deal_exp": null,
-   "advert_read": false
-  },
-  {
-   "source": "efinancialcareers",
    "company": "Universities Superannuation Scheme Limited",
    "category": "other",
    "title": "Valuations Associate",
@@ -4339,51 +3863,142 @@
    "advert_read": false
   },
   {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Manager, Technical Accounting and Financial Instruments",
-   "location": "London",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Manager-Technical-Accounting-and-Financial-Instruments/25497",
-   "posted": "2026-10-15",
-   "department": "Audit & Assurance",
-   "description": "article__content__view\"> Location London Business Line Audit & Assurance Job Type Permanent / FTC Date published 15-Oct-2026 Req # 25497 Job description Connect to your Industry Join a growing Corporate Treasury Assurance team where complex accounting questions become opportuniti",
+   "source": "efinancialcareers",
+   "company": "Metis Search",
+   "category": "other",
+   "title": "French speaking | Investment Banking M&A Generalist Analyst & Associate",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-French_speaking__Investment_Banking_MA_Generalist_Analyst__Associate.id25010694",
+   "posted": "2026-11-18",
+   "department": "",
+   "description": "A well-established European investment banking platform is looking to appoint a French-speaking Analyst and Associate into their growing Generalist M&A team in London. The platform is recognised for delivering high-quality advice across the UK mid-market, on a broad range of tran",
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "salary_text": "",
+   "salary_text": "competitive",
    "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "other",
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "mid",
+   "function": "front",
    "region": "UK",
-   "interest": 0.4,
+   "interest": 1.0,
    "tracks": [
-    "Finance",
-    "Valuations / restructuring"
+    "Corporate finance / M&A",
+    "Investment banking",
+    "Finance"
    ],
-   "workplace_type": "hybrid",
-   "summary": "You will work with specialists across accounting, treasury, valuations, technology, transactions and finance transformation, giving you breadth as well as a clear technical specialism.",
+   "workplace_type": "unknown",
+   "summary": "A well-established European investment banking platform is looking to appoint a French-speaking Analyst and Associate into their growing Generalist M&A team in London.",
    "currency": "GBP",
    "base_pay": null,
-   "comp": 85000,
+   "comp": 52000,
    "comp_basis": "estimated",
    "base_range": null,
    "pay_all_in": null,
-   "reach": 0.27,
+   "reach": 0.26,
    "flags": [
-    "Deal experience is a plus, not required (\"working knowledge of ifrs 9 and ifrs 7; exposure to frs 102, us gaap, new…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+    "Advert text not read - check whether deal experience is required",
+    "IB / PE associate roles nearly always ask for prior deal experience - check the advert"
    ],
-   "pros": [
-    "Asks for audit, ifrs, accounting - core to your 5 yrs of audit"
+   "pros": [],
+   "match": 13702,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "Boston Consulting Group",
+   "category": "other",
+   "title": "AI Tech Consultant - Private Equity / M&A - London | BCG Platinion",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-AI_Tech_Consultant_-_Private_Equity__MA_-_London__BCG_Platinion.id24885244",
+   "posted": "2026-10-13",
+   "department": "",
+   "description": "Who We Are Boston Consulting Group partners with leaders in business and society to tackle their most important challenges and capture their greatest opportunities. BCG was the pioneer in business strategy when it was founded in 1963. Today, we work closely with clients to embrac",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Private equity"
    ],
-   "match": 13139,
-   "deal_exp": "desirable",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "workplace_type": "unknown",
+   "summary": "Who We Are Boston Consulting Group partners with leaders in business and society to tackle their most important challenges and capture their greatest opportunities.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 52000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.26,
+   "flags": [
+    "Advert text not read - check whether deal experience is required",
+    "IB / PE associate roles nearly always ask for prior deal experience - check the advert"
+   ],
+   "pros": [],
+   "match": 13702,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "Universities Superannuation Scheme Limited",
+   "category": "other",
+   "title": "Associate – Private Equity Funds & Co-investments",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Associate_%E2%80%93_Private_Equity_Funds__Co-investments.id25010777",
+   "posted": "2026-11-18",
+   "department": "",
+   "description": "Associate – Private Equity Funds & Co-investments Place of Work: London Contract Type: Permanent When you join USS, the size and scale of our pension scheme means you will have numerous opportunities to learn and develop your career. Given our size you'll have real autonomy and i",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Private equity"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Associate – Private Equity Funds & Co-investments Place of Work: London Contract Type: Permanent When you join USS, the size and scale of our pension scheme means you will have numerous opportunities to learn…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 48000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.26,
+   "flags": [
+    "Advert text not read - check whether deal experience is required",
+    "IB / PE associate roles nearly always ask for prior deal experience - check the advert"
+   ],
+   "pros": [],
+   "match": 13280,
+   "deal_exp": null,
+   "advert_read": false
   },
   {
    "source": "workday",
@@ -4430,7 +4045,8 @@
    ],
    "match": 13120,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "efinancialcareers",
@@ -4524,7 +4140,240 @@
    ],
    "match": 12890,
    "deal_exp": null,
+   "advert_read": true,
+   "stale_since": "2026-11-18"
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "Metis Search",
+   "category": "other",
+   "title": "Restructuring Analyst to Associate | Investment bank",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Restructuring_Analyst_to_Associate__Investment_bank.id25010693",
+   "posted": "2026-11-18",
+   "department": "",
+   "description": "A leading UK mid-market investment banking platform is looking to appoint an Analyst/Associate into its growing Restructuring team in London. The platform is recognised for advising corporates, sponsors, lenders and other stakeholders on a broad range of stressed and distressed s",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "competitive",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Investment banking",
+    "Valuations / restructuring",
+    "Finance"
+   ],
+   "workplace_type": "unknown",
+   "summary": "A leading UK mid-market investment banking platform is looking to appoint an Analyst/Associate into its growing Restructuring team in London.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 48000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.26,
+   "flags": [
+    "Advert text not read - check whether deal experience is required",
+    "IB / PE associate roles nearly always ask for prior deal experience - check the advert"
+   ],
+   "pros": [],
+   "match": 12648,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "twentyAI",
+   "category": "other",
+   "title": "Interim FP&A Specialist | Private Equity - 3 months initial contract",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Interim_FPA_Specialist__Private_Equity_-_3_months_initial_contract.id25007208",
+   "posted": "2026-11-17",
+   "department": "",
+   "description": "Interim FP&A Specialist | Private Equity London | Immediate Start | Outside IR35 Contract We are supporting a leading Private Equity firm looking to appoint an experienced Interim FP&A Specialist to build and establish its financial planning and analysis capabilities from the gro",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Outside IR35 Dayrate Contract",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Private equity",
+    "PE portfolio / fund finance"
+   ],
+   "workplace_type": "unknown",
+   "summary": "Interim FP&A Specialist | Private Equity London | Immediate Start | Outside IR35 Contract We are supporting a leading Private Equity firm looking to appoint an experienced Interim FP&A Specialist to build and…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 48000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.26,
+   "flags": [
+    "Advert text not read - check whether deal experience is required",
+    "IB / PE associate roles nearly always ask for prior deal experience - check the advert"
+   ],
+   "pros": [],
+   "match": 12648,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "PER, Private Equity Recruitment",
+   "category": "other",
+   "title": "Experienced Investment Associate, Leading Mid-Market Fund, London, UK",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Experienced_Investment_Associate_Leading_Mid-Market_Fund_London_UK.id24795100",
+   "posted": "2026-11-14",
+   "department": "",
+   "description": "When you click apply, you will be redirected to the company’s website . Please ensure you have completed the company’s application process on their platform to fully apply. About our client Our client is a highly regarded private equity firm that is widely recognised as a leader ",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Private equity"
+   ],
+   "workplace_type": "unknown",
+   "summary": "About our client Our client is a highly regarded private equity firm that is widely recognised as a leader within the mid-market space.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 48000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.26,
+   "flags": [
+    "Advert text not read - check whether deal experience is required",
+    "IB / PE associate roles nearly always ask for prior deal experience - check the advert"
+   ],
+   "pros": [],
+   "match": 12648,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
+   "source": "avature",
+   "company": "Deloitte UK",
+   "category": "big4",
+   "title": "Manager, M&A Analytics",
+   "location": "Birmingham, London",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Manager-M-A-Analytics/23592",
+   "posted": "2026-08-11",
+   "department": "Strategy, Risk & Transactions Advisory",
+   "description": "article__content__view\"> Location Birmingham, London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 11-Aug-2026 Req # 23592 Job description Connect to your Industry This is your opportunity to join Deloitte's growing M&A Analytics tea",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deloitte UK",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Transaction services",
+    "PE portfolio / fund finance"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Article__content__view\"> Location Birmingham, London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 11-Aug-2026 Req # 23592 Job description Connect to your…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 85000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.13,
+   "flags": [
+    "Needs coding (Python/SQL)",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Asks for audit, accounting - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 12026,
+   "deal_exp": null,
    "advert_read": true
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "IQ-EQ",
+   "category": "other",
+   "title": "Client Accountant - Funds (Private Equity)",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Client_Accountant_-_Funds_Private_Equity.id24875638",
+   "posted": "2026-10-10",
+   "department": "",
+   "description": "Company Description ABOUT IQ-EQ Is a global investor services group with deep expertise in private markets. We support investment managers, asset owners and global businesses with the administration, compliance, governance, data and reporting that their structures depend on. Acro",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "mid",
+   "function": "back",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Private equity",
+    "Finance"
+   ],
+   "workplace_type": "unknown",
+   "summary": "Company Description ABOUT IQ-EQ Is a global investor services group with deep expertise in private markets. We support investment managers, asset owners and global businesses with the administration…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 45600.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.26,
+   "flags": [
+    "Advert text not read - check whether deal experience is required",
+    "IB / PE associate roles nearly always ask for prior deal experience - check the advert"
+   ],
+   "pros": [],
+   "match": 12016,
+   "deal_exp": null,
+   "advert_read": false
   },
   {
    "source": "efinancialcareers",
@@ -4748,53 +4597,6 @@
    "pros": [],
    "match": 10612,
    "deal_exp": null,
-   "advert_read": true
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Senior Analyst, Pricing Centre, Audit and Assurance",
-   "location": "London",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Senior-Analyst-Pricing-Centre-Audit-and-Assurance/23702",
-   "posted": "2026-11-09",
-   "department": "Audit & Assurance",
-   "description": "article__content__view\"> Location London Business Line Audit & Assurance Job Type Permanent / FTC Date published 09-Nov-2026 Req # 23702 Job description Connect to your Industry The Pricing Centre, as part of the Audit & Assurance Group, provides valuation support to Deloitte’s N",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "mid",
-   "function": "other",
-   "region": "UK",
-   "interest": 0.4,
-   "tracks": [
-    "Finance",
-    "Valuations / restructuring"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Article__content__view\"> Location London Business Line Audit & Assurance Job Type Permanent / FTC Date published 09-Nov-2026 Req # 23702 Job description Connect to your Industry The Pricing Centre, as part of…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 58000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.31,
-   "flags": [
-    "Deal experience is a plus, not required (\"ts the following would be useful for a successful candidate: proven experience…\")",
-    "Needs coding (Python/SQL)"
-   ],
-   "pros": [
-    "Asks for audit & assurance - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 10357,
-   "deal_exp": "desirable",
    "advert_read": true,
    "stale_since": "2026-11-18"
   },
@@ -4932,7 +4734,8 @@
    ],
    "match": 9336,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "efinancialcareers",
@@ -5312,7 +5115,8 @@
    ],
    "match": 7187,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "kpmg",
@@ -5360,6 +5164,190 @@
    "match": 7185,
    "deal_exp": null,
    "advert_read": true
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "",
+   "category": "other",
+   "title": "Private Equity Portfolio Manager - Snr Associate / Associate",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Private_Equity_Portfolio_Manager_-_Snr_Associate__Associate.id25006910",
+   "posted": "2026-11-17",
+   "department": "",
+   "description": "This role sits in the Portfolio Management team of a successful Private Markets Investment house that invests across multiple asset classes and investment structures. The Opportunity: This role is a fantastic opportunity for the successful candidate to build a career in Private M",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Private equity"
+   ],
+   "workplace_type": "unknown",
+   "summary": "This role sits in the Portfolio Management team of a successful Private Markets Investment house that invests across multiple asset classes and investment structures.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 68000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.1,
+   "flags": [
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
+    "Advert text not read - check whether deal experience is required",
+    "IB / PE associate roles nearly always ask for prior deal experience - check the advert"
+   ],
+   "pros": [],
+   "match": 7080,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "GIC Private Limited",
+   "category": "other",
+   "title": "AVP, Transaction Management, Private Equity (2-Year Contract)",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-AVP_Transaction_Management_Private_Equity_2-Year_Contract.id24555905",
+   "posted": "2026-10-17",
+   "department": "",
+   "description": "GIC is one of the world's largest sovereign wealth funds. With over 2,000 employees across 11 offices around the world, we invest in more than 40 countries globally across asset classes and businesses. Working at GIC gives you exposure to an extraordinary network of the world's i",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Private equity"
+   ],
+   "workplace_type": "unknown",
+   "summary": "The Investment Services and Transaction Management tea",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 68000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.1,
+   "flags": [
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
+    "Advert text not read - check whether deal experience is required",
+    "IB / PE associate roles nearly always ask for prior deal experience - check the advert"
+   ],
+   "pros": [],
+   "match": 7080,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "DWS Group",
+   "category": "other",
+   "title": "Infrastructure Investment Manager - private equity",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Infrastructure_Investment_Manager_-_private_equity.id23471087",
+   "posted": "2026-09-20",
+   "department": "",
+   "description": "Job Description: Employer: DWS Group Title: Infrastructure Investment Manager - private equity Location: London About DWS: Today, markets face a whole new set of pressures - but also a whole lot of opportunity too. Opportunity to innovate differently. Opportunity to invest respon",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Private equity"
+   ],
+   "workplace_type": "unknown",
+   "summary": "Employer: DWS Group Title: Infrastructure Investment Manager - private equity Location: London About DWS: Today, markets face a whole new set of pressures - but also a whole lot of opportunity too.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 68000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.1,
+   "flags": [
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
+    "Advert text not read - check whether deal experience is required",
+    "IB / PE associate roles nearly always ask for prior deal experience - check the advert"
+   ],
+   "pros": [],
+   "match": 7080,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "LegalAndGeneral",
+   "category": "other",
+   "title": "Investment Manager - Risk Sharing",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Investment_Manager_-_Risk_Sharing.id24953687",
+   "posted": "2026-10-30",
+   "department": "",
+   "description": "Company Description Legal & General (L&G) is a leading UK financial services group and major global investor. We've been safeguarding people's financial futures since 1836, and strive to build a better society, while improving the lives of our customers and creating value for sha",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Private equity"
+   ],
+   "workplace_type": "unknown",
+   "summary": "We've been safeguarding people's financial futures since 1836, and strive to build a better society, while improving the lives of our customers and creating value for shareholders.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 68000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.1,
+   "flags": [
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
+    "Advert text not read - check whether deal experience is required",
+    "IB / PE associate roles nearly always ask for prior deal experience - check the advert"
+   ],
+   "pros": [],
+   "match": 7080,
+   "deal_exp": null,
+   "advert_read": false
   },
   {
    "source": "efinancialcareers",
@@ -6530,56 +6518,6 @@
    "advert_read": true
   },
   {
-   "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Corporate Finance Assistant Manager",
-   "location": "London (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/London/Corporate-Finance-Assistant-Manager_R1037329",
-   "posted": "2026-11-12",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Finance",
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Corporate Finance Assistant Manager, London We work with midmarket companies on strategies for growth and exit, building relationships with our clients, becoming their trusted advisor and helping them to…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 52000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.09,
-   "flags": [
-    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
-   ],
-   "pros": [
-    "Wants a qualified accountant - you're ICAEW ACA qualified",
-    "Asks for financial statements - core to your 5 yrs of audit",
-    "Excel-heavy",
-    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
-   ],
-   "match": 4905,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
    "source": "efinancialcareers",
    "company": "Grant Thornton",
    "category": "mid_tier",
@@ -6633,48 +6571,53 @@
    "advert_read": true
   },
   {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Director, M&A, QRM",
-   "location": "Bristol, Cardiff, Edinburgh, Leeds, London, Manchester",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Director-M-A-QRM/25601",
-   "posted": "2026-10-28",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location Bristol, Cardiff, Edinburgh, Leeds, London, Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 28-Oct-2026 Req # 25601 Job description Director QRM- M&A Connect to your Industry Driven by Deloi",
+   "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Corporate Finance Assistant Manager",
+   "location": "London (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/London/Corporate-Finance-Assistant-Manager_R1037329",
+   "posted": "2026-11-12",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
    "salary_text": "",
    "workplace": null,
    "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "exec",
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "mid",
    "function": "front",
    "region": "UK",
    "interest": 1.0,
    "tracks": [
     "Corporate finance / M&A",
-    "Transaction services",
-    "Valuations / restructuring"
+    "Finance",
+    "Transaction services"
    ],
    "workplace_type": "hybrid",
-   "summary": "Article__content__view\"> Location Bristol, Cardiff, Edinburgh, Leeds, London, Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 28-Oct-2026 Req # 25601 Job…",
+   "summary": "Corporate Finance Assistant Manager, London We work with midmarket companies on strategies for growth and exit, building relationships with our clients, becoming their trusted advisor and helping them to…",
    "currency": "GBP",
    "base_pay": null,
-   "comp": 140000,
+   "comp": 52000,
    "comp_basis": "estimated",
    "base_range": null,
    "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for assurance, accounting - core to your 5 yrs of audit"
+   "reach": 0.09,
+   "flags": [
+    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
    ],
-   "match": 4851,
-   "deal_exp": null,
+   "pros": [
+    "Wants a qualified accountant - you're ICAEW ACA qualified",
+    "Asks for financial statements - core to your 5 yrs of audit",
+    "Excel-heavy",
+    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
+   ],
+   "match": 4905,
+   "deal_exp": "required",
    "advert_read": true,
    "stale_since": "2026-11-18"
   },
@@ -7010,50 +6953,6 @@
    "advert_read": true
   },
   {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Lifecycle M&A Director",
-   "location": "Aberdeen, Belfast, Birmingham, Bristol, Cambridge, Cardiff, Edinburgh, Gatwick, Glasgow, Guernsey, Isle of Man, Jersey, Leeds, Liverpool, London, Manchester, Milton Keynes, Nottingham, Reading, Southampton, St Albans, Ipswich, Newcastle, Port Talbot",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Lifecycle-M-A-Director/24185",
-   "posted": "2026-10-27",
-   "department": "Tax & Legal",
-   "description": "article__content__view\"> Location Aberdeen, Belfast, Birmingham, Bristol, Cambridge, Cardiff, Edinburgh, Gatwick, Glasgow, Guernsey, Ipswich, Isle of Man, Jersey, Leeds, Liverpool, London, Manchester, Milton Keynes, Newcastle, Nottingham, Port Talbot, Reading, Southampton, St Alb",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "exec",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "You will own and manage key elements of a client relationship and will be expected to proactively identify innovative solutions for your clients and pursue new business development opportunities by utilising…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 140000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit"
-   ],
-   "match": 4630,
-   "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
    "source": "efinancialcareers",
    "company": "Deloitte",
    "category": "big4",
@@ -7105,55 +7004,6 @@
    "match": 4549,
    "deal_exp": "required",
    "advert_read": true
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Manager, Financial Services",
-   "location": "London",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Manager-Financial-Services/25712",
-   "posted": "2026-11-09",
-   "department": "Tax & Legal",
-   "description": "article__content__view\"> Location London Business Line Tax & Legal Job Type Permanent / FTC Date published 09-Nov-2026 Req # 25712 Job description Connect to your Industry The Financial Services Business Tax Group at Deloitte is offering an exciting opportunity to work with the w",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "other",
-   "region": "UK",
-   "interest": 0.5,
-   "tracks": [
-    "Finance",
-    "Corporate finance / M&A"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Deloitte's Financial Services Business Tax Group is an established and successful team that is looking for ambitious and capable individuals, at all grades, to support our growth and help deliver our ambitions.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 85000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.08,
-   "flags": [
-    "Wants an established client book / origination record",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Wants people management - you run audit teams as an Assistant Manager",
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit, accountancy - core to your 5 yrs of audit"
-   ],
-   "match": 4510,
-   "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
   },
   {
    "source": "workable",
@@ -7400,52 +7250,6 @@
    "advert_read": true
   },
   {
-   "source": "workday",
-   "company": "MUFG",
-   "category": "bulge_bracket",
-   "title": "Vice President, Leveraged Finance Transaction Execution",
-   "location": "London (United Kingdom)",
-   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/Vice-President--Transaction-Execution_10077595-WD-1",
-   "posted": "2026-06-30",
-   "department": "",
-   "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world’s leading financial groups. Across the globe, we’re 150,000 colleagues, striving to make a difference for every client, organization, and",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "MUFG",
-   "category_label": "Investment bank",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Finance",
-    "Private equity"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "MAIN PURPOSE OF THE ROLE We are seeking a Vice President with a transactional background in leveraged finance to join the front office EMEA Leveraged Finance (large cap and mid market) team in London.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 260000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.01,
-   "flags": [
-    "Requires previous deal experience (\"for front-office on documentation commercial issues, market trends and best practices in…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
-    "IB / PE associate roles mostly hire ex-analysts or Big 4 deals people - a stretch straight from audit"
-   ],
-   "pros": [],
-   "match": 4013,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
    "source": "radancy",
    "company": "BDO UK",
    "category": "mid_tier",
@@ -7640,57 +7444,6 @@
    "match": 3937,
    "deal_exp": "required",
    "advert_read": true
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Assistant Manager, Transaction Management Office (TMO), Equity Capital Markets, Finance and Transaction Management (EFT)",
-   "location": "London",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Assistant-Manager-Transaction-Management-Office-TMO-Equity-Capital-Markets-Finance-and-Transaction-Management-EFT/25698",
-   "posted": "2026-11-03",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 03-Nov-2026 Req # 25698 Job description Connect to your Industry Join the UK's leading M&A services business. The strength and depth of the Deloit",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 0.5,
-   "tracks": [
-    "Finance",
-    "Transaction services",
-    "Corporate finance / M&A",
-    "Investment banking",
-    "Private equity"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "You will join the market leading Transaction Management Office (“TMO”) team and will work with clients at the center of complex Equity Capital Markets (“ECM”) and M&A transactions within a high performing team…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 58000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.1,
-   "flags": [
-    "Requires previous deal experience (\"we typically deploy experienced transaction professionals to support the central deal /…\")"
-   ],
-   "pros": [
-    "Asks for audit, accounting - core to your 5 yrs of audit",
-    "Excel-heavy",
-    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
-   ],
-   "match": 3894,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
   },
   {
    "source": "efinancialcareers",
@@ -8118,156 +7871,6 @@
    "advert_read": true
   },
   {
-   "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Corporate Finance Assistant Manager",
-   "location": "Bristol (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Bristol/Corporate-Finance-Assistant-Manager_R1037470",
-   "posted": "2026-11-12",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Finance",
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Corporate Finance Assistant Manager, Bristol We work with midmarket companies on strategies for growth and exit, building relationships with our clients, becoming their trusted advisor and helping them to…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 44200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.09,
-   "flags": [
-    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
-   ],
-   "pros": [
-    "Wants a qualified accountant - you're ICAEW ACA qualified",
-    "Asks for financial statements - core to your 5 yrs of audit",
-    "Excel-heavy",
-    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
-   ],
-   "match": 3752,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
-   "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Corporate Finance Assistant Manager",
-   "location": "Birmingham (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Birmingham/Corporate-Finance-Assistant-Manager_R1037327",
-   "posted": "2026-11-12",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Finance",
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Corporate Finance Assistant Manager, Birmingham We work with midmarket companies on strategies for growth and exit, building relationships with our clients, becoming their trusted advisor and helping them to…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 44200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.09,
-   "flags": [
-    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
-   ],
-   "pros": [
-    "Wants a qualified accountant - you're ICAEW ACA qualified",
-    "Asks for financial statements - core to your 5 yrs of audit",
-    "Excel-heavy",
-    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
-   ],
-   "match": 3752,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
-   "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Corporate Finance Assistant Manager",
-   "location": "Milton Keynes (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Milton-Keynes/Corporate-Finance-Assistant-Manager_R1037050",
-   "posted": "2026-10-20",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Finance",
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "A look into the role As an Assistant Manager within our Corporate Finance team you will: Play a key role in supporting transaction execution and contributing across multiple projects.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 44200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.09,
-   "flags": [
-    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
-   ],
-   "pros": [
-    "Wants a qualified accountant - you're ICAEW ACA qualified",
-    "Asks for financial statements - core to your 5 yrs of audit",
-    "Excel-heavy",
-    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
-   ],
-   "match": 3752,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
    "source": "efinancialcareers",
    "company": "Grant Thornton",
    "category": "mid_tier",
@@ -8428,6 +8031,159 @@
   },
   {
    "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Corporate Finance Assistant Manager",
+   "location": "Bristol (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Bristol/Corporate-Finance-Assistant-Manager_R1037470",
+   "posted": "2026-11-12",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Finance",
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Corporate Finance Assistant Manager, Bristol We work with midmarket companies on strategies for growth and exit, building relationships with our clients, becoming their trusted advisor and helping them to…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 44200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.09,
+   "flags": [
+    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
+   ],
+   "pros": [
+    "Wants a qualified accountant - you're ICAEW ACA qualified",
+    "Asks for financial statements - core to your 5 yrs of audit",
+    "Excel-heavy",
+    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
+   ],
+   "match": 3752,
+   "deal_exp": "required",
+   "advert_read": true,
+   "stale_since": "2026-11-18"
+  },
+  {
+   "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Corporate Finance Assistant Manager",
+   "location": "Birmingham (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Birmingham/Corporate-Finance-Assistant-Manager_R1037327",
+   "posted": "2026-11-12",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Finance",
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Corporate Finance Assistant Manager, Birmingham We work with midmarket companies on strategies for growth and exit, building relationships with our clients, becoming their trusted advisor and helping them to…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 44200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.09,
+   "flags": [
+    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
+   ],
+   "pros": [
+    "Wants a qualified accountant - you're ICAEW ACA qualified",
+    "Asks for financial statements - core to your 5 yrs of audit",
+    "Excel-heavy",
+    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
+   ],
+   "match": 3752,
+   "deal_exp": "required",
+   "advert_read": true,
+   "stale_since": "2026-11-18"
+  },
+  {
+   "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Corporate Finance Assistant Manager",
+   "location": "Milton Keynes (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Milton-Keynes/Corporate-Finance-Assistant-Manager_R1037050",
+   "posted": "2026-10-20",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Finance",
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "A look into the role As an Assistant Manager within our Corporate Finance team you will: Play a key role in supporting transaction execution and contributing across multiple projects.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 44200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.09,
+   "flags": [
+    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
+   ],
+   "pros": [
+    "Wants a qualified accountant - you're ICAEW ACA qualified",
+    "Asks for financial statements - core to your 5 yrs of audit",
+    "Excel-heavy",
+    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
+   ],
+   "match": 3752,
+   "deal_exp": "required",
+   "advert_read": true,
+   "stale_since": "2026-11-18"
+  },
+  {
+   "source": "workday",
    "company": "Morgan Stanley",
    "category": "bulge_bracket",
    "title": "Investment Banking Division - FIG Benelux - Associate  -",
@@ -8471,7 +8227,8 @@
    "pros": [],
    "match": 3750,
    "deal_exp": "required",
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "oracle",
@@ -8659,8 +8416,7 @@
    ],
    "match": 3470,
    "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "efinancialcareers",
@@ -8719,55 +8475,6 @@
    "source": "avature",
    "company": "Deloitte UK",
    "category": "big4",
-   "title": "Graduate Programme Audit, Jersey 2027",
-   "location": "Jersey, United Kingdom",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Graduate-Programme-Audit-Jersey-2027/25136",
-   "posted": "2026-11-17",
-   "department": "Audit & Assurance",
-   "description": "article__content__view\"> Location Jersey Business Line Audit & Assurance Job Type Permanent / FTC Date published 17-Nov-2026 Req # 25136 Job description What does this team do? Audit has a really important role in society, helping to protect the public interest. Accurate financia",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "entry",
-   "function": "other",
-   "region": "UK",
-   "interest": 0.5,
-   "tracks": [
-    "Finance",
-    "Private equity"
-   ],
-   "workplace_type": "unknown",
-   "summary": "Article__content__view\"> Location Jersey Business Line Audit & Assurance Job Type Permanent / FTC Date published 17-Nov-2026 Req # 25136 Job description What does this team do?",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 32300.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.18,
-   "flags": [
-    "Graduate programme - you'd restart at graduate grade and pay",
-    "Asks for a 2:1 degree - check your class meets it"
-   ],
-   "pros": [
-    "Wants people management - you run audit teams as an Assistant Manager",
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit"
-   ],
-   "match": 3339,
-   "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
    "title": "Assistant Director, Equity Capital Markets, Finance, and Transaction Management Office (EFT), M&A",
    "location": "London",
    "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Assistant-Director-Equity-Capital-Markets-Finance-and-Transaction-Management-Office-EFT-M-A/24941",
@@ -8802,7 +8509,7 @@
    "pay_all_in": null,
    "reach": 0.04,
    "flags": [
-    "Requires previous deal experience (\"connect to your skills and professional experience essentials: aca qualified or…\")",
+    "Requires previous deal experience (\"fied or equivalent qualification significant experience in m&a, across both both private…\")",
     "Manager-level: a step up from Assistant Manager while changing field - a stretch"
    ],
    "pros": [
@@ -8812,8 +8519,7 @@
    ],
    "match": 3319,
    "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "oracle",
@@ -9100,7 +8806,8 @@
    ],
    "match": 2990,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "efinancialcareers",
@@ -9446,6 +9153,250 @@
    "advert_read": true
   },
   {
+   "source": "avature",
+   "company": "Deloitte UK",
+   "category": "big4",
+   "title": "Senior Manager or Assistant Director, Financial Due Diligence",
+   "location": "London",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Senior-Manager-or-Assistant-Director-Financial-Due-Diligence/24247",
+   "posted": "2026-10-05",
+   "department": "Strategy, Risk & Transactions Advisory",
+   "description": "article__content__view\"> Location London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 05-Oct-2026 Req # 24247 Job description Connect to your Industry This is your opportunity to join Deloitte's growing Mergers and Acquisitions team",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deloitte UK",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Transaction services",
+    "Finance",
+    "Corporate finance / M&A",
+    "Private equity"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Our core services include acquisition and vendor due diligence, bid defence and support and reporting accountant services for capital market transactions.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 85000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"appropriate focus on attention to details, conciseness and risk management previous…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for audit - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 2755,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "avature",
+   "company": "Deloitte UK",
+   "category": "big4",
+   "title": "Assistant Director Life Sciences and Healthcare, Commercial Due Diligence",
+   "location": "London",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Assistant-Director-Life-Sciences-and-Healthcare-Commercial-Due-Diligence/25704",
+   "posted": "2026-11-06",
+   "department": "Strategy, Risk & Transactions Advisory",
+   "description": "article__content__view\"> Location London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 06-Nov-2026 Req # 25704 Job description Connect to your Industry Deloitte is making a substantial investment in developing its Commercial Due Dili",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deloitte UK",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Transaction services",
+    "Corporate finance / M&A",
+    "Private equity",
+    "PE portfolio / fund finance"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "As part of this we need Senior Managers / Assistant Directors to join our Healthcare and Life Sciences team to deliver commercial due diligence projects, coach teams and develop into the next generation of…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 85000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"to your skills and professional experience essential: extensive experience of delivering…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Asks for audit - core to your 5 yrs of audit"
+   ],
+   "match": 2755,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "avature",
+   "company": "Deloitte UK",
+   "category": "big4",
+   "title": "Assistant Director, Financial Due Diligence, Private Equity, TMT Tech",
+   "location": "London",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Assistant-Director-Financial-Due-Diligence-Private-Equity-TMT-Tech/25721",
+   "posted": "2026-11-06",
+   "department": "Strategy, Risk & Transactions Advisory",
+   "description": "article__content__view\"> Location London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 06-Nov-2026 Req # 25721 Job description Connect to your Industry This is your opportunity to join Deloitte's M&A Transactions private equity team.",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deloitte UK",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Transaction services",
+    "Private equity",
+    "Finance",
+    "Corporate finance / M&A"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Article__content__view\"> Location London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 06-Nov-2026 Req # 25721 Job description Connect to your Industry This is…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 85000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"ce with financial due diligence and transaction services experience of corporate and…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for audit - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 2755,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "avature",
+   "company": "Deloitte UK",
+   "category": "big4",
+   "title": "Assistant Director, Financial Due Diligence - Financial Services, M&A",
+   "location": "London",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Assistant-Director-Financial-Due-Diligence-Financial-Services-M-A/24358",
+   "posted": "2026-07-23",
+   "department": "Strategy, Risk & Transactions Advisory",
+   "description": "article__content__view\"> Location London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 23-Jul-2026 Req # 24358 Job description Connect to your Industry This is your opportunity to join Deloitte's growing Mergers and Acquisitions team",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deloitte UK",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Transaction services",
+    "Corporate finance / M&A",
+    "Finance",
+    "Private equity"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Our core services include acquisition and vendor due diligence, bid defence and support and reporting accountant services for capital market transactions.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 85000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"appropriate focus on attention to details, conciseness and risk management previous…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for audit - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 2755,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "avature",
+   "company": "Deloitte UK",
+   "category": "big4",
+   "title": "Manager, Mergers and Acquisitions People",
+   "location": "London, Manchester",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Manager-Mergers-and-Acquisitions-People/24564",
+   "posted": "2026-08-10",
+   "department": "Strategy, Risk & Transactions Advisory",
+   "description": "article__content__view\"> Location London, Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 10-Aug-2026 Req # 24564 Job description Connect to your Industry Join the UK's leading M&A services business. The strength and depth o",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deloitte UK",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "You will join the market leading M&A People team within the Strategy, Risk & Transactions Advisory. You will develop an impressive range of commercial consulting skills that will fast-track your career and…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 85000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"ers and teams degree qualified or equivalent experience connect to your business -…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Asks for audit - core to your 5 yrs of audit"
+   ],
+   "match": 2755,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
    "source": "efinancialcareers",
    "company": "Deloitte",
    "category": "big4",
@@ -9601,255 +9552,6 @@
    "match": 2755,
    "deal_exp": "required",
    "advert_read": true
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Senior Manager or Assistant Director, Financial Due Diligence",
-   "location": "London",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Senior-Manager-or-Assistant-Director-Financial-Due-Diligence/24247",
-   "posted": "2026-10-05",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 05-Oct-2026 Req # 24247 Job description Connect to your Industry This is your opportunity to join Deloitte's growing Mergers and Acquisitions team",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Transaction services",
-    "Finance",
-    "Corporate finance / M&A",
-    "Private equity"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Our core services include acquisition and vendor due diligence, bid defence and support and reporting accountant services for capital market transactions.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 85000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"potential key issues for our client including identification of risk or price affecting…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 2755,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Assistant Director Life Sciences and Healthcare, Commercial Due Diligence",
-   "location": "London",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Assistant-Director-Life-Sciences-and-Healthcare-Commercial-Due-Diligence/25704",
-   "posted": "2026-11-06",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 06-Nov-2026 Req # 25704 Job description Connect to your Industry Deloitte is making a substantial investment in developing its Commercial Due Dili",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Transaction services",
-    "Corporate finance / M&A",
-    "Private equity",
-    "PE portfolio / fund finance"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "As part of this we need Senior Managers / Assistant Directors to join our Healthcare and Life Sciences team to deliver commercial due diligence projects, coach teams and develop into the next generation of…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 85000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"to-date sector knowledge, creating client-ready intellectual property and bringing your…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Asks for audit - core to your 5 yrs of audit"
-   ],
-   "match": 2755,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Assistant Director, Financial Due Diligence, Private Equity, TMT Tech",
-   "location": "London",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Assistant-Director-Financial-Due-Diligence-Private-Equity-TMT-Tech/25721",
-   "posted": "2026-11-06",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 06-Nov-2026 Req # 25721 Job description Connect to your Industry This is your opportunity to join Deloitte's M&A Transactions private equity team.",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Transaction services",
-    "Private equity",
-    "Finance",
-    "Corporate finance / M&A"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Article__content__view\"> Location London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 06-Nov-2026 Req # 25721 Job description Connect to your Industry This is…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 85000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"ls and professional experience essential: an aca or equivalent qualification/experience…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 2755,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Assistant Director, Financial Due Diligence - Financial Services, M&A",
-   "location": "London",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Assistant-Director-Financial-Due-Diligence-Financial-Services-M-A/24358",
-   "posted": "2026-07-23",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 23-Jul-2026 Req # 24358 Job description Connect to your Industry This is your opportunity to join Deloitte's growing Mergers and Acquisitions team",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Transaction services",
-    "Corporate finance / M&A",
-    "Finance",
-    "Private equity"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Our core services include acquisition and vendor due diligence, bid defence and support and reporting accountant services for capital market transactions.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 85000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"potential key issues for our client including identification of risk or price affecting…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 2755,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Manager, Mergers and Acquisitions People",
-   "location": "London, Manchester",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Manager-Mergers-and-Acquisitions-People/24564",
-   "posted": "2026-08-10",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location London, Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 10-Aug-2026 Req # 24564 Job description Connect to your Industry Join the UK's leading M&A services business. The strength and depth o",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "You will join the market leading M&A People team within the Strategy, Risk & Transactions Advisory. You will develop an impressive range of commercial consulting skills that will fast-track your career and…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 85000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"skills for the purposes of clearly communicating to clients, stakeholders and teams…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Asks for audit - core to your 5 yrs of audit"
-   ],
-   "match": 2755,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
   },
   {
    "source": "successfactors",
@@ -10273,7 +9975,7 @@
    "pay_all_in": null,
    "reach": 0.04,
    "flags": [
-    "Requires previous deal experience (\"connect to your skills and professional experience essentials: aca qualified or…\")",
+    "Requires previous deal experience (\"fied or equivalent qualification significant experience in m&a, across both both private…\")",
     "Manager-level: a step up from Assistant Manager while changing field - a stretch"
    ],
    "pros": [
@@ -10282,104 +9984,6 @@
     "Excel-heavy"
    ],
    "match": 2539,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Manager, Project Manager – M&A (TMT Industry), Technical Programme Delivery",
-   "location": "London",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Manager-Project-Manager-M-A-TMT-Industry-Technical-Programme-Delivery/23460",
-   "posted": "2026-11-09",
-   "department": "Technology & Transformation",
-   "description": "article__content__view\"> Location London Business Line Technology & Transformation Job Type Permanent / FTC Date published 09-Nov-2026 Req # 23460 Job description Connect to your Industry Want to work with the latest technologies, as part of a team helping organisations transform",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "back",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Your responsibilities will include: Leading the planning and execution of M&A-related projects within the Technology, Media, and Telecommunications (TMT) sector, ensuring successful delivery and value creation…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 78200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"you will leverage your project management expertise and technical understanding, combined…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Asks for audit - core to your 5 yrs of audit"
-   ],
-   "match": 2535,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Corporate Finance Advisory Manager (TMT)",
-   "location": "London (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/London/Corporate-Finance-Advisory-Manager--TMT-_R1036692",
-   "posted": "2026-11-12",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {
-    "closes": "2026-11-20"
-   },
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Finance",
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "We are seeking self-motivated candidates with a view to supporting their career development within this exciting service line embedded in a strong team culture.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 75000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"ing us as a manager, the minimum criteria you'll need is to have: all applicants must…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for assurance - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 2431,
    "deal_exp": "required",
    "advert_read": true
   },
@@ -10434,6 +10038,58 @@
    "match": 2431,
    "deal_exp": "required",
    "advert_read": true
+  },
+  {
+   "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Corporate Finance Advisory Manager (TMT)",
+   "location": "London (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/London/Corporate-Finance-Advisory-Manager--TMT-_R1036692",
+   "posted": "2026-11-12",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {
+    "closes": "2026-11-20"
+   },
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Finance",
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "We are seeking self-motivated candidates with a view to supporting their career development within this exciting service line embedded in a strong team culture.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 75000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"ing us as a manager, the minimum criteria you'll need is to have: all applicants must…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for assurance - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 2431,
+   "deal_exp": "required",
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "kpmg",
@@ -10664,7 +10320,7 @@
    "pay_all_in": null,
    "reach": 0.03,
    "flags": [
-    "Requires previous deal experience (\"projects, including preparation of information packs, management presentations, financial…\")",
+    "Requires previous deal experience (\"ntations, financial analyses, term sheets and client communications track record of…\")",
     "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
     "Manager-level: a step up from Assistant Manager while changing field - a stretch"
    ],
@@ -10675,8 +10331,7 @@
    ],
    "match": 2309,
    "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "workday",
@@ -10725,7 +10380,8 @@
    ],
    "match": 2282,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "efinancialcareers",
@@ -10913,7 +10569,7 @@
    "pay_all_in": null,
    "reach": 0.02,
    "flags": [
-    "Requires previous deal experience (\"n connect to your skills and professional experience essentials: aca, cfa or equivalent…\")",
+    "Requires previous deal experience (\"cfa or equivalent qualification experience in wider professional services / finance…\")",
     "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
     "Manager-level: a step up from Assistant Manager while changing field - a stretch"
    ],
@@ -10923,8 +10579,7 @@
    ],
    "match": 2204,
    "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "smartrecruiters",
@@ -10975,6 +10630,51 @@
    "advert_read": true
   },
   {
+   "source": "efinancialcareers",
+   "company": "Carta",
+   "category": "other",
+   "title": "Director, Fund Accounting",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Director_Fund_Accounting.id24899069",
+   "posted": "2026-10-17",
+   "department": "",
+   "description": "The Company You'll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund m",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "exec",
+   "function": "back",
+   "region": "UK",
+   "interest": 0.8,
+   "tracks": [
+    "PE portfolio / fund finance",
+    "Finance"
+   ],
+   "workplace_type": "unknown",
+   "summary": "Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund managers use to run…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 99800.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Advert text not read - check whether deal experience is required"
+   ],
+   "pros": [],
+   "match": 2162,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
    "source": "oracle",
    "company": "J.P. Morgan",
    "category": "bulge_bracket",
@@ -11014,6 +10714,256 @@
    ],
    "pros": [],
    "match": 2160,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "avature",
+   "company": "Deloitte UK",
+   "category": "big4",
+   "title": "Manager, Financial Due Diligence, TMT",
+   "location": "Manchester",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Manager-Financial-Due-Diligence-TMT/25424",
+   "posted": "2026-11-10",
+   "department": "Strategy, Risk & Transactions Advisory",
+   "description": "article__content__view\"> Location Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 10-Nov-2026 Req # 25424 Job description Connect to your Industry This is your opportunity to join Deloitte's M&A Transaction Services team. Wo",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deloitte UK",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Transaction services",
+    "Finance",
+    "Corporate finance / M&A",
+    "Private equity"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Our core services include acquisition and vendor financial due diligence, bid defence and support and reporting accountant services for capital market transactions.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 72200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"xperience essentials: an aca qualification or equivalent/experience experience in m&a…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for audit - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 2108,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "avature",
+   "company": "Deloitte UK",
+   "category": "big4",
+   "title": "Manager, Financial Due Diligence, Private Equity, TMT Tech",
+   "location": "Manchester",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Manager-Financial-Due-Diligence-Private-Equity-TMT-Tech/25548",
+   "posted": "2026-11-11",
+   "department": "Strategy, Risk & Transactions Advisory",
+   "description": "article__content__view\"> Location Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 11-Nov-2026 Req # 25548 Job description Connect to your Industry This is your opportunity to join Deloitte's Transaction Services team. Workin",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deloitte UK",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Transaction services",
+    "Private equity",
+    "Finance",
+    "Corporate finance / M&A"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Working on high profile assignments with some of the best in the field, you will have the opportunity to work on a wide variety of projects, with a mix of both corporate and private equity transactions, within…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 72200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"perience essentials: an aca qualification or equivalent /experience experience in m&a…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for audit - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 2108,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "avature",
+   "company": "Deloitte UK",
+   "category": "big4",
+   "title": "Assistant Director, Financial Due Diligence, Financial Services, Manchester",
+   "location": "Manchester",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Assistant-Director-Financial-Due-Diligence-Financial-Services-Manchester/25282",
+   "posted": "2026-09-24",
+   "department": "Strategy, Risk & Transactions Advisory",
+   "description": "article__content__view\"> Location Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 24-Sep-2026 Req # 25282 Job description Connect to your Industry This is your opportunity to join Deloitte's growing Mergers and Acquisitions ",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deloitte UK",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Transaction services",
+    "Finance",
+    "Corporate finance / M&A",
+    "Private equity"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Our core services include acquisition and vendor due diligence, bid defence and support and reporting accountant services for capital market transactions.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 72200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"appropriate focus on attention to details, conciseness and risk management previous…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for audit - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 2108,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "avature",
+   "company": "Deloitte UK",
+   "category": "big4",
+   "title": "Assistant Director, Financial Due Diligence, Private Equity, TMT, Tech",
+   "location": "Manchester",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Assistant-Director-Financial-Due-Diligence-Private-Equity-TMT-Tech/25545",
+   "posted": "2026-11-11",
+   "department": "Strategy, Risk & Transactions Advisory",
+   "description": "article__content__view\"> Location Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 11-Nov-2026 Req # 25545 Job description Connect to your Industry This is your opportunity to join Deloitte's M&A Transactions private equity t",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deloitte UK",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Transaction services",
+    "Private equity",
+    "Finance",
+    "Corporate finance / M&A"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Article__content__view\"> Location Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 11-Nov-2026 Req # 25545 Job description Connect to your Industry This…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 72200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"ce with financial due diligence and transaction services experience of corporate and…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for audit - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 2108,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "avature",
+   "company": "Deloitte UK",
+   "category": "big4",
+   "title": "Senior Manager, Financial Due Diligence, M&A - Financial Services",
+   "location": "Leeds, Manchester",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Senior-Manager-Financial-Due-Diligence-M-A-Financial-Services/23661",
+   "posted": "2026-09-24",
+   "department": "Strategy, Risk & Transactions Advisory",
+   "description": "article__content__view\"> Location Leeds, Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 24-Sep-2026 Req # 23661 Job description Connect to your Industry This is your opportunity to join Deloitte's M&A Transaction Services t",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deloitte UK",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Transaction services",
+    "Corporate finance / M&A",
+    "Finance",
+    "Private equity"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Article__content__view\"> Location Leeds, Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 24-Sep-2026 Req # 23661 Job description Connect to your Industry…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 72200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"experience in m&a transactions, financial due diligence or significant knowledge of the…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for audit - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 2108,
    "deal_exp": "required",
    "advert_read": true
   },
@@ -11177,312 +11127,6 @@
    "advert_read": true
   },
   {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Manager, Financial Due Diligence, TMT",
-   "location": "Manchester",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Manager-Financial-Due-Diligence-TMT/25424",
-   "posted": "2026-11-10",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 10-Nov-2026 Req # 25424 Job description Connect to your Industry This is your opportunity to join Deloitte's M&A Transaction Services team. Wo",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Transaction services",
-    "Finance",
-    "Corporate finance / M&A",
-    "Private equity"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Our core services include acquisition and vendor financial due diligence, bid defence and support and reporting accountant services for capital market transactions.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 72200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"connect to your skills and professional experience essentials: an aca qualification or…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 2108,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Manager, Financial Due Diligence, Mergers and Acquisitions, Consumer",
-   "location": "Manchester",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Manager-Financial-Due-Diligence-Mergers-and-Acquisitions-Consumer/25270",
-   "posted": "2026-11-10",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 10-Nov-2026 Req # 25270 Job description Connect to your Industry This is your opportunity to join Deloitte's M&A Transaction Services team. Wo",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Transaction services",
-    "Corporate finance / M&A",
-    "Finance",
-    "Private equity"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Our core services include acquisition and vendor financial due diligence, bid defence and support and reporting accountant services for capital market transactions.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 72200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"connect to your skills and professional experience essentials: an aca qualification or…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 2108,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Manager, Financial Due Diligence, Private Equity, TMT Tech",
-   "location": "Manchester",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Manager-Financial-Due-Diligence-Private-Equity-TMT-Tech/25548",
-   "posted": "2026-11-11",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 11-Nov-2026 Req # 25548 Job description Connect to your Industry This is your opportunity to join Deloitte's Transaction Services team. Workin",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Transaction services",
-    "Private equity",
-    "Finance",
-    "Corporate finance / M&A"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Working on high profile assignments with some of the best in the field, you will have the opportunity to work on a wide variety of projects, with a mix of both corporate and private equity transactions, within…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 72200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"people are recognised for their contribution connect to your skills and professional…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 2108,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Assistant Director, Financial Due Diligence, Financial Services, Manchester",
-   "location": "Manchester",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Assistant-Director-Financial-Due-Diligence-Financial-Services-Manchester/25282",
-   "posted": "2026-09-24",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 24-Sep-2026 Req # 25282 Job description Connect to your Industry This is your opportunity to join Deloitte's growing Mergers and Acquisitions ",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Transaction services",
-    "Finance",
-    "Corporate finance / M&A",
-    "Private equity"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Our core services include acquisition and vendor due diligence, bid defence and support and reporting accountant services for capital market transactions.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 72200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"potential key issues for our client including identification of risk or price affecting…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 2108,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Assistant Director, Financial Due Diligence, Private Equity, TMT, Tech",
-   "location": "Manchester",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Assistant-Director-Financial-Due-Diligence-Private-Equity-TMT-Tech/25545",
-   "posted": "2026-11-11",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 11-Nov-2026 Req # 25545 Job description Connect to your Industry This is your opportunity to join Deloitte's M&A Transactions private equity t",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Transaction services",
-    "Private equity",
-    "Finance",
-    "Corporate finance / M&A"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Article__content__view\"> Location Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 11-Nov-2026 Req # 25545 Job description Connect to your Industry This…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 72200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"ls and professional experience essential: an aca or equivalent qualification/experience…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 2108,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Senior Manager, Financial Due Diligence, M&A - Financial Services",
-   "location": "Leeds, Manchester",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Senior-Manager-Financial-Due-Diligence-M-A-Financial-Services/23661",
-   "posted": "2026-09-24",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location Leeds, Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 24-Sep-2026 Req # 23661 Job description Connect to your Industry This is your opportunity to join Deloitte's M&A Transaction Services t",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Transaction services",
-    "Corporate finance / M&A",
-    "Finance",
-    "Private equity"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Article__content__view\"> Location Leeds, Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 24-Sep-2026 Req # 23661 Job description Connect to your Industry…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 72200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"experience in m&a transactions, financial due diligence or significant knowledge of the…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 2108,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
    "source": "successfactors",
    "company": "EY",
    "category": "big4",
@@ -11574,53 +11218,6 @@
    "match": 2103,
    "deal_exp": "required",
    "advert_read": true
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Associate Director or Director, Finance Outsourcing, Business Process Solutions",
-   "location": "Jersey, United Kingdom",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Associate-Director-or-Director-Finance-Outsourcing-Business-Process-Solutions/25832",
-   "posted": "2026-11-18",
-   "department": "Tax & Legal",
-   "description": "article__content__view\"> Location Jersey Business Line Tax & Legal Job Type Permanent / FTC Date published 18-Nov-2026 Req # 25832 Job description Connect to your Industry We have an exciting opportunity for an Associate Director or Director to join our Business Process Solutions",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "exec",
-   "function": "other",
-   "region": "UK",
-   "interest": 0.5,
-   "tracks": [
-    "Finance",
-    "Corporate finance / M&A"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "You will work with leading global brands to improve finance processes, strengthen reporting and controls, and deliver scalable outsourcing, co-sourcing and transformation solutions.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 119000.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Asks for Oracle/SAP/Workiva experience - not something audit gives you"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for big 4, statutory reporting, internal controls - core to your 5 yrs of audit"
-   ],
-   "match": 2061,
-   "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
   },
   {
    "source": "efinancialcareers",
@@ -11771,60 +11368,6 @@
   },
   {
    "source": "workday",
-   "company": "MUFG",
-   "category": "bulge_bracket",
-   "title": "Vice President, Leveraged Finance",
-   "location": "London (United Kingdom)",
-   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/Vice-President--Leveraged-Finance_10074111-WD",
-   "posted": "2026-10-28",
-   "department": "",
-   "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world’s leading financial groups. Across the globe, we’re 150,000 colleagues, striving to make a difference for every client, organization, and",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {
-    "closes": "2026-11-20"
-   },
-   "src": "MUFG",
-   "category_label": "Investment bank",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Finance",
-    "Transaction services",
-    "Private equity"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "NUMBER OF DIRECT REPORTS None MAIN PURPOSE OF THE ROLE Undertake analysis and manage processes to successfully structure and execute leveraged finance transactions, defined as large cap underwritten LBO…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 260000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.01,
-   "flags": [
-    "Requires previous deal experience (\"work experience at least six years of experience in transacting european private equity…\")",
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
-    "Asks for a master's / MBA - check whether your degree counts",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
-    "IB / PE associate roles mostly hire ex-analysts or Big 4 deals people - a stretch straight from audit"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for accounting knowledge - core to your 5 yrs of audit"
-   ],
-   "match": 2023,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
-   "source": "workday",
    "company": "Morgan Stanley",
    "category": "bulge_bracket",
    "title": "Investment Banking - UK FIG - Vice President / Snr Associate",
@@ -11867,54 +11410,6 @@
    ],
    "pros": [],
    "match": 1926,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Senior Manager or Assistant Director, Valuations",
-   "location": "Edinburgh, London",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Senior-Manager-or-Assistant-Director-Valuations/24763",
-   "posted": "2026-09-23",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location Edinburgh, London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 23-Sep-2026 Req # 24763 Job description Connect to your Industry The Valuations team within Deloitte's Strategy, Risk and Transactions ",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 0.5,
-   "tracks": [
-    "Valuations / restructuring",
-    "Transaction services",
-    "Corporate finance / M&A"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Connect to your opportunity As a Senior Manager or Assistant Director in our Valuations team, you will play an integral role in valuing a wide array of client assets, from individual businesses and business…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 85000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"big 4, top tier valuation team or a corporate development team); significant experience…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for big 4, ifrs, accounting knowledge - core to your 5 yrs of audit"
-   ],
-   "match": 1886,
    "deal_exp": "required",
    "advert_read": true,
    "stale_since": "2026-11-18"
@@ -12263,54 +11758,6 @@
    "advert_read": true
   },
   {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Manager to Analyst, Traded and Quantitative Risk",
-   "location": "London",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Manager-to-Analyst-Traded-and-Quantitative-Risk/23865",
-   "posted": "2026-07-10",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 10-Jul-2026 Req # 23865 Job description Connect to your Industry Market Risk is one of the major risk types in Financial Institutions, primarily t",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 0.5,
-   "tracks": [
-    "Finance",
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Market Risk Capital amounts to anywhere from 15% to 25% of a banks total capital requirement. The drivers of market risk and the process to calculate and manage this risk is complex.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 85000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"they will need to have good knowledge of investment banking products and the associated…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Wants people management - you run audit teams as an Assistant Manager",
-    "Asks for audit - core to your 5 yrs of audit"
-   ],
-   "match": 1722,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
    "source": "efinancialcareers",
    "company": "Meraki Talent",
    "category": "other",
@@ -12407,6 +11854,54 @@
     "Excel-heavy"
    ],
    "match": 1687,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "avature",
+   "company": "Deloitte UK",
+   "category": "big4",
+   "title": "Senior Manager or Assistant Director, Valuations",
+   "location": "Edinburgh, London",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Senior-Manager-or-Assistant-Director-Valuations/24763",
+   "posted": "2026-09-23",
+   "department": "Strategy, Risk & Transactions Advisory",
+   "description": "article__content__view\"> Location Edinburgh, London Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 23-Sep-2026 Req # 24763 Job description Connect to your Industry The Valuations team within Deloitte's Strategy, Risk and Transactions ",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deloitte UK",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 0.4,
+   "tracks": [
+    "Valuations / restructuring",
+    "Transaction services",
+    "Corporate finance / M&A"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Connect to your opportunity As a Senior Manager or Assistant Director in our Valuations team, you will play an integral role in valuing a wide array of client assets, from individual businesses and business…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 85000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"big 4, top tier valuation team or a corporate development team); significant experience…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for big 4, ifrs, accounting knowledge - core to your 5 yrs of audit"
+   ],
+   "match": 1660,
    "deal_exp": "required",
    "advert_read": true
   },
@@ -12566,6 +12061,54 @@
    "advert_read": true
   },
   {
+   "source": "successfactors",
+   "company": "EY",
+   "category": "big4",
+   "title": "Senior Executive (Manager), EYP, Strategy & Execution, Financial Restructuring, London",
+   "location": "London, United Kingdom, SE1 2AF",
+   "url": "https://careers.ey.com/ey/job/London-Senior-Executive-%28Manager%29%2C-EYP%2C-Strategy-&amp;-Execution%2C-Financial-Restructuring%2C-London-SE1-2AF/1454800533/",
+   "posted": "",
+   "department": "",
+   "description": "At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it to go. Join EY and help to build a better working world. Financial Restructuring - Senior Executive (Mana",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "EY",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "other",
+   "region": "UK",
+   "interest": 0.4,
+   "tracks": [
+    "Valuations / restructuring",
+    "Finance"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Your Key Responsibilities As a Senior Executive (Manager) in FR, you could be involved in all types of work looking at the things that drive a company’s performance or strategies to turn it around or…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 85000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"to qualify for the role you must have track record within a recognised restructuring or…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Asks for 5+ yrs - you have 5",
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for assurance, accountancy - core to your 5 yrs of audit"
+   ],
+   "match": 1587,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
    "source": "workday",
    "company": "Grant Thornton UK",
    "category": "mid_tier",
@@ -12611,6 +12154,258 @@
    ],
    "match": 1470,
    "deal_exp": null,
+   "advert_read": true,
+   "stale_since": "2026-11-18"
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "Marsh McLennan",
+   "category": "other",
+   "title": "Mergers & Acquisitions - Engagement Manager & Principal (m/f/d) - UK",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Mergers__Acquisitions_-_Engagement_Manager__Principal_mfd_-_UK.id24534059",
+   "posted": "2026-07-17",
+   "department": "",
+   "description": "Mergers & Acquisitions - Engagement Manager & Principal (m/f/d) - UK Company: Oliver Wyman Description: Oliver Wyman - Mergers & Acquisitions - Engagement Manager & Principal (m/f/d) - UK WHO WE ARE Mergers and acquisitions (M&A) are pivotal for senior executives, with the potent",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": "",
+    "full_text": true
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Transaction services",
+    "PE portfolio / fund finance"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "As a Principal in M&A, you will play a broad and diverse role, ranging from client coverage and identification of deal ideas; through to leading pre-deal engagements and advising clients on how they proceed…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 75000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.02,
+   "flags": [
+    "Requires previous deal experience (\"a tailored approach, supported by extensive industry and transaction experience, is…\")",
+    "Asks for 6+ years' experience (experience, ideally with a top-tier strategy consulting…) - you have 5",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [],
+   "match": 1389,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "TC Group",
+   "category": "other",
+   "title": "Corporate Finance Manager",
+   "location": "Oldbury, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-Oldbury-Corporate_Finance_Manager.id24602454",
+   "posted": "2026-07-30",
+   "department": "",
+   "description": "Corporate Finance Manager We are a growing, ambitious accountancy practice seeking to appoint a Corporate Finance Manager to develop our corporate finance offering. This is a high-impact role in a lean business, working directly with the partners to: • Build a scalable corporate ",
+   "salary_min": 60000.0,
+   "salary_max": 60000.0,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": "",
+    "full_text": true
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Finance",
+    "Transaction services",
+    "Valuations / restructuring"
+   ],
+   "workplace_type": "unknown",
+   "summary": "Build a scalable corporate finance function. Deliver high-quality advisory work across the full deal lifecycle",
+   "currency": "GBP",
+   "base_pay": 60000,
+   "comp": 63000.0,
+   "comp_basis": "advertised",
+   "base_range": [
+    60000.0,
+    60000.0
+   ],
+   "pay_all_in": false,
+   "reach": 0.02,
+   "flags": [
+    "Requires previous deal experience (\"proven experience in corporate finance or transaction services\")",
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Mentions ACA / a professional qualification - you hold the ACA"
+   ],
+   "match": 1334,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "smartrecruiters",
+   "company": "FRP Advisory",
+   "category": "mid_tier",
+   "title": "Forensic Accounting Manager",
+   "location": "London, England, United Kingdom",
+   "url": "https://jobs.smartrecruiters.com/frpadvisory/744000160255119",
+   "posted": "2026-11-06",
+   "department": "FRP - Forensic Services",
+   "description": "Role overview Based within the Forensic Accounting team in London, this role focuses primarily on dispute-related matters, with exposure to investigations work. The position supports complex engagements including litigation, arbitration and financial investigations, working close",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": "hybrid",
+   "extra": {},
+   "src": "FRP Advisory",
+   "category_label": "Mid-tier advisory",
+   "level": "senior",
+   "function": "other",
+   "region": "UK",
+   "interest": 0.4,
+   "tracks": [
+    "Valuations / restructuring",
+    "Finance"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Based within the Forensic Accounting team in London, this role focuses primarily on dispute-related matters, with exposure to investigations work.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 75000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"ed accountancy qualification proven experience in a forensic accounting role experience…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Wants people management - you run audit teams as an Assistant Manager",
+    "Mentions ACA / a professional qualification - you hold the ACA"
+   ],
+   "match": 1273,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "smartrecruiters",
+   "company": "FRP Advisory",
+   "category": "mid_tier",
+   "title": "Valuation Manager – Financial Services",
+   "location": "London, England, United Kingdom",
+   "url": "https://jobs.smartrecruiters.com/frpadvisory/744000160923404",
+   "posted": "2026-11-10",
+   "department": "FRP - Financial Advisory",
+   "description": "Job Title - Valuation Manager – Financial Services Location - London Job Type - Permanent – Full Time Role overview The Valuation Manager will oversee financial analysis, industry, and market research to support various projects, with a specific focus in the financial services se",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "FRP Advisory",
+   "category_label": "Mid-tier advisory",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 0.4,
+   "tracks": [
+    "Valuations / restructuring",
+    "Finance"
+   ],
+   "workplace_type": "unknown",
+   "summary": "Job Title - Valuation Manager – Financial Services Location - London Job Type - Permanent – Full Time Role overview The Valuation Manager will oversee financial analysis, industry, and market research to…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 75000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"and guide junior team members, ensuring high standards of work quality extensive work…\")",
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Wants a qualified accountant - you're ICAEW ACA qualified"
+   ],
+   "match": 1116,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "Brookfield Asset Management, Inc.",
+   "category": "pe_megafund",
+   "title": "Analyst/Associate, Investment M&A",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-AnalystAssociate_Investment_MA.id25005711",
+   "posted": "2026-11-17",
+   "department": "",
+   "description": "Analyst/Associate, Investment M&A Location London - One Canada Square, Level 25 Business - Wealth Solutions Brookfield Wealth Solutions (\"BWS\"; NYSE/TSX: BNT) is focused on securing the financial futures of individuals and institutions through a range of retirement services, weal",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": "",
+    "full_text": true
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Private equity (large)",
+   "level": "entry",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Finance",
+    "Transaction services"
+   ],
+   "workplace_type": "unknown",
+   "summary": "Analyst/Associate, Investment M&A Location London - One Canada Square, Level 25 Business - Wealth Solutions Brookfield Wealth Solutions (\"BWS\"; NYSE/TSX: BNT) is focused on securing the financial futures of…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 120000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.01,
+   "flags": [
+    "Requires previous deal experience (\"one to three (2-3) years of work experience in investment banking, m&a, or other relevant…\")",
+    "Wants an established client book / origination record",
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
+    "Analyst roles at banks and funds are very competitive, and you'd join below your current grade"
+   ],
+   "pros": [
+    "Asks for accounting - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 1089,
+   "deal_exp": "required",
    "advert_read": true
   },
   {
@@ -12879,7 +12674,8 @@
    "pros": [],
    "match": 302,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "kpmg",
@@ -12970,7 +12766,8 @@
    ],
    "match": 153,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": true,
+   "stale_since": "2026-11-18"
   },
   {
    "source": "efinancialcareers",
@@ -13262,52 +13059,6 @@
    "advert_read": true
   },
   {
-   "source": "workday",
-   "company": "MUFG",
-   "category": "bulge_bracket",
-   "title": "2027 MUFG UK Summer Analyst Programme: Global Corporate Investment Banking",
-   "location": "London (United Kingdom)",
-   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Global-Corporate-Investment-Banking_10079259-WD-1",
-   "posted": "2026-09-07",
-   "department": "",
-   "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world’s leading financial groups. Across the globe, we’re 150,000 colleagues, striving to make a difference for every client, organization, and",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {
-    "closes": "2026-11-29"
-   },
-   "src": "MUFG",
-   "category_label": "Investment bank",
-   "level": "intern",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Investment banking",
-    "Finance"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Supplemental training will be provided throughout the 10 weeks Experience what it’s really like to work in global investment banking by gaining hands-on work experience Build your networks both internally and…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 60000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.0,
-   "flags": [
-    "Internship / apprenticeship - not for a qualified Assistant Manager",
-    "Student / recent-graduate only"
-   ],
-   "pros": [],
-   "match": 76,
-   "deal_exp": null,
-   "advert_read": true
-  },
-  {
    "source": "efinancialcareers",
    "company": "Blackstone",
    "category": "pe_megafund",
@@ -13403,103 +13154,6 @@
    "match": 68,
    "deal_exp": "desirable",
    "advert_read": true
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "BrightStart Higher Apprenticeship, Audit & Assurance, Jersey 2027",
-   "location": "Jersey, United Kingdom",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/BrightStart-Higher-Apprenticeship-Audit-Assurance-Jersey-2027/25135",
-   "posted": "2026-09-14",
-   "department": "Audit & Assurance",
-   "description": "article__content__view\"> Location Jersey Business Line Audit & Assurance Job Type Permanent / FTC Date published 14-Sep-2026 Req # 25135 Job description What does this team do? Audit has a really important role in society, helping to protect the public interest. Accurate financia",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "apprentice",
-   "function": "other",
-   "region": "UK",
-   "interest": 0.5,
-   "tracks": [
-    "Finance",
-    "Private equity"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Article__content__view\"> Location Jersey Business Line Audit & Assurance Job Type Permanent / FTC Date published 14-Sep-2026 Req # 25135 Job description What does this team do?",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 22100.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.0,
-   "flags": [
-    "Internship / apprenticeship - not for a qualified Assistant Manager",
-    "Screens on A-level / UCAS grades - check yours meet it"
-   ],
-   "pros": [
-    "Wants people management - you run audit teams as an Assistant Manager",
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit"
-   ],
-   "match": 55,
-   "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Industrial Placement Programme, Audit & Assurance, Jersey 2027",
-   "location": "Jersey, United Kingdom",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Industrial-Placement-Programme-Audit-Assurance-Jersey-2027/25137",
-   "posted": "2026-09-14",
-   "department": "Audit & Assurance",
-   "description": "article__content__view\"> Location Jersey Business Line Audit & Assurance Job Type Permanent / FTC Date published 14-Sep-2026 Req # 25137 Job description What does this team do? Audit has a really important role in society, helping to protect the public interest. Accurate financia",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "intern",
-   "function": "other",
-   "region": "UK",
-   "interest": 0.5,
-   "tracks": [
-    "Finance",
-    "Private equity"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Article__content__view\"> Location Jersey Business Line Audit & Assurance Job Type Permanent / FTC Date published 14-Sep-2026 Req # 25137 Job description What does this team do?",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 29800.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.0,
-   "flags": [
-    "Internship / apprenticeship - not for a qualified Assistant Manager",
-    "Student / recent-graduate only",
-    "Asks for a 2:1 degree - check your class meets it"
-   ],
-   "pros": [
-    "Asks for assurance, accounting - core to your 5 yrs of audit"
-   ],
-   "match": 23,
-   "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
   },
   {
    "source": "rothschild",
