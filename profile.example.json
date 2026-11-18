@@ -1,31 +1,60 @@
 {
   "name": "Example profile - the real one lives in the PROFILE_JSON repository secret",
   "experience_years": 5,
-  "pqe_years": 2,
+  "aca_qualified": "2026-01",
   "current_grade": "Assistant Manager, Audit (Big 4)",
   "qualifications": {
-    "professional": ["ACA (ICAEW)"],
+    "professional": [
+      "ACA (ICAEW)"
+    ],
     "degree": true
   },
-  "languages": ["english"],
+  "languages": [
+    "english"
+  ],
   "can_code": false,
   "systems_known": [],
-  "location": {"country": "UK", "anywhere_in_uk": true, "home_city": "London"},
+  "location": {
+    "country": "UK",
+    "anywhere_in_uk": true,
+    "home_city": "London"
+  },
   "preferences": {
-    "remote_multiplier": {"remote": 1.1, "hybrid": 1.05, "unknown": 1.0, "office": 0.98},
+    "remote_multiplier": {
+      "remote": 1.1,
+      "hybrid": 1.05,
+      "unknown": 1.0,
+      "office": 0.98
+    },
     "outside_london_multiplier": 0.9,
     "min_interest": 0.4,
     "max_results": 400,
     "max_required": 120
   },
   "efc_keywords": [
-    "transaction services", "financial due diligence", "transaction advisory", "deal advisory",
-    "corporate finance", "mergers and acquisitions", "investment banking associate", "private equity associate",
-    "private equity", "portfolio finance", "corporate development", "fund finance"
+    "transaction services",
+    "financial due diligence",
+    "transaction advisory",
+    "deal advisory",
+    "corporate finance",
+    "mergers and acquisitions",
+    "investment banking associate",
+    "private equity associate",
+    "private equity",
+    "portfolio finance",
+    "corporate development",
+    "fund finance"
   ],
   "search_queries": [
-    "transaction services", "financial due diligence", "deal advisory", "corporate finance",
-    "mergers and acquisitions", "investment banking associate", "private equity", "corporate development",
-    "private equity backed financial controller", "fund finance"
+    "transaction services",
+    "financial due diligence",
+    "deal advisory",
+    "corporate finance",
+    "mergers and acquisitions",
+    "investment banking associate",
+    "private equity",
+    "corporate development",
+    "private equity backed financial controller",
+    "fund finance"
   ]
 }
