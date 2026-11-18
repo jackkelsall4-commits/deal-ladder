@@ -1,0 +1,1 @@
+"""Deal Ladder finder package."""
