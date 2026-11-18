@@ -128,6 +128,8 @@ def main(argv=None):
     ok = [j for j in jobs if j.get("deal_exp") != "required"][:n]
     need = [j for j in jobs if j.get("deal_exp") == "required"][:prefs.get("max_required", 120)]
     jobs = sorted(ok + need, key=lambda j: -j["match"])
+    if os.environ.get("DUMP_RAW"):  # full adverts, for testing the rules
+        (Path(a.out) / "raw.json").write_text(json.dumps(jobs, ensure_ascii=False))
     for j in jobs:
         j["description"] = j["description"][:280]
 

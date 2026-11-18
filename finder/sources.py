@@ -908,7 +908,7 @@ def _efc_posting(page):
     return {}
 
 
-def efc(keywords, pages=2, max_details=70, title_ok=None):
+def efc(keywords, pages=2, max_details=110, title_ok=None):
     seen, rows = set(), []
     for kw in keywords:
         slug = re.sub(r"[^a-z0-9]+", "-", kw.lower()).strip("-")

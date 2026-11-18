@@ -62,7 +62,7 @@ CATEGORY_LABEL = {
 # ---------------------------------------------------------------- interest areas
 TRACKS = [
     ("Transaction services", 1.0, r"transaction services|transactions? advisory|(?<!customer )(?<!enhanced )(?<!client )(?<!vendor )(?<!third party )due diligence|"
-                                  r"\bfdd\b|deal advisory|\bdeals?\b(?! desk)|quality of earnings|\btas\b|lead advisory|financial advisory"),
+                                  r"\bfdd\b|deal advisory|\bdeals?\b(?! desk)|quality of earnings|\btas\b|lead advisory|financial advisory|transaction support"),
     ("Corporate finance / M&A", 1.0, r"corporate finance|m ?& ?a\b|mergers|acquisitions|corporate development|lead advisory|\becm\b|\bdcm\b|"
                                      r"leveraged finance|lev ?fin|debt advisory|capital markets advisory|financial sponsors|origination"),
     ("Investment banking", 1.0, r"investment bank|\bibd?\b|(banking|advisory|m&a) (analyst|associate)|coverage (analyst|associate|banker)|\bbanker\b"),
@@ -95,7 +95,8 @@ NOT_DEALS = re.compile(r"\btax\b|\bvat\b|\bkyc\b|\baml\b|onboarding|customer due
                        r"software|engineer|integration|transformation|\blegal\b|lawyer|solicitor|paralegal|counsel|actuar|insurance|"
                        r"real estate|property|surveyor|wealth|financial planner|paraplanner|mortgage|lending officer|"
                        r"recruit|talent|\bhr\b|executive assistant|personal assistant|secretary|administrator|coordinator|"
-                       r"\bpartner\b|managing director|head of", re.I)
+                       r"\bpartner\b|managing director|head of|competition|messaging|dealer|research|corporate banking|private bank|universal banker|"
+                       r"compliance|surveillance|credit (manager|risk|analyst)|fund admin", re.I)
 FIN_TITLE = re.compile(r"financial controller|finance manager|head of finance|finance director|\bcfo\b|fp&a|financial analyst|"
                        r"group (accountant|reporting)|finance business partner|reporting (manager|accountant)", re.I)
 
@@ -116,7 +117,7 @@ def interest_of(title, text):
         for name, w, rx in TRACKS[:6]:
             if name not in hits and len(rx.findall(text)) >= 2:
                 hits.append(name)
-                best = max(best, min(w, .5))
+                best = max(best, min(w, .35))
         # Finance roles in PE-backed companies or PE funds are the "portfolio finance" route.
         if FIN_TITLE.search(title) and re.search(r"(private equity|pe)[- ]backed|portfolio compan|private equity (fund|firm|house)|"
                                                  r"backed by (a |leading )?(private equity|pe)", text, re.I):
@@ -619,60 +620,86 @@ def _soft(low, m):
 DEAL_RX = re.compile(r"transaction services|transactions? advisory|transactions? (experience|background|work|execution|exposure)|"
                      r"(?<!customer )(?<!enhanced )(?<!client )(?<!vendor )(?<!supplier )(?<!kyc )(?<!third party )(?<!third-party )"
                      r"(?:financial )?due diligence|\bfdd\b|\bts\b|\btas\b|m ?& ?a\b|mergers|acquisitions|corporate finance|lead advisory|"
-                     r"deal advisory|\bdeals?\b|investment banking|\bibd?\b|private equity|leveraged finance|buy[- ]side|sell[- ]side|"
+                     r"deal advisory|\bdeals?\b(?! (with|effectively|well|sensitively))|investment banking|\bibd?\b|private equity|leveraged finance|buy[- ]side|sell[- ]side|"
                      r"corporate development|capital markets|\becm\b|\bdcm\b|valuations?\b|transactional|transactions\b", re.I)
-_EXP_WORD = re.compile(r"experience|experienced|background|track record|worked (on|in|within|across)|working (on|in|within|across)|"
-                       r"exposure|history of|from an? |currently (in|working|within|based in)|time (in|spent)|"
-                       r"years? (in|of|within)|having (worked|completed|executed|delivered|led)|executed|led|leading|deal list", re.I)
-_LEARN = re.compile(r"you('ll| will) (gain|get|develop|build|be exposed|learn|have the (chance|opportunity)|work|support|assist|be working|"
-                    r"be involved|be part|join|help)|opportunit(y|ies) to|gain (exposure|experience)|develop (your|their)|"
-                    r"exposure to (a )?(wide|broad|varied|range|variety|diverse)|we (offer|provide|will|are|have)|"
-                    r"\bour (team|experience|track record|clients|practice|firm)|(firm|team|group|practice)('s)? (has|have|is)|"
-                    r"has (a |an )?(strong |proven |excellent |enviable )?track record|training|career (development|progression)|"
-                    r"responsibilities|you('ll| will) be responsible", re.I)
+_EXP_WORD = re.compile(r"experience|experienced|background|track record|exposure|worked (on|in|within|across)|"
+                       r"working (on|in|within|across)|currently (in|working|within)|time (in|spent)|years? (in|of|within)|"
+                       r"having (worked|completed|executed|delivered)|executed|deal list", re.I)
+# Words that make a sentence a requirement of the candidate rather than a description of the firm or the job.
+_REQ_CUE = re.compile(r"\b(must|required|requirements?|essential|mandatory|need(ed)?|you (have|bring|should|will have|'ll have|'ll need|will need)|"
+                      r"you're|candidates? (with|should|will|must)|ideal candidate|previous|prior|proven|demonstrable|demonstrated|relevant|"
+                      r"solid|strong|significant|extensive|substantial|\d+\+? ?(years?|yrs)|minimum|at least|ideally|preferably|"
+                      r"desirable|preferred|qualifications?|skills)\b", re.I)
+_BLURB = re.compile(r"\b(is a (trusted|leading|global|premier|top)|backing of|backed by|we are|we're|our (firm|team|clients|practice|business|people)|"
+                    r"the (firm|team|group|practice) (is|has|advises|provides|works)|you('ll| will) (gain|get|develop|build|be exposed|learn|work|support|"
+                    r"assist|join|help|be (working|involved|part|responsible))|opportunit(y|ies) to|will join|joining|nyse|nasdaq|founded|headquartered|"
+                    r"ask better questions|working across assurance|(role|team|position) offers|offers? (significant|great|broad)|our [\w&-]+ (team|practice|group)|"
+                    r"(has|have) (a |an )?(strong |proven |excellent |enviable |long )?track record)\b", re.I)
 _SOFT_DEAL = re.compile(r"desirable|preferred|preferable|advantage|advantageous|a plus|nice to have|bonus|beneficial|ideally|"
                         r"would be (great|good|helpful|useful|welcome|valued|an asset|ideal)|helpful|welcomed?|valued|an asset|"
-                        r"not (essential|required|necessary|mandatory)|useful|but not required|is a plus|considered", re.I)
-_AUD = r"(audit|assurance|accountancy|accounting|financial reporting)"
+                        r"not (essential|required|necessary|mandatory)|useful|is a plus|preferably", re.I)
+_AUD = r"(audit|assurance|accountancy|financial reporting)"
 _DEALW = (r"(transaction services|transactions?|due diligence|fdd|\bts\b|deals?|deal advisory|m ?& ?a|corporate finance|"
-          r"valuations?|restructuring|advisory)")
+          r"valuations?|restructuring|advisory services?|advisory)")
 # "Big 4 audit or transaction services experience": audit offered as the alternative to deal experience.
-_AUDIT_OR_DEAL = re.compile(r"\b" + _AUD + r"\b(?:\W+\w+){0,4}?\W*(?:\bor\b|/|and/or)\W*(?:\w+\W+){0,4}?" + _DEALW +
-                            r"|" + _DEALW + r"(?:\W+\w+){0,4}?\W*(?:\bor\b|/|and/or)\W*(?:\w+\W+){0,4}?\b" + _AUD + r"\b", re.I)
+_AUDIT_OR_DEAL = re.compile(r"\b" + _AUD + r"\b(?:\W+\w+){0,3}?\W*(?:\bor\b|/|and/or)\W*(?:\w+\W+){0,2}?" + _DEALW +
+                            r"|" + _DEALW + r"(?:\W+\w+){0,3}?\W*(?:\bor\b|/|and/or)\W*(?:\w+\W+){0,2}?\b" + _AUD + r"\b", re.I)
 _OPEN = re.compile(r"(no|without) (prior |previous |any )?(deal|transaction|m&a|ts|due diligence|corporate finance) experience|"
                    r"(deal|transaction|m&a|due diligence|corporate finance) experience (is )?not (required|essential|necessary)|"
                    r"(mov(e|ing)|transition(ing)?|step(ping)?|switch(ing)?) (from|out of) (an? )?(audit|assurance)|"
                    r"(audit|assurance) (to|into) (ts|transaction|deals|due diligence|corporate finance|advisory)|"
-                   r"from (an? )?(audit|assurance) background|(audit|assurance) (professionals|backgrounds?|candidates)|"
-                   r"(audit|assurance) or (ts|transaction|deals|due diligence|fdd|corporate finance)|"
-                   r"(ts|transaction services|due diligence|fdd|deals) or (big ?(4|four) )?(audit|assurance)", re.I)
+                   r"from (an? )?(audit|assurance) background|(audit|assurance) (professionals|backgrounds?|candidates)", re.I)
 
 
-def deal_experience(low, head=None):
-    """('required' | 'desirable' | 'open' | None, quoted phrase) - what the advert says about previous deal experience."""
+def _near(low, m, before=100, after=100):
+    """Text around a match, cut at sentence or bullet breaks."""
+    a = max(low.rfind(". ", max(0, m.start() - before), m.start()) + 1, low.rfind("•", max(0, m.start() - before), m.start()) + 1,
+            low.rfind("·", max(0, m.start() - before), m.start()) + 1, m.start() - before, 0)
+    nxt = [x for x in (low.find(". ", m.end()), low.find("•", m.end()), low.find("·", m.end())) if x != -1]
+    return low[a:min(nxt + [m.end() + after])]
+
+
+def deal_experience(low, head=None, title=""):
+    """('required' | 'desirable' | 'open' | None, quoted phrase, all hits) - what the advert asks about previous deal experience."""
     found = {}
+    x = _OPEN.search(low)
+    if x:
+        found["open"] = _near(low, x, 60, 80)
+    fund_role = re.search(r"fund (accountant|accounting|finance|controller|cfo|reporting|administrat)|financial controller|"
+                          r"finance manager|fp&a|compliance|legal|tax\b", title or "")
     for m in DEAL_RX.finditer(low):
-        sent = _sentence(low, m.start(), m.end(), before=170, after=150)
-        if not _EXP_WORD.search(sent):
+        if fund_role and re.match(r"private equity|investment banking|valuations?|transactions?\b|capital markets", m.group(0)):
+            continue  # "PE industry experience" for a fund-finance role is sector knowledge, not deal experience
+        near = _near(low, m)
+        e = _EXP_WORD.search(near)
+        if not e or abs((near.find(m.group(0))) - e.start()) > 70:
+            continue  # "experience" must sit next to the deal term
+        if _AUDIT_OR_DEAL.search(near):
+            found.setdefault("open", near)
             continue
-        strong = re.search(r"\b(must|essential|required|requirement|mandatory|need(ed)?|proven|demonstrable|\d+\+? ?(years?|yrs))\b", sent)
-        if _OPEN.search(sent) or _AUDIT_OR_DEAL.search(sent):
-            kind = "open"
-        elif _LEARN.search(sent) and not strong:
+        in_reqs = head is not None and m.start() > head
+        if _BLURB.search(near) and not re.search(r"\b(must|required|essential)\b", near):
             continue
-        elif head is not None and m.start() < head and not strong:
-            continue  # described in the job's own work, not asked of the candidate
-        elif _SOFT_DEAL.search(sent):
-            kind = "desirable"
-        else:
-            kind = "required"
-        found.setdefault(kind, sent.strip(" .•,;:-"))
-    if _OPEN.search(low) and "open" not in found:
-        x = _OPEN.search(low)
-        found["open"] = _sentence(low, x.start(), x.end(), 120, 100).strip(" .•,;:-")
+        if not (in_reqs or _REQ_CUE.search(near)):
+            continue
+        # Soft words count only next to the requirement ("preferably in healthcare" narrows the sector, it doesn't soften it).
+        i = near.find(m.group(0))
+        # Same sentence only. A soft word before the term softens it ("ideally with TS experience"); after it,
+        # "preferably"/"ideally" narrow the sector ("IB experience, preferably in healthcare") and don't.
+        before, after = near[max(0, i - 45):i], near[i + len(m.group(0)):i + len(m.group(0)) + 70]
+        soft = _SOFT_DEAL.search(before) or _SOFT_DEAL.search(re.sub(r"\b(preferably|ideally)\b", "", after))
+        if soft and re.match(r"[^.;]{0,40}\b(required|essential|must|mandatory)\b", near[i + len(m.group(0)):]):
+            soft = None  # "MBA preferred; prior IB experience required"
+        found.setdefault("desirable" if soft else "required", near)
+    if "open" not in found:
+        for x in _AUDIT_OR_DEAL.finditer(low):
+            near = _near(low, x, 80, 60)
+            if _EXP_WORD.search(near):
+                found["open"] = near
+                break
     for kind in ("open", "required", "desirable"):
         if kind in found:
-            return kind, found[kind], found
+            return kind, found[kind].strip(" .•·,;:-"), found
     return None, "", found
 
 
@@ -691,7 +718,8 @@ def eligibility(job, level, profile):
     title = (job.get("title") or "").lower()
     flags, pros, m = [], [], 1.0
     base = {"apprentice": .02, "intern": .03, "entry": .5, "mid": .62, "senior": .35, "exec": .03}[level]
-    advert_read = len(job.get("description") or "") >= 300
+    # eFinancialCareers list rows carry only a short summary; only adverts whose full text was fetched count as read.
+    advert_read = len(job.get("description") or "") >= 300 and (job.get("source") != "efinancialcareers" or job["extra"].get("full_text"))
 
     if level in ("intern", "apprentice") or re.search(r"\b(intern(ship)?|placement|summer|spring week|insight|off[- ]cycle|apprentic\w*)\b", title):
         m *= .2
@@ -706,7 +734,7 @@ def eligibility(job, level, profile):
 
     # Previous deal experience: the deciding rule for this list.
     head = _REQ_HEAD.search(low) if advert_read else None
-    status, quote, _ = deal_experience(low, head.start() if head else None) if advert_read else (None, "", {})
+    status, quote, _ = deal_experience(low, head.start() if head else None, title) if advert_read else (None, "", {})
     if status == "required":
         m *= .12
         flags.append(f'Requires previous deal experience ("{_short(quote, 90)}")')
@@ -939,7 +967,7 @@ def score(job, profile, aliases):
         base_range=[round(smin or smax, -2), round(smax or smin, -2)] if base_pay else None,  # advert's own figures, its currency
         pay_all_in=all_in if base_pay else None,
         reach=round(reach, 2), flags=flags, pros=pros, match=round(match),
-        deal_exp=deal, advert_read=len(job.get("description") or "") >= 300,
+        deal_exp=deal, advert_read=bool(len(job.get("description") or "") >= 300 and (job.get("source") != "efinancialcareers" or job["extra"].get("full_text"))),
     )
     job.pop("_category", None)
     job.pop("_region", None)
