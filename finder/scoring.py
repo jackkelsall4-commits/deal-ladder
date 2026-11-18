@@ -708,11 +708,22 @@ _MODEL = re.compile(r"(financial|lbo|three[- ]statement|3[- ]statement|integrate
 _TWO_ONE = re.compile(r"\b2[:.]1\b|upper second", re.I)
 
 
+def pqe_years(profile, today=None):
+    """Years since qualifying, from "aca_qualified": "YYYY-MM" so it grows each month (falls back to "pqe_years")."""
+    import time
+    q = profile.get("aca_qualified")
+    if not q:
+        return float(profile.get("pqe_years", 2))
+    y, mth = (int(x) for x in q.split("-")[:2])
+    t = today or time.gmtime()
+    return max(0.0, round(((t.tm_year - y) * 12 + t.tm_mon - mth) / 12, 1))
+
+
 def eligibility(job, level, profile):
     """(reach, flags, pros, deal status, deal quote) for this candidate: ACA-qualified auditor, Assistant Manager,
     about five years in audit, degree, no deal experience yet."""
     years = float(profile.get("experience_years", 5))
-    pqe = float(profile.get("pqe_years", 2))
+    pqe = pqe_years(profile)
     text = " ".join([job.get("title", ""), job.get("description", "")])
     low = text.lower().replace("’", "'")
     title = (job.get("title") or "").lower()
@@ -759,7 +770,8 @@ def eligibility(job, level, profile):
         f, n, is_pqe, ctx = worst
         m *= f
         what = f"{n}+ years post-qualification" if is_pqe else f"{n}+ years' experience"
-        have = f"you have about {pqe:g} PQE" if is_pqe else f"you have {years:g}"
+        have = (f"you qualified in {profile['aca_qualified'][:4]} (about {pqe:g} yrs PQE)" if profile.get("aca_qualified") else f"you have about {pqe:g} PQE") \
+            if is_pqe else f"you have {years:g}"
         flags.append(f"Asks for {what}" + (f" ({_short(ctx)})" if ctx and not is_pqe else "") + f" - {have}")
     else:
         met = [(n, ctx) for n, is_pqe, ctx, credit in reqs if not DEAL_RX.search(ctx) and (pqe if is_pqe else years) >= n]
