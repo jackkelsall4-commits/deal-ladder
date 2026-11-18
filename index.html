@@ -248,7 +248,8 @@ footer { color: var(--muted); font-size: 0.85rem; display: grid; gap: 6px; max-w
     const flags = (j.pros || []).map((f) => `<li class="good">${esc(f)}</li>`).join("") +
       (j.flags || []).map((f) => `<li class="${/a plus|not required|check (your|whether)/i.test(f) ? "" : "bad"}">${esc(f)}</li>`).join("");
     const [vc, vt] = VERDICT(j.reach);
-    const deal = DEAL[j.deal_exp] ? `<span class="verdict ${DEAL[j.deal_exp][0]}">${DEAL[j.deal_exp][1]}</span>` : "";
+    const deal = DEAL[j.deal_exp] ? `<span class="verdict ${DEAL[j.deal_exp][0]}">${DEAL[j.deal_exp][1]}</span>`
+      : j.advert_read === false ? `<span class="verdict maybe" title="Only a short summary of this advert could be read">Check advert for deal experience</span>` : "";
     const closes = j.extra && j.extra.closes ? ` · closes ${esc(new Date(j.extra.closes).toLocaleDateString("en-GB", { day: "numeric", month: "short" }))}` : "";
     const via = j.source === "efinancialcareers" ? ` · via eFinancialCareers` : "";
     const stale = j.stale_since ? ` · <span title="This employer's careers site couldn't be reached today, so this is from the last successful check">last seen ${esc(new Date(j.stale_since).toLocaleDateString("en-GB", { day: "numeric", month: "short" }))}</span>` : "";
