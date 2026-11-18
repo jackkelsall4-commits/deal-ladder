@@ -939,6 +939,11 @@ def score(job, profile, aliases):
         comp_basis = "estimated"
 
     reach, flags, pros, deal, deal_quote = eligibility(job, level, profile)
+    ibpe = bool(set(tracks) & {"Investment banking", "Private equity"})
+    advert_read = bool(len(job.get("description") or "") >= 300 and (job.get("source") != "efinancialcareers" or job["extra"].get("full_text")))
+    if ibpe and not advert_read and level in ("mid", "senior") and cat not in ELITE:
+        reach *= .5
+        flags.append("IB / PE associate roles nearly always ask for prior deal experience - check the advert")
     if cat in ELITE and func == "front" and deal != "open":
         if level in ("mid", "senior"):
             reach *= .5
@@ -967,7 +972,7 @@ def score(job, profile, aliases):
         base_range=[round(smin or smax, -2), round(smax or smin, -2)] if base_pay else None,  # advert's own figures, its currency
         pay_all_in=all_in if base_pay else None,
         reach=round(reach, 2), flags=flags, pros=pros, match=round(match),
-        deal_exp=deal, advert_read=bool(len(job.get("description") or "") >= 300 and (job.get("source") != "efinancialcareers" or job["extra"].get("full_text"))),
+        deal_exp=deal, advert_read=advert_read,
     )
     job.pop("_category", None)
     job.pop("_region", None)
