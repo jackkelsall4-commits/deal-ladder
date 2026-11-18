@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Deal Ladder</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png?v=2">
+<link rel="icon" type="image/png" href="icon-192.png">
+<meta name="apple-mobile-web-app-title" content="Deal Ladder">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#1f3f73">
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one ranked column like a pay ladder. Summary and route first, then filters, then rows with pay on the right edge. */
+:root {
+  --bg: #eef0f4;
+  --surface: #fbfcfd;
+  --sunken: #e1e5ec;
+  --fg: #141b26;
+  --muted: #555f70;
+  --line: #c9d0dc;
+  --accent: #1f4f8f;
+  --on-accent: #ffffff;
+  --accent-wash: #dbe5f3;
+  --est: #7a5a12;
+  --est-wash: #f2e7c9;
+  --warn: #9a3b2e;
+  --warn-wash: #f5dcd7;
+  --display: "IBM Plex Sans Condensed", "Arial Narrow", system-ui, sans-serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f131a; --surface: #171d27; --sunken: #0b0f15; --fg: #e6ebf2; --muted: #9ea9ba;
+    --line: #2c3545; --accent: #8db8f2; --on-accent: #0c1420; --accent-wash: #1d2c44;
+    --est: #e8c46c; --est-wash: #3a3018; --warn: #f2a094; --warn-wash: #42221d; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f131a; --surface: #171d27; --sunken: #0b0f15; --fg: #e6ebf2; --muted: #9ea9ba;
+  --line: #2c3545; --accent: #8db8f2; --on-accent: #0c1420; --accent-wash: #1d2c44;
+  --est: #e8c46c; --est-wash: #3a3018; --warn: #f2a094; --warn-wash: #42221d; color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 400 15px/1.5 var(--body); }
+.page {
+  max-width: 980px; margin: 0 auto; padding-block: 32px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 28px;
+}
+h1, h2 { font-family: var(--display); margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+h1 { font-size: clamp(2rem, 6vw, 2.9rem); line-height: 1.02; }
+h2 { font-size: 1.2rem; }
+.lede { margin: 8px 0 0; color: var(--muted); max-width: 64ch; }
+.label { font: 600 0.72rem/1 var(--body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.stats { display: flex; flex-wrap: wrap; gap: 8px 28px; margin-top: 16px; }
+.stats div { display: grid; gap: 4px; }
+.stats b { font: 600 1.25rem/1 var(--mono); font-variant-numeric: tabular-nums; }
+
+.route { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; display: grid; gap: 10px; }
+.route ol { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; max-width: 75ch; }
+.route li::marker { font-family: var(--mono); color: var(--accent); }
+
+.controls { display: grid; gap: 14px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.chip {
+  font: 500 0.88rem/1 var(--body); color: var(--fg); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 999px; padding: 8px 12px; cursor: pointer;
+}
+.chip:hover { border-color: var(--accent); }
+.chip[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+input[type="search"], select {
+  font: 400 0.95rem/1.2 var(--body); color: var(--fg); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; min-width: 0;
+}
+input[type="search"] { flex: 1 1 220px; }
+.stage { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; background: var(--surface); gap: 2px; flex-wrap: wrap; }
+.stage button { font: 500 0.88rem/1 var(--body); color: var(--fg); background: none; border: 0; border-radius: 999px; padding: 8px 12px; cursor: pointer; }
+.stage button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); }
+.stage-note { color: var(--muted); font-size: 0.85rem; }
+.toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 0.9rem; color: var(--muted); cursor: pointer; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+.count { color: var(--muted); font-size: 0.9rem; }
+.list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-top: 1px solid var(--line); }
+.job {
+  display: grid; grid-template-columns: 2.6rem minmax(0, 1fr) auto; gap: 4px 14px;
+  padding: 14px 4px; border-bottom: 1px solid var(--line); align-items: start;
+}
+.rank { font: 600 0.9rem/1.6 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.main { min-width: 0; display: grid; gap: 4px; }
+.title { font: 600 1.02rem/1.3 var(--body); color: var(--fg); text-decoration: none; overflow-wrap: anywhere; }
+.title:hover { color: var(--accent); text-decoration: underline; }
+.sub { color: var(--muted); font-size: 0.9rem; overflow-wrap: anywhere; }
+.tags { display: flex; flex-wrap: wrap; gap: 4px 6px; margin-top: 2px; }
+.tag { font: 500 0.75rem/1 var(--body); padding: 4px 7px; border-radius: 4px; background: var(--sunken); color: var(--muted); white-space: nowrap; }
+.tag.track { background: var(--accent-wash); color: var(--accent); }
+.flags { margin: 4px 0 0; padding: 0; list-style: none; display: grid; gap: 2px; font-size: 0.84rem; color: var(--muted); }
+.flags li::before { content: "› "; color: var(--accent); }
+.flags li.bad::before { color: var(--warn); }
+.flags li.good::before { content: "✓ "; color: var(--accent); }
+.flags li.good { color: var(--fg); }
+.summary { margin: 2px 0 0; font-size: 0.9rem; color: var(--fg); max-width: 72ch; }
+.verdict { font: 600 0.68rem/1 var(--body); letter-spacing: 0.04em; text-transform: uppercase; padding: 3px 6px; border-radius: 4px; }
+.verdict.go { background: var(--accent-wash); color: var(--accent); }
+.verdict.maybe { background: var(--est-wash); color: var(--est); }
+.verdict.no { background: var(--warn-wash); color: var(--warn); }
+.usd { font: 500 0.8rem/1 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.pay { text-align: right; display: grid; gap: 4px; justify-items: end; }
+.pay b { font: 600 1.3rem/1 var(--mono); font-variant-numeric: tabular-nums; }
+.basis { font: 600 0.68rem/1 var(--body); letter-spacing: 0.06em; text-transform: uppercase; padding: 3px 6px; border-radius: 4px; }
+.basis.advertised { background: var(--accent-wash); color: var(--accent); }
+.basis.estimated { background: var(--est-wash); color: var(--est); }
+.paylabel { font: 500 0.68rem/1.2 var(--body); color: var(--muted); }
+.base { font: 600 0.8rem/1 var(--mono); color: var(--fg); font-variant-numeric: tabular-nums; }
+.reach { display: grid; gap: 3px; justify-items: end; font: 500 0.78rem/1 var(--mono); color: var(--muted); }
+.bar { width: 84px; height: 5px; background: var(--sunken); border-radius: 3px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--accent); }
+.empty { padding: 28px 4px; color: var(--muted); }
+.more { justify-self: center; }
+footer { color: var(--muted); font-size: 0.85rem; display: grid; gap: 6px; max-width: 75ch; }
+@media (max-width: 560px) {
+  .job { grid-template-columns: minmax(0, 1fr) auto; }
+  .rank { display: none; }
+  .bar { width: 64px; }
+}
+</style>
+
+<main class="page">
+  <header>
+    <span class="label">Live UK deal roles, ranked for an ACA moving out of audit</span>
+    <h1>Deal Ladder</h1>
+    <p class="lede">Transaction services, corporate finance, investment banking and private equity roles across the UK,
+      pulled live every morning from employers' own careers sites and eFinancialCareers. Ranked by pay × how reachable
+      each role is for an ICAEW ACA-qualified Assistant Manager with about five years of Big 4 audit and no deal experience
+      yet × fit with deals × a London preference. Roles that <i>require</i> previous deal experience are hidden unless you
+      ask for them; "deal experience desirable" stays in.</p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <section class="route" aria-labelledby="routeH">
+    <h2 id="routeH">Route from audit into IB or PE</h2>
+    <ol>
+      <li>Move into transaction services (financial due diligence) or lead-advisory corporate finance at a Big 4 or mid-tier firm, at Assistant Manager or Senior Associate. This is the standard first step out of audit, and an internal move to KPMG Deal Advisory skips the external screen.</li>
+      <li>Build modelling skills alongside (a three-statement and LBO modelling course). It's the main gap between audit and deals interviews.</li>
+      <li>After 1–2 years on live deals: lateral moves into IB associate roles, PE portfolio and value-creation teams, or PE investment associate roles.</li>
+      <li>Apply now to roles marked <b>open to audit backgrounds</b> or <b>deal experience a plus</b>; treat the hidden "requires deal experience" roles as next-step targets.</li>
+    </ol>
+  </section>
+
+  <section class="controls" aria-label="Filters">
+    <div class="row" id="areas" role="group" aria-label="Area"></div>
+    <div class="row">
+      <input type="search" id="q" placeholder="Search role, firm or city" aria-label="Search">
+      <select id="level" aria-label="Seniority">
+        <option value="">All levels</option>
+        <option value="entry">Analyst / junior</option>
+        <option value="mid">Assistant Manager / Senior Associate</option>
+        <option value="senior">Manager / VP</option>
+      </select>
+      <select id="sort" aria-label="Sort">
+        <option value="match">Sort: best match</option>
+        <option value="comp">Sort: highest pay</option>
+        <option value="reach">Sort: most reachable</option>
+        <option value="posted">Sort: newest</option>
+      </select>
+    </div>
+    <div class="row">
+      <label class="toggle"><input type="checkbox" id="realistic"> Worth applying (reach 40%+)</label>
+      <label class="toggle"><input type="checkbox" id="london"> London only</label>
+      <label class="toggle"><input type="checkbox" id="wfh"> Remote or hybrid only</label>
+      <label class="toggle"><input type="checkbox" id="needdeal"> <span id="needLabel">Show roles that require deal experience</span></label>
+    </div>
+    <div class="count" id="count" aria-live="polite">Loading live roles…</div>
+  </section>
+
+  <ol class="list" id="list"></ol>
+  <button class="chip more" id="more" hidden>Show 50 more</button>
+
+  <footer>
+    <p><b>Pay</b>: the big figure is <i>estimated total pay</i> (base plus a typical bonus for that kind of employer and role), and "Highest pay" sorts by it.
+      Where the advert states a salary, its base is shown underneath exactly as advertised (<span class="basis advertised">base in advert</span>);
+      <span class="basis estimated">no salary in advert</span> means the whole figure is estimated from the employer type and seniority, so treat it as a ballpark.</p>
+    <p><b>Deal experience</b> is read from each advert's requirements. <i>Requires</i> means the advert asks for previous TS, due diligence, M&amp;A, corporate finance,
+      IB or PE experience without offering audit as an alternative; those roles are hidden unless you tick the box. "Desirable", "a plus" or
+      "audit or TS experience" stays in. Roles whose full advert couldn't be read are marked so you can check yourself.</p>
+    <p><b>Reach</b> is a rough chance-style score, not a promise. It compares the advert's requirements (deal experience, years, post-qualification years,
+      qualifications, modelling, languages, coding, specialist systems) with an ACA-qualified Assistant Manager with about 5 years of audit and 2 years since qualifying.
+      <b>Worth applying</b> means reach 40%+, <b>long shot</b> 20–39%, <b>not yet</b> under 20%.</p>
+    <p>The line under each role is the advert's own description of the job. <span style="color:var(--accent)">✓</span> lines are things the advert
+      asks for that your experience covers, quoted from the advert; <span style="color:var(--warn)">›</span> lines are the gaps.</p>
+    <p id="sources"></p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  const AREAS = ["Transaction services", "Corporate finance / M&A", "Investment banking", "Private equity", "PE portfolio / fund finance"];
+  const LEVEL = { apprentice: "Apprenticeship", intern: "Internship", entry: "Analyst / junior", mid: "AM / Senior Associate", senior: "Manager / VP", exec: "Director+" };
+  const WFH = { remote: "Remote", hybrid: "Hybrid", office: "Office-based" };
+  const DEAL = { open: ["go", "Open to audit backgrounds"], desirable: ["maybe", "Deal experience a plus"], required: ["no", "Requires deal experience"] };
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const k = (v) => "£" + Math.round(v / 1000).toLocaleString("en-GB") + "k";
+  function baseLine(j) {
+    const r = j.base_range;
+    if (j.comp_basis !== "advertised" || !r) return `<span class="basis estimated" title="No salary in the advert: estimated from employer type and seniority">no salary in advert</span>`;
+    const range = r[0] === r[1] ? k(r[0]) : `${k(r[0])}–${k(r[1]).replace(/^£/, "")}`;
+    const what = j.pay_all_in ? "total in advert" : j.comp > (j.base_pay || 0) * 1.01 ? "base in advert" : "pay in advert";
+    return `<span class="basis advertised" title="The advert's own figure; the big number adds a typical bonus">${what}</span><span class="base">${range}</span>`;
+  }
+  let data = null, shown = 50, area = "";
+  const VERDICT = (r) => r >= 0.4 ? ["go", "Worth applying"] : r >= 0.2 ? ["maybe", "Long shot"] : ["no", "Not yet"];
+
+  AREAS.forEach((a) => {
+    const b = document.createElement("button");
+    b.className = "chip"; b.textContent = a; b.setAttribute("aria-pressed", "false");
+    b.onclick = () => { area = area === a ? "" : a; [...$("areas").children].forEach((c) => c.setAttribute("aria-pressed", String(c.textContent === area))); shown = 50; render(); };
+    $("areas").appendChild(b);
+  });
+  ["q", "level", "sort", "realistic", "wfh", "london", "needdeal"].forEach((id) => $(id).addEventListener("input", () => { shown = 50; render(); }));
+  $("more").onclick = () => { shown += 50; render(); };
+
+  function filtered() {
+    const q = $("q").value.trim().toLowerCase();
+    const lvl = $("level").value;
+    let rows = data.jobs.filter((j) =>
+      ($("needdeal").checked || j.deal_exp !== "required") &&
+      (!area || j.tracks.includes(area)) &&
+      (!lvl || j.level === lvl) &&
+      (!$("realistic").checked || j.reach >= 0.4) &&
+      (!$("wfh").checked || j.workplace_type === "remote" || j.workplace_type === "hybrid") &&
+      (!$("london").checked || /london|canary wharf/i.test(j.location)) &&
+      (!q || (j.title + " " + j.company + " " + j.location + " " + (j.summary || "")).toLowerCase().includes(q)));
+    const s = $("sort").value;
+    const key = { match: (j) => j.match, comp: (j) => j.comp * 10 + j.reach, reach: (j) => j.reach * 1e6 + j.match, posted: (j) => Date.parse(j.posted) || 0 }[s];
+    return rows.sort((a, b) => key(b) - key(a));
+  }
+
+  function row(j, i) {
+    const tracks = j.tracks.filter((t) => AREAS.includes(t)).map((t) => `<span class="tag track">${esc(t)}</span>`).join("");
+    const wfh = WFH[j.workplace_type] ? `<span class="tag">${WFH[j.workplace_type]}</span>` : "";
+    const flags = (j.pros || []).map((f) => `<li class="good">${esc(f)}</li>`).join("") +
+      (j.flags || []).map((f) => `<li class="${/a plus|not required|check (your|whether)/i.test(f) ? "" : "bad"}">${esc(f)}</li>`).join("");
+    const [vc, vt] = VERDICT(j.reach);
+    const deal = DEAL[j.deal_exp] ? `<span class="verdict ${DEAL[j.deal_exp][0]}">${DEAL[j.deal_exp][1]}</span>` : "";
+    const closes = j.extra && j.extra.closes ? ` · closes ${esc(new Date(j.extra.closes).toLocaleDateString("en-GB", { day: "numeric", month: "short" }))}` : "";
+    const via = j.source === "efinancialcareers" ? ` · via eFinancialCareers` : "";
+    const stale = j.stale_since ? ` · <span title="This employer's careers site couldn't be reached today, so this is from the last successful check">last seen ${esc(new Date(j.stale_since).toLocaleDateString("en-GB", { day: "numeric", month: "short" }))}</span>` : "";
+    return `<li class="job">
+      <span class="rank">${i + 1}</span>
+      <div class="main">
+        <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+        <div class="sub">${esc(j.company)} · ${esc(j.location)}${closes}${via}${stale}</div>
+        ${j.summary ? `<p class="summary">${esc(j.summary)}</p>` : ""}
+        <div class="tags">${deal}<span class="tag">${LEVEL[j.level]}</span><span class="tag">${esc(j.category_label)}</span>${wfh}${tracks}</div>
+        ${flags ? `<ul class="flags">${flags}</ul>` : ""}
+      </div>
+      <div class="pay">
+        <span class="paylabel">${j.comp_basis === "advertised" && (j.pay_all_in || j.comp <= (j.base_pay || 0) * 1.01) ? "pay (from advert)" : "est. total pay"}</span>
+        <b>${k(j.comp)}</b>
+        ${baseLine(j)}
+        <span class="verdict ${vc}">${vt}</span>
+        <span class="reach" title="How reachable for you">reach ${Math.round(j.reach * 100)}%<span class="bar"><i style="width:${Math.round(j.reach * 100)}%"></i></span></span>
+      </div>
+    </li>`;
+  }
+
+  function render() {
+    if (!data) return;
+    const rows = filtered();
+    $("count").textContent = `${rows.length} roles match` + (rows.length > shown ? `, showing the top ${shown}` : "");
+    $("list").innerHTML = rows.length ? rows.slice(0, shown).map(row).join("") : `<li class="empty">No roles match these filters. Clear a filter or search for something broader.</li>`;
+    $("more").hidden = rows.length <= shown;
+  }
+
+  fetch("data/jobs.json", { cache: "no-store" }).then((r) => {
+    if (!r.ok) throw new Error(r.status);
+    return r.json();
+  }).then((d) => {
+    data = d;
+    const ok = d.sources.filter((s) => s.ok);
+    const when = new Date(d.generated_at);
+    const open = d.jobs.filter((j) => j.deal_exp !== "required");
+    const need = d.jobs.length - open.length;
+    $("needLabel").textContent = `Show roles that require deal experience (${need})`;
+    $("stats").innerHTML = [
+      ["Scanned", d.total_seen.toLocaleString("en-GB")], ["Ranked", open.length], ["Worth applying", open.filter((j) => j.reach >= 0.4).length],
+      ["Open to audit", open.filter((j) => j.deal_exp === "open").length], ["Need deal exp.", need],
+      ["Updated", when.toLocaleDateString("en-GB", { day: "numeric", month: "short" }) + " " + when.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" })],
+    ].map(([a, b]) => `<div><span class="label">${a}</span><b>${b}</b></div>`).join("");
+    const off = d.sources.filter((s) => s.ok === null).map((s) => s.source);
+    const down = d.sources.filter((s) => s.ok === false).map((s) => s.source + (s.carried ? ` (${s.carried} roles kept from last check)` : ""));
+    $("sources").textContent = `Sources (${ok.length}): ${ok.map((s) => s.source).join(", ")}.` + (off.length ? ` Not switched on (free API key needed): ${off.join(", ")}.` : "") +
+      (down.length ? ` Couldn't be reached on this run: ${down.join(", ")}.` : "");
+    render();
+  }).catch(() => {
+    $("count").textContent = "Couldn't load data/jobs.json yet. It's created by the first daily run.";
+  });
+})();
+</script>
