@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18T20:49:26Z",
- "seconds": 1551,
+ "generated_at": "2026-11-19T06:58:59Z",
+ "seconds": 1641,
  "sources": [
   {
    "source": "Adzuna",
@@ -11,9 +11,8 @@
   {
    "source": "Apollo",
    "kind": "workday",
-   "ok": false,
-   "error": "https://athene.wd5.myworkdayjobs.com/wday/cxs/athene/Apollo_Careers/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
-   "carried": 1
+   "ok": true,
+   "count": 28
   },
   {
    "source": "BDO UK",
@@ -24,34 +23,32 @@
   {
    "source": "Bank of America",
    "kind": "workday",
-   "ok": false,
-   "error": "https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/Lateral-US/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)"
+   "ok": true,
+   "count": 80
   },
   {
    "source": "Barclays",
    "kind": "workday",
-   "ok": false,
-   "error": "https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/job -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
-   "carried": 1
+   "ok": true,
+   "count": 100
   },
   {
    "source": "Blackstone",
    "kind": "workday",
-   "ok": false,
-   "error": "https://blackstone.wd1.myworkdayjobs.com/wday/cxs/blackstone/Blackstone_Careers/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)"
+   "ok": true,
+   "count": 66
   },
   {
    "source": "Carlyle",
    "kind": "workday",
-   "ok": false,
-   "error": "https://carlyle.wd1.myworkdayjobs.com/wday/cxs/carlyle/Carlyle/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)"
+   "ok": true,
+   "count": 33
   },
   {
    "source": "Citi",
    "kind": "workday",
-   "ok": false,
-   "error": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
-   "carried": 6
+   "ok": true,
+   "count": 159
   },
   {
    "source": "Deloitte UK",
@@ -62,9 +59,8 @@
   {
    "source": "Deutsche Bank",
    "kind": "workday",
-   "ok": false,
-   "error": "https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
-   "carried": 5
+   "ok": true,
+   "count": 101
   },
   {
    "source": "EY",
@@ -100,33 +96,31 @@
    "source": "Goldman Sachs",
    "kind": "goldman",
    "ok": true,
-   "count": 444
+   "count": 436
   },
   {
    "source": "Grant Thornton UK",
    "kind": "workday",
-   "ok": false,
-   "error": "https://ukgrantt.wd3.myworkdayjobs.com/wday/cxs/ukgrantt/CareersGrantThornton/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
-   "carried": 13
+   "ok": true,
+   "count": 77
   },
   {
    "source": "HSBC",
    "kind": "eightfold",
    "ok": true,
-   "count": 70
+   "count": 71
   },
   {
    "source": "Houlihan Lokey",
    "kind": "workday",
-   "ok": false,
-   "error": "https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)"
+   "ok": true,
+   "count": 36
   },
   {
    "source": "ICG",
    "kind": "workday",
-   "ok": false,
-   "error": "https://icg.wd3.myworkdayjobs.com/wday/cxs/icg/External_Careers/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
-   "carried": 3
+   "ok": true,
+   "count": 9
   },
   {
    "source": "Interpath Advisory",
@@ -138,7 +132,7 @@
    "source": "J.P. Morgan",
    "kind": "oracle",
    "ok": true,
-   "count": 387
+   "count": 386
   },
   {
    "source": "Jefferies",
@@ -162,45 +156,43 @@
    "source": "Lincoln International",
    "kind": "greenhouse",
    "ok": true,
-   "count": 25
+   "count": 26
   },
   {
    "source": "Lloyds Banking Group",
    "kind": "workday",
-   "ok": false,
-   "error": "https://lbg.wd3.myworkdayjobs.com/wday/cxs/lbg/LBG_Careers/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)"
+   "ok": true,
+   "count": 56
   },
   {
    "source": "MUFG",
    "kind": "workday",
    "ok": true,
-   "count": 11
+   "count": 115
   },
   {
    "source": "Mizuho",
    "kind": "workday",
-   "ok": false,
-   "error": "https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)"
+   "ok": true,
+   "count": 78
   },
   {
    "source": "Morgan Stanley",
    "kind": "workday",
-   "ok": false,
-   "error": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
-   "carried": 2
+   "ok": true,
+   "count": 111
   },
   {
    "source": "PwC",
    "kind": "workday",
-   "ok": false,
-   "error": "https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)"
+   "ok": true,
+   "count": 3
   },
   {
    "source": "RSM UK",
    "kind": "workday",
-   "ok": false,
-   "error": "https://rsmuk.wd103.myworkdayjobs.com/wday/cxs/rsmuk/RSM/jobs -> skipped: myworkdayjobs.com kept refusing this server (429 Too Many Requests)",
-   "carried": 3
+   "ok": true,
+   "count": 34
   },
   {
    "source": "Reed",
@@ -233,7 +225,7 @@
    "count": 274
   }
  ],
- "total_seen": 982,
+ "total_seen": 1393,
  "jobs": [
   {
    "source": "greenhouse",
@@ -374,8 +366,7 @@
    ],
    "match": 53454,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "oracle",
@@ -509,8 +500,7 @@
    "pros": [],
    "match": 49600,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "workday",
@@ -555,8 +545,7 @@
    "pros": [],
    "match": 49600,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "successfactors",
@@ -648,8 +637,7 @@
    ],
    "match": 45817,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "efinancialcareers",
@@ -887,6 +875,96 @@
    "advert_read": true
   },
   {
+   "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Transaction Advisory Services, Assistant Manager",
+   "location": "Birmingham (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Birmingham/Transaction-Advisory-Services--Assistant-Manager_R1037726",
+   "posted": "2026-11-18",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "About the team Our Transaction Advisory Services (TAS) team advises clients on deals. That includes financial due diligence (FDD), sale and purchase agreement (SPA) advisory and data analytics.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 44200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.95,
+   "flags": [],
+   "pros": [
+    "Open to audit backgrounds (\"experience in audit or another advisory service line\")",
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for audit - core to your 5 yrs of audit",
+    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
+   ],
+   "match": 39681,
+   "deal_exp": "open",
+   "advert_read": true
+  },
+  {
+   "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Transaction Advisory Services, Assistant Manager",
+   "location": "Bristol (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Bristol/TAS-AM_R1037798",
+   "posted": "2026-11-18",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "About the team Our Transaction Advisory Services (TAS) team advises clients on deals. That includes financial due diligence (FDD), sale and purchase agreement (SPA) advisory and data analytics.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 44200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.95,
+   "flags": [],
+   "pros": [
+    "Open to audit backgrounds (\"experience in audit or another advisory service line\")",
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for audit - core to your 5 yrs of audit",
+    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
+   ],
+   "match": 39681,
+   "deal_exp": "open",
+   "advert_read": true
+  },
+  {
    "source": "efinancialcareers",
    "company": "Grant Thornton",
    "category": "mid_tier",
@@ -933,98 +1011,6 @@
    "match": 39681,
    "deal_exp": "open",
    "advert_read": true
-  },
-  {
-   "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Transaction Advisory Services, Assistant Manager",
-   "location": "Birmingham (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Birmingham/Transaction-Advisory-Services--Assistant-Manager_R1037726",
-   "posted": "2026-11-18",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "About the team Our Transaction Advisory Services (TAS) team advises clients on deals. That includes financial due diligence (FDD), sale and purchase agreement (SPA) advisory and data analytics.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 44200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.95,
-   "flags": [],
-   "pros": [
-    "Open to audit backgrounds (\"experience in audit or another advisory service line\")",
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit",
-    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
-   ],
-   "match": 39681,
-   "deal_exp": "open",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Transaction Advisory Services, Assistant Manager",
-   "location": "Bristol (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Bristol/TAS-AM_R1037798",
-   "posted": "2026-11-18",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "About the team Our Transaction Advisory Services (TAS) team advises clients on deals. That includes financial due diligence (FDD), sale and purchase agreement (SPA) advisory and data analytics.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 44200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.95,
-   "flags": [],
-   "pros": [
-    "Open to audit backgrounds (\"experience in audit or another advisory service line\")",
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit",
-    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
-   ],
-   "match": 39681,
-   "deal_exp": "open",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
   },
   {
    "source": "efinancialcareers",
@@ -1258,8 +1244,7 @@
    "pros": [],
    "match": 33442,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "efinancialcareers",
@@ -1394,8 +1379,7 @@
    ],
    "match": 32002,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "workday",
@@ -1441,8 +1425,7 @@
    ],
    "match": 31248,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "oracle",
@@ -1534,8 +1517,7 @@
    "pros": [],
    "match": 30000,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "workday",
@@ -1580,8 +1562,7 @@
    "pros": [],
    "match": 30000,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "smartrecruiters",
@@ -1626,6 +1607,53 @@
     "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
    ],
    "match": 28363,
+   "deal_exp": null,
+   "advert_read": true
+  },
+  {
+   "source": "workday",
+   "company": "MUFG",
+   "category": "bulge_bracket",
+   "title": "Analyst, Portfolio Monitoring and Support",
+   "location": "London (United Kingdom)",
+   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/Analyst--Portfolio-Monitoring-and-Support_10080630-WD-1",
+   "posted": "2026-11-16",
+   "department": "",
+   "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world’s leading financial groups. Across the globe, we’re 150,000 colleagues, striving to make a difference for every client, organization, and",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "MUFG",
+   "category_label": "Investment bank",
+   "level": "entry",
+   "function": "front",
+   "region": "UK",
+   "interest": 0.8,
+   "tracks": [
+    "PE portfolio / fund finance",
+    "Finance",
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Provide proactive, thorough and accurate support by conducting key monitoring and reporting tasks, working closely with the Portfolio teams and RMs to provide valuable support to ensure as a business there are…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 100000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.32,
+   "flags": [
+    "Analyst roles at banks and funds are very competitive, and you'd join below your current grade"
+   ],
+   "pros": [
+    "Asks for assurance - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 28114,
    "deal_exp": null,
    "advert_read": true
   },
@@ -1913,8 +1941,7 @@
    ],
    "match": 26164,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "efinancialcareers",
@@ -2250,8 +2277,54 @@
    ],
    "match": 24500,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
+  },
+  {
+   "source": "oracle",
+   "company": "J.P. Morgan",
+   "category": "bulge_bracket",
+   "title": "Investment Banking - EMEA Leveraged Finance Mid-Cap - Analyst - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210795741",
+   "posted": "2026-09-29",
+   "department": "Analysts / Program Analysts & Associate",
+   "description": "This is an exciting opportunity for someone who is highly motivated to work in a dynamic team and to contribute to our Investment Banking business. Building your career in Investment Banking Division, you will work with top-tier professionals at the heart of a leading global inve",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "J.P. Morgan",
+   "category_label": "Investment bank",
+   "level": "entry",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Investment banking",
+    "Finance",
+    "Transaction services",
+    "Private equity"
+   ],
+   "workplace_type": "unknown",
+   "summary": "As an Analyst in the Leveraged Finance Middle Market team, you will work with experienced professionals at one of the world's leading global investment banks.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 100000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.24,
+   "flags": [
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
+    "Analyst roles at banks and funds are very competitive, and you'd join below your current grade"
+   ],
+   "pros": [],
+   "match": 24000,
+   "deal_exp": null,
+   "advert_read": true
   },
   {
    "source": "goldman",
@@ -2298,53 +2371,6 @@
    "pros": [
     "Asks for 1+ yrs (strong quantitative, financial modelling…) - you have 5"
    ],
-   "match": 24000,
-   "deal_exp": null,
-   "advert_read": true
-  },
-  {
-   "source": "oracle",
-   "company": "J.P. Morgan",
-   "category": "bulge_bracket",
-   "title": "Investment Banking - EMEA Leveraged Finance Mid-Cap - Analyst - London",
-   "location": "LONDON, LONDON, United Kingdom",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210795741",
-   "posted": "2026-09-29",
-   "department": "Analysts / Program Analysts & Associate",
-   "description": "This is an exciting opportunity for someone who is highly motivated to work in a dynamic team and to contribute to our Investment Banking business. Building your career in Investment Banking Division, you will work with top-tier professionals at the heart of a leading global inve",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "J.P. Morgan",
-   "category_label": "Investment bank",
-   "level": "entry",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Investment banking",
-    "Finance",
-    "Transaction services",
-    "Private equity"
-   ],
-   "workplace_type": "unknown",
-   "summary": "As an Analyst in the Leveraged Finance Middle Market team, you will work with experienced professionals at one of the world's leading global investment banks.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 100000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.24,
-   "flags": [
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
-    "Analyst roles at banks and funds are very competitive, and you'd join below your current grade"
-   ],
-   "pros": [],
    "match": 24000,
    "deal_exp": null,
    "advert_read": true
@@ -2487,8 +2513,7 @@
    "pros": [],
    "match": 22950,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "efinancialcareers",
@@ -2577,50 +2602,6 @@
    ],
    "pros": [],
    "match": 22100,
-   "deal_exp": null,
-   "advert_read": false
-  },
-  {
-   "source": "workday",
-   "company": "MUFG",
-   "category": "bulge_bracket",
-   "title": "Analyst, Portfolio Monitoring and Support",
-   "location": "London",
-   "url": "https://mufgub.wd3.myworkdayjobs.com/en-US/MUFG-Careers/job/London/Analyst--Portfolio-Monitoring-and-Support_10080630-WD-1",
-   "posted": "2026-11-16",
-   "department": "",
-   "description": "",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "MUFG",
-   "category_label": "Investment bank",
-   "level": "entry",
-   "function": "front",
-   "region": "UK",
-   "interest": 0.8,
-   "tracks": [
-    "PE portfolio / fund finance",
-    "Finance"
-   ],
-   "workplace_type": "unknown",
-   "summary": "",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 100000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.26,
-   "flags": [
-    "Advert text not read - check whether deal experience is required",
-    "Analyst roles at banks and funds are very competitive, and you'd join below your current grade"
-   ],
-   "pros": [],
-   "match": 21675,
    "deal_exp": null,
    "advert_read": false
   },
@@ -3037,8 +3018,7 @@
    ],
    "match": 18623,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "smartrecruiters",
@@ -3320,8 +3300,7 @@
    ],
    "match": 17199,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "workday",
@@ -3366,8 +3345,7 @@
    ],
    "match": 17199,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "successfactors",
@@ -4045,8 +4023,7 @@
    ],
    "match": 13120,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "efinancialcareers",
@@ -4140,8 +4117,7 @@
    ],
    "match": 12890,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "efinancialcareers",
@@ -4597,8 +4573,7 @@
    "pros": [],
    "match": 10612,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "successfactors",
@@ -4734,8 +4709,7 @@
    ],
    "match": 9336,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "efinancialcareers",
@@ -5068,55 +5042,6 @@
    "match": 7350,
    "deal_exp": null,
    "advert_read": true
-  },
-  {
-   "source": "workday",
-   "company": "Deutsche Bank",
-   "category": "bulge_bracket",
-   "title": "Fund CFO Specialist, MAS/PE",
-   "location": "London, 45 Cannon Street (United Kingdom)",
-   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/London-45-Cannon-Street/Fund-CFO-Specialist--MAS-PE_R0443128-2",
-   "posted": "2026-09-24",
-   "department": "",
-   "description": "Job Description: Employer: DWS Group Title: Fund CFO Specialist – Assistant Vice President Location : London About DWS Today, markets face a whole new set of pressures – but also a whole lot of opportunity too. Opportunity to innovate differently. Opportunity to invest responsibl",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deutsche Bank",
-   "category_label": "Investment bank",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Private equity",
-    "PE portfolio / fund finance",
-    "Valuations / restructuring"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Employer: DWS Group Title: Fund CFO Specialist – Assistant Vice President Location : London About DWS Today, markets face a whole new set of pressures – but also a whole lot of opportunity too.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 160000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.04,
-   "flags": [
-    "Asks for 5+ years post-qualification - you have about 2 PQE",
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
-    "IB / PE associate roles mostly hire ex-analysts or Big 4 deals people - a stretch straight from audit"
-   ],
-   "pros": [
-    "Wants a qualified accountant - you're ICAEW ACA qualified"
-   ],
-   "match": 7187,
-   "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
   },
   {
    "source": "kpmg",
@@ -5457,8 +5382,8 @@
    "company": "Teneo",
    "category": "mid_tier",
    "title": "Financial Advisory Graduate Programme",
-   "location": "Leeds, United Kingdom",
-   "url": "https://www.teneo.com/careers/open-positions/8197494003?gh_jid=8197494003",
+   "location": "Manchester, United Kingdom",
+   "url": "https://www.teneo.com/careers/open-positions/8197497003?gh_jid=8197497003",
    "posted": "2026-11-12",
    "department": "Financial Advisory UK",
    "description": "Teneo Financial Advisory Teneo’s global Financial Advisory business advises corporates, creditors and other financial stakeholders in situations of financial stress and distress. No two situations are the same. Our advice and approach is tailored to each situation and each client",
@@ -5506,8 +5431,8 @@
    "company": "Teneo",
    "category": "mid_tier",
    "title": "Financial Advisory Graduate Programme",
-   "location": "Manchester, United Kingdom",
-   "url": "https://www.teneo.com/careers/open-positions/8197497003?gh_jid=8197497003",
+   "location": "Leeds, United Kingdom",
+   "url": "https://www.teneo.com/careers/open-positions/8197494003?gh_jid=8197494003",
    "posted": "2026-11-12",
    "department": "Financial Advisory UK",
    "description": "Teneo Financial Advisory Teneo’s global Financial Advisory business advises corporates, creditors and other financial stakeholders in situations of financial stress and distress. No two situations are the same. Our advice and approach is tailored to each situation and each client",
@@ -6518,6 +6443,56 @@
    "advert_read": true
   },
   {
+   "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Corporate Finance Assistant Manager",
+   "location": "London (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/London/Corporate-Finance-Assistant-Manager_R1037329",
+   "posted": "2026-11-12",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Finance",
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Corporate Finance Assistant Manager, London We work with midmarket companies on strategies for growth and exit, building relationships with our clients, becoming their trusted advisor and helping them to…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 52000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.09,
+   "flags": [
+    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
+   ],
+   "pros": [
+    "Wants a qualified accountant - you're ICAEW ACA qualified",
+    "Asks for financial statements - core to your 5 yrs of audit",
+    "Excel-heavy",
+    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
+   ],
+   "match": 4905,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
    "source": "efinancialcareers",
    "company": "Grant Thornton",
    "category": "mid_tier",
@@ -6569,57 +6544,6 @@
    "match": 4905,
    "deal_exp": "required",
    "advert_read": true
-  },
-  {
-   "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Corporate Finance Assistant Manager",
-   "location": "London (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/London/Corporate-Finance-Assistant-Manager_R1037329",
-   "posted": "2026-11-12",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Finance",
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Corporate Finance Assistant Manager, London We work with midmarket companies on strategies for growth and exit, building relationships with our clients, becoming their trusted advisor and helping them to…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 52000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.09,
-   "flags": [
-    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
-   ],
-   "pros": [
-    "Wants a qualified accountant - you're ICAEW ACA qualified",
-    "Asks for financial statements - core to your 5 yrs of audit",
-    "Excel-heavy",
-    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
-   ],
-   "match": 4905,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
   },
   {
    "source": "oracle",
@@ -7055,56 +6979,6 @@
    "advert_read": true
   },
   {
-   "source": "efinancialcareers",
-   "company": "Freshfields Bruckhaus Deringer",
-   "category": "other",
-   "title": "Associate - Private Equity",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Associate_-_Private_Equity.id24849921",
-   "posted": "2026-10-03",
-   "department": "",
-   "description": "Associate - Private Equity We wish to expand the team in London to meet increasing demand from our top-tier financial sponsor clients, and are looking for ambitious, bright and motivated associates looking to join the team for the long term. Our Private Equity team sits as part o",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": "",
-    "full_text": true
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Private equity",
-    "Transaction services",
-    "Corporate finance / M&A"
-   ],
-   "workplace_type": "unknown",
-   "summary": "/purpose of job Our private equity lawyers will work on a broad mix of transactions for private equity and other financial sponsor clients, including public and private M&A, carve-outs, buy-outs, joint…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 52000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.09,
-   "flags": [
-    "Requires previous deal experience (\"corporate and private equity experience gained at a leading firm, including cross-border…\")"
-   ],
-   "pros": [
-    "Asks for 2+ yrs (post-qualification experience as a solicitor…) - you have 5",
-    "Wants a qualified accountant - you're ICAEW ACA qualified"
-   ],
-   "match": 4449,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
    "source": "greenhouse",
    "company": "Teneo",
    "category": "mid_tier",
@@ -7246,6 +7120,52 @@
    ],
    "pros": [],
    "match": 4062,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "workday",
+   "company": "MUFG",
+   "category": "bulge_bracket",
+   "title": "Vice President, Leveraged Finance Transaction Execution",
+   "location": "London (United Kingdom)",
+   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/Vice-President--Transaction-Execution_10077595-WD-1",
+   "posted": "2026-06-30",
+   "department": "",
+   "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world’s leading financial groups. Across the globe, we’re 150,000 colleagues, striving to make a difference for every client, organization, and",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "MUFG",
+   "category_label": "Investment bank",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Finance",
+    "Private equity"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "MAIN PURPOSE OF THE ROLE We are seeking a Vice President with a transactional background in leveraged finance to join the front office EMEA Leveraged Finance (large cap and mid market) team in London.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 260000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.01,
+   "flags": [
+    "Requires previous deal experience (\"for front-office on documentation commercial issues, market trends and best practices in…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
+    "IB / PE associate roles mostly hire ex-analysts or Big 4 deals people - a stretch straight from audit"
+   ],
+   "pros": [],
+   "match": 4013,
    "deal_exp": "required",
    "advert_read": true
   },
@@ -7871,6 +7791,156 @@
    "advert_read": true
   },
   {
+   "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Corporate Finance Assistant Manager",
+   "location": "Bristol (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Bristol/Corporate-Finance-Assistant-Manager_R1037470",
+   "posted": "2026-11-12",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Finance",
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Corporate Finance Assistant Manager, Bristol We work with midmarket companies on strategies for growth and exit, building relationships with our clients, becoming their trusted advisor and helping them to…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 44200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.09,
+   "flags": [
+    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
+   ],
+   "pros": [
+    "Wants a qualified accountant - you're ICAEW ACA qualified",
+    "Asks for financial statements - core to your 5 yrs of audit",
+    "Excel-heavy",
+    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
+   ],
+   "match": 3752,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Corporate Finance Assistant Manager",
+   "location": "Birmingham (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Birmingham/Corporate-Finance-Assistant-Manager_R1037327",
+   "posted": "2026-11-12",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Finance",
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Corporate Finance Assistant Manager, Birmingham We work with midmarket companies on strategies for growth and exit, building relationships with our clients, becoming their trusted advisor and helping them to…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 44200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.09,
+   "flags": [
+    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
+   ],
+   "pros": [
+    "Wants a qualified accountant - you're ICAEW ACA qualified",
+    "Asks for financial statements - core to your 5 yrs of audit",
+    "Excel-heavy",
+    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
+   ],
+   "match": 3752,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Corporate Finance Assistant Manager",
+   "location": "Milton Keynes (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Milton-Keynes/Corporate-Finance-Assistant-Manager_R1037050",
+   "posted": "2026-10-20",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Finance",
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "A look into the role As an Assistant Manager within our Corporate Finance team you will: Play a key role in supporting transaction execution and contributing across multiple projects.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 44200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.09,
+   "flags": [
+    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
+   ],
+   "pros": [
+    "Wants a qualified accountant - you're ICAEW ACA qualified",
+    "Asks for financial statements - core to your 5 yrs of audit",
+    "Excel-heavy",
+    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
+   ],
+   "match": 3752,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
    "source": "efinancialcareers",
    "company": "Grant Thornton",
    "category": "mid_tier",
@@ -8031,159 +8101,6 @@
   },
   {
    "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Corporate Finance Assistant Manager",
-   "location": "Bristol (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Bristol/Corporate-Finance-Assistant-Manager_R1037470",
-   "posted": "2026-11-12",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Finance",
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Corporate Finance Assistant Manager, Bristol We work with midmarket companies on strategies for growth and exit, building relationships with our clients, becoming their trusted advisor and helping them to…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 44200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.09,
-   "flags": [
-    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
-   ],
-   "pros": [
-    "Wants a qualified accountant - you're ICAEW ACA qualified",
-    "Asks for financial statements - core to your 5 yrs of audit",
-    "Excel-heavy",
-    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
-   ],
-   "match": 3752,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Corporate Finance Assistant Manager",
-   "location": "Birmingham (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Birmingham/Corporate-Finance-Assistant-Manager_R1037327",
-   "posted": "2026-11-12",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Finance",
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Corporate Finance Assistant Manager, Birmingham We work with midmarket companies on strategies for growth and exit, building relationships with our clients, becoming their trusted advisor and helping them to…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 44200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.09,
-   "flags": [
-    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
-   ],
-   "pros": [
-    "Wants a qualified accountant - you're ICAEW ACA qualified",
-    "Asks for financial statements - core to your 5 yrs of audit",
-    "Excel-heavy",
-    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
-   ],
-   "match": 3752,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Corporate Finance Assistant Manager",
-   "location": "Milton Keynes (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Milton-Keynes/Corporate-Finance-Assistant-Manager_R1037050",
-   "posted": "2026-10-20",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Finance",
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "A look into the role As an Assistant Manager within our Corporate Finance team you will: Play a key role in supporting transaction execution and contributing across multiple projects.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 44200.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.09,
-   "flags": [
-    "Requires previous deal experience (\"n (aca, acca, icas, ca (or cipfa or cfa qualified) or be able to demonstrate relevant…\")",
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
-   ],
-   "pros": [
-    "Wants a qualified accountant - you're ICAEW ACA qualified",
-    "Asks for financial statements - core to your 5 yrs of audit",
-    "Excel-heavy",
-    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
-   ],
-   "match": 3752,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
-   "source": "workday",
    "company": "Morgan Stanley",
    "category": "bulge_bracket",
    "title": "Investment Banking Division - FIG Benelux - Associate  -",
@@ -8227,8 +8144,7 @@
    "pros": [],
    "match": 3750,
    "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "oracle",
@@ -8469,6 +8385,54 @@
    ],
    "match": 3405,
    "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "workday",
+   "company": "Deutsche Bank",
+   "category": "bulge_bracket",
+   "title": "Fund CFO Specialist, MAS/PE",
+   "location": "London, 45 Cannon Street (United Kingdom)",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/London-45-Cannon-Street/Fund-CFO-Specialist--MAS-PE_R0443128-2",
+   "posted": "2026-09-24",
+   "department": "",
+   "description": "Job Description: Employer: DWS Group Title: Fund CFO Specialist – Assistant Vice President Location : London About DWS Today, markets face a whole new set of pressures – but also a whole lot of opportunity too. Opportunity to innovate differently. Opportunity to invest responsibl",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deutsche Bank",
+   "category_label": "Investment bank",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Private equity",
+    "PE portfolio / fund finance",
+    "Valuations / restructuring"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Employer: DWS Group Title: Fund CFO Specialist – Assistant Vice President Location : London About DWS Today, markets face a whole new set of pressures – but also a whole lot of opportunity too.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 160000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.02,
+   "flags": [
+    "Asks for 5+ years post-qualification - you qualified in 2026 (about 0.8 yrs PQE)",
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
+    "IB / PE associate roles mostly hire ex-analysts or Big 4 deals people - a stretch straight from audit"
+   ],
+   "pros": [
+    "Wants a qualified accountant - you're ICAEW ACA qualified"
+   ],
+   "match": 3354,
+   "deal_exp": null,
    "advert_read": true
   },
   {
@@ -8758,56 +8722,6 @@
    "match": 3000,
    "deal_exp": "required",
    "advert_read": true
-  },
-  {
-   "source": "workday",
-   "company": "RSM UK",
-   "category": "mid_tier",
-   "title": "Accounting and Financial Reporting Manager",
-   "location": "London (United Kingdom)",
-   "url": "https://rsmuk.wd103.myworkdayjobs.com/RSM/job/London/Accounting-and-Financial-Reporting-Manager_JR100252",
-   "posted": "2026-11-18",
-   "department": "",
-   "description": "As one of the world's largest networks of audit, tax and consulting firms, RSM delivers big ideas and premium service to help middle-market businesses thrive. We are a fast-growing firm with big ambitions - we have a clear goal to become the premium adviser to the middle market, ",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "RSM UK",
-   "category_label": "Mid-tier advisory",
-   "level": "senior",
-   "function": "back",
-   "region": "UK",
-   "interest": 0.7,
-   "tracks": [
-    "Finance",
-    "Valuations / restructuring",
-    "PE portfolio / fund finance"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "We are looking for an Accounting and Financial Reporting Manager who will support within our ‘Accounting and Financial Reporting’ team across our London offices.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 69000.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.05,
-   "flags": [
-    "Asks for 3+ years post-qualification - you have about 2 PQE",
-    "Wants an established client book / origination record",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Wants a qualified accountant - you're ICAEW ACA qualified",
-    "Asks for ifrs - core to your 5 yrs of audit"
-   ],
-   "match": 2990,
-   "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
   },
   {
    "source": "efinancialcareers",
@@ -9102,57 +9016,6 @@
    "advert_read": true
   },
   {
-   "source": "efinancialcareers",
-   "company": "Simmons & Simmons LLP",
-   "category": "other",
-   "title": "Supervising Associate - Private Equity",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Supervising_Associate_-_Private_Equity.id24976132",
-   "posted": "2026-11-06",
-   "department": "",
-   "description": "Supervising Associate - Private Equity Our international Corporate practice operates across the firm's network of offices in Europe, the Middle East and Asia. Our clients encompass leading private equity sponsors, asset managers, investment funds, national and multinational corpo",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": "",
-    "full_text": true
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Private equity",
-    "Corporate finance / M&A",
-    "PE portfolio / fund finance"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "You will work closely with colleagues across the UK and our international offices, collaborating within a collegiate and well-integrated private equity team.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 52000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.05,
-   "flags": [
-    "Requires previous deal experience (\"you are a qualified lawyer with 3-5 years' pqe and strong experience advising on private…\")",
-    "Asks for 3+ years post-qualification - you have about 2 PQE"
-   ],
-   "pros": [
-    "Wants a qualified accountant - you're ICAEW ACA qualified",
-    "Excel-heavy"
-   ],
-   "match": 2803,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
    "source": "avature",
    "company": "Deloitte UK",
    "category": "big4",
@@ -9345,6 +9208,52 @@
     "Mentions ACA / a professional qualification - you hold the ACA",
     "Asks for audit - core to your 5 yrs of audit",
     "Excel-heavy"
+   ],
+   "match": 2755,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "avature",
+   "company": "Deloitte UK",
+   "category": "big4",
+   "title": "Senior Manager - Assistant Director, M&A People",
+   "location": "London, Manchester",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Senior-Manager-Assistant-Director-M-A-People/25837",
+   "posted": "2026-11-18",
+   "department": "Strategy, Risk & Transactions Advisory",
+   "description": "article__content__view\"> Location London, Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 18-Nov-2026 Req # 25837 Job description Connect to your Industry Join the UK’s leading M&A services business. The strength and depth o",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Deloitte UK",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Connect to your opportunity As part of our growing M&A People team you will work closely with clients to help them deliver their People strategy through the M&A lifecycle.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 85000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"bility ability to collaborate across broader teams and leverage the different teams to…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Asks for audit - core to your 5 yrs of audit"
    ],
    "match": 2755,
    "deal_exp": "required",
@@ -9988,6 +9897,57 @@
    "advert_read": true
   },
   {
+   "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Corporate Finance Advisory Manager (TMT)",
+   "location": "London (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/London/Corporate-Finance-Advisory-Manager--TMT-_R1036692",
+   "posted": "2026-11-12",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {
+    "closes": "2026-11-20"
+   },
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Finance",
+    "Transaction services"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "We are seeking self-motivated candidates with a view to supporting their career development within this exciting service line embedded in a strong team culture.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 75000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"ing us as a manager, the minimum criteria you'll need is to have: all applicants must…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for assurance - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 2431,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
    "source": "efinancialcareers",
    "company": "Grant Thornton",
    "category": "mid_tier",
@@ -10038,58 +9998,6 @@
    "match": 2431,
    "deal_exp": "required",
    "advert_read": true
-  },
-  {
-   "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Corporate Finance Advisory Manager (TMT)",
-   "location": "London (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/London/Corporate-Finance-Advisory-Manager--TMT-_R1036692",
-   "posted": "2026-11-12",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {
-    "closes": "2026-11-20"
-   },
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Finance",
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "We are seeking self-motivated candidates with a view to supporting their career development within this exciting service line embedded in a strong team culture.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 75000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"ing us as a manager, the minimum criteria you'll need is to have: all applicants must…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for assurance - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 2431,
-   "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
   },
   {
    "source": "kpmg",
@@ -10332,56 +10240,6 @@
    "match": 2309,
    "deal_exp": "required",
    "advert_read": true
-  },
-  {
-   "source": "workday",
-   "company": "RSM UK",
-   "category": "mid_tier",
-   "title": "Accounting & Financial Reporting Manager",
-   "location": "Manchester (United Kingdom)",
-   "url": "https://rsmuk.wd103.myworkdayjobs.com/RSM/job/Manchester/Accounting---Financial-Reporting-Manager_JR100212",
-   "posted": "2026-11-16",
-   "department": "",
-   "description": "As one of the world's largest networks of audit, tax and consulting firms, RSM delivers big ideas and premium service to help middle-market businesses thrive. We are a fast-growing firm with big ambitions - we have a clear goal to become the premium adviser to the middle market, ",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "RSM UK",
-   "category_label": "Mid-tier advisory",
-   "level": "senior",
-   "function": "back",
-   "region": "UK",
-   "interest": 0.7,
-   "tracks": [
-    "Finance",
-    "Valuations / restructuring",
-    "PE portfolio / fund finance"
-   ],
-   "workplace_type": "unknown",
-   "summary": "We are looking for an Accounting and Financial Reporting Manager who will support within our Accounting and Financial Reporting team in our Manchester office.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 58600.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.06,
-   "flags": [
-    "Asks for 3+ years post-qualification - you have about 2 PQE",
-    "Wants an established client book / origination record",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Wants a qualified accountant - you're ICAEW ACA qualified",
-    "Asks for financial reporting, accounting - core to your 5 yrs of audit"
-   ],
-   "match": 2282,
-   "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
   },
   {
    "source": "efinancialcareers",
@@ -11368,6 +11226,60 @@
   },
   {
    "source": "workday",
+   "company": "MUFG",
+   "category": "bulge_bracket",
+   "title": "Vice President, Leveraged Finance",
+   "location": "London (United Kingdom)",
+   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/Vice-President--Leveraged-Finance_10074111-WD",
+   "posted": "2026-10-28",
+   "department": "",
+   "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world’s leading financial groups. Across the globe, we’re 150,000 colleagues, striving to make a difference for every client, organization, and",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {
+    "closes": "2026-11-20"
+   },
+   "src": "MUFG",
+   "category_label": "Investment bank",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Finance",
+    "Transaction services",
+    "Private equity"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "NUMBER OF DIRECT REPORTS None MAIN PURPOSE OF THE ROLE Undertake analysis and manage processes to successfully structure and execute leveraged finance transactions, defined as large cap underwritten LBO…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 260000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.01,
+   "flags": [
+    "Requires previous deal experience (\"work experience at least six years of experience in transacting european private equity…\")",
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
+    "Asks for a master's / MBA - check whether your degree counts",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
+    "IB / PE associate roles mostly hire ex-analysts or Big 4 deals people - a stretch straight from audit"
+   ],
+   "pros": [
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for accounting knowledge - core to your 5 yrs of audit"
+   ],
+   "match": 2023,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "workday",
    "company": "Morgan Stanley",
    "category": "bulge_bracket",
    "title": "Investment Banking - UK FIG - Vice President / Snr Associate",
@@ -11411,8 +11323,7 @@
    "pros": [],
    "match": 1926,
    "deal_exp": "required",
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "workable",
@@ -11565,9 +11476,9 @@
    "source": "successfactors",
    "company": "EY",
    "category": "big4",
-   "title": "Assurance - Transaction Forensics - Sale & Purchase Agreements - Manager - London",
+   "title": "Assurance - Transaction Forensics - Sale & Purchase Agreements - Manager - London/Regions",
    "location": "London, United Kingdom, SE1 2AF +3 more…",
-   "url": "https://careers.ey.com/ey/job/London-Assurance-Transaction-Forensics-Sale-&amp;-Purchase-Agreements-Manager-London-SE1-2AF/1446348333/",
+   "url": "https://careers.ey.com/ey/job/London-Assurance-Transaction-Forensics-Sale-&amp;-Purchase-Agreements-Manager-LondonRegions-SE1-2AF/1446348233/",
    "posted": "",
    "department": "",
    "description": "At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it to go. Join EY and help to build a better working world. UKI Assurance - Transaction Forensics - Sales & ",
@@ -11614,9 +11525,9 @@
    "source": "successfactors",
    "company": "EY",
    "category": "big4",
-   "title": "Assurance - Transaction Forensics - Sale & Purchase Agreements - Manager - London/Regions",
+   "title": "Assurance - Transaction Forensics - Sale & Purchase Agreements - Manager - London",
    "location": "London, United Kingdom, SE1 2AF +3 more…",
-   "url": "https://careers.ey.com/ey/job/London-Assurance-Transaction-Forensics-Sale-&amp;-Purchase-Agreements-Manager-LondonRegions-SE1-2AF/1446348233/",
+   "url": "https://careers.ey.com/ey/job/London-Assurance-Transaction-Forensics-Sale-&amp;-Purchase-Agreements-Manager-London-SE1-2AF/1446348333/",
    "posted": "",
    "department": "",
    "description": "At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it to go. Join EY and help to build a better working world. UKI Assurance - Transaction Forensics - Sales & ",
@@ -12109,55 +12020,6 @@
    "advert_read": true
   },
   {
-   "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Forensic & Investigation Associate Director",
-   "location": "Manchester (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Manchester/Forensic---Investigation-Associate-Director_R1035803",
-   "posted": "2026-06-09",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "senior",
-   "function": "other",
-   "region": "UK",
-   "interest": 0.4,
-   "tracks": [
-    "Valuations / restructuring"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Ranked Band 1 Forensic Accountants by Chambers and Partners, our full-service practice includes dispute resolution, investigations, contentious valuations, competition monitoring, data analytics, corporate…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 63800.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.04,
-   "flags": [
-    "Asks for 5+ years post-qualification - you have about 2 PQE",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Wants people management - you run audit teams as an Assistant Manager",
-    "Wants a qualified accountant - you're ICAEW ACA qualified",
-    "Asks for accounting - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 1470,
-   "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
-  },
-  {
    "source": "efinancialcareers",
    "company": "Marsh McLennan",
    "category": "other",
@@ -12203,6 +12065,56 @@
    ],
    "pros": [],
    "match": 1389,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "Freshfields Bruckhaus Deringer",
+   "category": "other",
+   "title": "Associate - Private Equity",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Associate_-_Private_Equity.id24849921",
+   "posted": "2026-10-03",
+   "department": "",
+   "description": "Associate - Private Equity We wish to expand the team in London to meet increasing demand from our top-tier financial sponsor clients, and are looking for ambitious, bright and motivated associates looking to join the team for the long term. Our Private Equity team sits as part o",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": "",
+    "full_text": true
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Private equity",
+    "Transaction services",
+    "Corporate finance / M&A"
+   ],
+   "workplace_type": "unknown",
+   "summary": "/purpose of job Our private equity lawyers will work on a broad mix of transactions for private equity and other financial sponsor clients, including public and private M&A, carve-outs, buy-outs, joint…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 52000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"corporate and private equity experience gained at a leading firm, including cross-border…\")",
+    "Asks for 2+ years post-qualification - you qualified in 2026 (about 0.8 yrs PQE)"
+   ],
+   "pros": [
+    "Wants a qualified accountant - you're ICAEW ACA qualified"
+   ],
+   "match": 1335,
    "deal_exp": "required",
    "advert_read": true
   },
@@ -12309,106 +12221,6 @@
    "advert_read": true
   },
   {
-   "source": "smartrecruiters",
-   "company": "FRP Advisory",
-   "category": "mid_tier",
-   "title": "Valuation Manager – Financial Services",
-   "location": "London, England, United Kingdom",
-   "url": "https://jobs.smartrecruiters.com/frpadvisory/744000160923404",
-   "posted": "2026-11-10",
-   "department": "FRP - Financial Advisory",
-   "description": "Job Title - Valuation Manager – Financial Services Location - London Job Type - Permanent – Full Time Role overview The Valuation Manager will oversee financial analysis, industry, and market research to support various projects, with a specific focus in the financial services se",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "FRP Advisory",
-   "category_label": "Mid-tier advisory",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 0.4,
-   "tracks": [
-    "Valuations / restructuring",
-    "Finance"
-   ],
-   "workplace_type": "unknown",
-   "summary": "Job Title - Valuation Manager – Financial Services Location - London Job Type - Permanent – Full Time Role overview The Valuation Manager will oversee financial analysis, industry, and market research to…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 75000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"and guide junior team members, ensuring high standards of work quality extensive work…\")",
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Wants a qualified accountant - you're ICAEW ACA qualified"
-   ],
-   "match": 1116,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
-   "source": "efinancialcareers",
-   "company": "Brookfield Asset Management, Inc.",
-   "category": "pe_megafund",
-   "title": "Analyst/Associate, Investment M&A",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-AnalystAssociate_Investment_MA.id25005711",
-   "posted": "2026-11-17",
-   "department": "",
-   "description": "Analyst/Associate, Investment M&A Location London - One Canada Square, Level 25 Business - Wealth Solutions Brookfield Wealth Solutions (\"BWS\"; NYSE/TSX: BNT) is focused on securing the financial futures of individuals and institutions through a range of retirement services, weal",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": "",
-    "full_text": true
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Private equity (large)",
-   "level": "entry",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Finance",
-    "Transaction services"
-   ],
-   "workplace_type": "unknown",
-   "summary": "Analyst/Associate, Investment M&A Location London - One Canada Square, Level 25 Business - Wealth Solutions Brookfield Wealth Solutions (\"BWS\"; NYSE/TSX: BNT) is focused on securing the financial futures of…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 120000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.01,
-   "flags": [
-    "Requires previous deal experience (\"one to three (2-3) years of work experience in investment banking, m&a, or other relevant…\")",
-    "Wants an established client book / origination record",
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
-    "Analyst roles at banks and funds are very competitive, and you'd join below your current grade"
-   ],
-   "pros": [
-    "Asks for accounting - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 1089,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
    "source": "workable",
    "company": "Interpath Advisory",
    "category": "mid_tier",
@@ -12454,45 +12266,148 @@
    "advert_read": true
   },
   {
-   "source": "oleeo",
-   "company": "Jefferies",
-   "category": "bulge_bracket",
-   "title": "2027 Investment Banking Spring Week Programme - London",
-   "location": "London",
-   "url": "https://jefferies.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/1934-2027-Investment-Banking-Spring-Week-Programme-London/en-GB",
-   "posted": "2026-08-31",
+   "source": "workday",
+   "company": "RSM UK",
+   "category": "mid_tier",
+   "title": "Accounting and Financial Reporting Manager",
+   "location": "London (United Kingdom)",
+   "url": "https://rsmuk.wd103.myworkdayjobs.com/RSM/job/London/Accounting-and-Financial-Reporting-Manager_JR100252",
+   "posted": "2026-11-18",
    "department": "",
-   "description": "Please note you can only make one application per recruitment season; duplicate profiles cannot be considered. Recruitment Timelines: Spring Deadline: Applications for this opportunity will close on December 1st 2026. Recruitment for this programme will commence in the new year ,",
+   "description": "As one of the world's largest networks of audit, tax and consulting firms, RSM delivers big ideas and premium service to help middle-market businesses thrive. We are a fast-growing firm with big ambitions - we have a clear goal to become the premium adviser to the middle market, ",
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
    "salary_text": "",
    "workplace": null,
    "extra": {},
-   "src": "Jefferies",
-   "category_label": "Investment bank",
-   "level": "intern",
-   "function": "front",
+   "src": "RSM UK",
+   "category_label": "Mid-tier advisory",
+   "level": "senior",
+   "function": "back",
    "region": "UK",
-   "interest": 1.0,
+   "interest": 0.7,
    "tracks": [
-    "Investment banking",
-    "Corporate finance / M&A"
+    "Finance",
+    "Valuations / restructuring",
+    "PE portfolio / fund finance"
    ],
-   "workplace_type": "unknown",
-   "summary": "Our Investment Banking Spring Insight Programme Our Investment Banking Spring Insight is a programme designed for students interested in pursuing a career in banking.",
+   "workplace_type": "hybrid",
+   "summary": "We are looking for an Accounting and Financial Reporting Manager who will support within our ‘Accounting and Financial Reporting’ team across our London offices.",
    "currency": "GBP",
    "base_pay": null,
-   "comp": 60000,
+   "comp": 69000.0,
    "comp_basis": "estimated",
    "base_range": null,
    "pay_all_in": null,
    "reach": 0.01,
    "flags": [
-    "Internship / apprenticeship - not for a qualified Assistant Manager"
+    "Asks for 3+ years post-qualification - you qualified in 2026 (about 0.8 yrs PQE)",
+    "Wants an established client book / origination record",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
    ],
-   "pros": [],
-   "match": 360,
+   "pros": [
+    "Wants a qualified accountant - you're ICAEW ACA qualified",
+    "Asks for ifrs - core to your 5 yrs of audit"
+   ],
+   "match": 747,
+   "deal_exp": null,
+   "advert_read": true
+  },
+  {
+   "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Forensic & Investigation Associate Director",
+   "location": "Manchester (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Manchester/Forensic---Investigation-Associate-Director_R1035803",
+   "posted": "2026-06-09",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "senior",
+   "function": "other",
+   "region": "UK",
+   "interest": 0.4,
+   "tracks": [
+    "Valuations / restructuring"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Ranked Band 1 Forensic Accountants by Chambers and Partners, our full-service practice includes dispute resolution, investigations, contentious valuations, competition monitoring, data analytics, corporate…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 63800.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.02,
+   "flags": [
+    "Asks for 5+ years post-qualification - you qualified in 2026 (about 0.8 yrs PQE)",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Wants people management - you run audit teams as an Assistant Manager",
+    "Wants a qualified accountant - you're ICAEW ACA qualified",
+    "Asks for accounting - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 686,
+   "deal_exp": null,
+   "advert_read": true
+  },
+  {
+   "source": "workday",
+   "company": "RSM UK",
+   "category": "mid_tier",
+   "title": "Accounting & Financial Reporting Manager",
+   "location": "Manchester (United Kingdom)",
+   "url": "https://rsmuk.wd103.myworkdayjobs.com/RSM/job/Manchester/Accounting---Financial-Reporting-Manager_JR100212",
+   "posted": "2026-11-16",
+   "department": "",
+   "description": "As one of the world's largest networks of audit, tax and consulting firms, RSM delivers big ideas and premium service to help middle-market businesses thrive. We are a fast-growing firm with big ambitions - we have a clear goal to become the premium adviser to the middle market, ",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "RSM UK",
+   "category_label": "Mid-tier advisory",
+   "level": "senior",
+   "function": "back",
+   "region": "UK",
+   "interest": 0.7,
+   "tracks": [
+    "Finance",
+    "Valuations / restructuring",
+    "PE portfolio / fund finance"
+   ],
+   "workplace_type": "unknown",
+   "summary": "We are looking for an Accounting and Financial Reporting Manager who will support within our Accounting and Financial Reporting team in our Manchester office.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 58600.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.01,
+   "flags": [
+    "Asks for 3+ years post-qualification - you qualified in 2026 (about 0.8 yrs PQE)",
+    "Wants an established client book / origination record",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Wants a qualified accountant - you're ICAEW ACA qualified",
+    "Asks for financial reporting, accounting - core to your 5 yrs of audit"
+   ],
+   "match": 571,
    "deal_exp": null,
    "advert_read": true
   },
@@ -12524,6 +12439,49 @@
    ],
    "workplace_type": "unknown",
    "summary": "As an Off-cycle Intern in Global Markets, you will engage in a stimulating environment, exploring our sophisticated financial solutions across asset classes.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 60000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.01,
+   "flags": [
+    "Internship / apprenticeship - not for a qualified Assistant Manager"
+   ],
+   "pros": [],
+   "match": 360,
+   "deal_exp": null,
+   "advert_read": true
+  },
+  {
+   "source": "oleeo",
+   "company": "Jefferies",
+   "category": "bulge_bracket",
+   "title": "2027 Investment Banking Spring Week Programme - London",
+   "location": "London",
+   "url": "https://jefferies.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/1934-2027-Investment-Banking-Spring-Week-Programme-London/en-GB",
+   "posted": "2026-08-31",
+   "department": "",
+   "description": "Please note you can only make one application per recruitment season; duplicate profiles cannot be considered. Recruitment Timelines: Spring Deadline: Applications for this opportunity will close on December 1st 2026. Recruitment for this programme will commence in the new year ,",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Jefferies",
+   "category_label": "Investment bank",
+   "level": "intern",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Investment banking",
+    "Corporate finance / M&A"
+   ],
+   "workplace_type": "unknown",
+   "summary": "Our Investment Banking Spring Insight Programme Our Investment Banking Spring Insight is a programme designed for students interested in pursuing a career in banking.",
    "currency": "GBP",
    "base_pay": null,
    "comp": 60000,
@@ -12674,8 +12632,7 @@
    "pros": [],
    "match": 302,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "kpmg",
@@ -12766,8 +12723,7 @@
    ],
    "match": 153,
    "deal_exp": null,
-   "advert_read": true,
-   "stale_since": "2026-11-18"
+   "advert_read": true
   },
   {
    "source": "efinancialcareers",
@@ -13054,6 +13010,52 @@
     "Asks for accounting - core to your 5 yrs of audit",
     "Excel-heavy"
    ],
+   "match": 76,
+   "deal_exp": null,
+   "advert_read": true
+  },
+  {
+   "source": "workday",
+   "company": "MUFG",
+   "category": "bulge_bracket",
+   "title": "2027 MUFG UK Summer Analyst Programme: Global Corporate Investment Banking",
+   "location": "London (United Kingdom)",
+   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Global-Corporate-Investment-Banking_10079259-WD-1",
+   "posted": "2026-09-07",
+   "department": "",
+   "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world’s leading financial groups. Across the globe, we’re 150,000 colleagues, striving to make a difference for every client, organization, and",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {
+    "closes": "2026-11-29"
+   },
+   "src": "MUFG",
+   "category_label": "Investment bank",
+   "level": "intern",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Investment banking",
+    "Finance"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Supplemental training will be provided throughout the 10 weeks Experience what it’s really like to work in global investment banking by gaining hands-on work experience Build your networks both internally and…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 60000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.0,
+   "flags": [
+    "Internship / apprenticeship - not for a qualified Assistant Manager",
+    "Student / recent-graduate only"
+   ],
+   "pros": [],
    "match": 76,
    "deal_exp": null,
    "advert_read": true
