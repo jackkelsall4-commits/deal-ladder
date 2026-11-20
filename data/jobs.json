@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19T06:58:59Z",
- "seconds": 1641,
+ "generated_at": "2026-11-20T07:00:35Z",
+ "seconds": 1650,
  "sources": [
   {
    "source": "Adzuna",
@@ -12,7 +12,7 @@
    "source": "Apollo",
    "kind": "workday",
    "ok": true,
-   "count": 28
+   "count": 27
   },
   {
    "source": "BDO UK",
@@ -30,19 +30,19 @@
    "source": "Barclays",
    "kind": "workday",
    "ok": true,
-   "count": 100
+   "count": 96
   },
   {
    "source": "Blackstone",
    "kind": "workday",
    "ok": true,
-   "count": 66
+   "count": 65
   },
   {
    "source": "Carlyle",
    "kind": "workday",
    "ok": true,
-   "count": 33
+   "count": 32
   },
   {
    "source": "Citi",
@@ -60,7 +60,7 @@
    "source": "Deutsche Bank",
    "kind": "workday",
    "ok": true,
-   "count": 101
+   "count": 103
   },
   {
    "source": "EY",
@@ -72,13 +72,13 @@
    "source": "Evelyn Partners",
    "kind": "smartrecruiters",
    "ok": true,
-   "count": 20
+   "count": 19
   },
   {
    "source": "Evercore",
    "kind": "oleeo",
    "ok": true,
-   "count": 32
+   "count": 35
   },
   {
    "source": "FRP Advisory",
@@ -96,7 +96,7 @@
    "source": "Goldman Sachs",
    "kind": "goldman",
    "ok": true,
-   "count": 436
+   "count": 438
   },
   {
    "source": "Grant Thornton UK",
@@ -126,25 +126,25 @@
    "source": "Interpath Advisory",
    "kind": "workable",
    "ok": true,
-   "count": 18
+   "count": 19
   },
   {
    "source": "J.P. Morgan",
    "kind": "oracle",
    "ok": true,
-   "count": 386
+   "count": 385
   },
   {
    "source": "Jefferies",
    "kind": "oleeo",
    "ok": true,
-   "count": 33
+   "count": 34
   },
   {
    "source": "KPMG UK",
    "kind": "kpmg",
    "ok": true,
-   "count": 200
+   "count": 205
   },
   {
    "source": "Lazard",
@@ -156,13 +156,13 @@
    "source": "Lincoln International",
    "kind": "greenhouse",
    "ok": true,
-   "count": 26
+   "count": 27
   },
   {
    "source": "Lloyds Banking Group",
    "kind": "workday",
    "ok": true,
-   "count": 56
+   "count": 53
   },
   {
    "source": "MUFG",
@@ -174,13 +174,13 @@
    "source": "Mizuho",
    "kind": "workday",
    "ok": true,
-   "count": 78
+   "count": 77
   },
   {
    "source": "Morgan Stanley",
    "kind": "workday",
    "ok": true,
-   "count": 111
+   "count": 112
   },
   {
    "source": "PwC",
@@ -204,7 +204,7 @@
    "source": "Rothschild & Co",
    "kind": "rothschild",
    "ok": true,
-   "count": 28
+   "count": 27
   },
   {
    "source": "Teneo",
@@ -216,7 +216,7 @@
    "source": "William Blair",
    "kind": "greenhouse",
    "ok": true,
-   "count": 48
+   "count": 46
   },
   {
    "source": "eFinancialCareers",
@@ -225,7 +225,7 @@
    "count": 274
   }
  ],
- "total_seen": 1393,
+ "total_seen": 1392,
  "jobs": [
   {
    "source": "greenhouse",
@@ -740,6 +740,51 @@
   },
   {
    "source": "efinancialcareers",
+   "company": "Baird",
+   "category": "boutique",
+   "title": "Investment Banking Associate - Healthcare",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Investment_Banking_Associate_-_Healthcare.id25013410",
+   "posted": "2026-11-19",
+   "department": "",
+   "description": "About the Role: As a Baird Investment Banker, you will work alongside prominent growth companies and investors on high-profile and thrilling transactions offering the opportunity to gain valuable insights into various products, sectors, and categories. As a privately held, employ",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "IB boutique / advisory",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Investment banking"
+   ],
+   "workplace_type": "unknown",
+   "summary": "As a Baird Investment Banker, you will work alongside prominent growth companies and investors on high-profile and thrilling transactions offering the opportunity to gain valuable insights into various…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 165000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.26,
+   "flags": [
+    "Advert text not read - check whether deal experience is required",
+    "IB / PE associate roles mostly hire ex-analysts or Big 4 deals people - a stretch straight from audit"
+   ],
+   "pros": [],
+   "match": 43478,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
+   "source": "efinancialcareers",
    "company": "JPMorgan Chase & Co.",
    "category": "bulge_bracket",
    "title": "Investment Banking - EMEA Corporate Advisory - Senior Associate - London",
@@ -879,9 +924,9 @@
    "company": "Grant Thornton UK",
    "category": "mid_tier",
    "title": "Transaction Advisory Services, Assistant Manager",
-   "location": "Birmingham (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Birmingham/Transaction-Advisory-Services--Assistant-Manager_R1037726",
-   "posted": "2026-11-18",
+   "location": "Bristol (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Bristol/TAS-AM_R1037798",
+   "posted": "2026-11-19",
    "department": "",
    "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
    "salary_min": null,
@@ -910,7 +955,7 @@
    "reach": 0.95,
    "flags": [],
    "pros": [
-    "Open to audit backgrounds (\"experience in audit or another advisory service line\")",
+    "Open to audit backgrounds (\"ication (aca, icas, ca, acca or cipfa) helpful, but not essential experience in…\")",
     "Mentions ACA / a professional qualification - you hold the ACA",
     "Asks for audit - core to your 5 yrs of audit",
     "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
@@ -924,8 +969,8 @@
    "company": "Grant Thornton UK",
    "category": "mid_tier",
    "title": "Transaction Advisory Services, Assistant Manager",
-   "location": "Bristol (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Bristol/TAS-AM_R1037798",
+   "location": "Birmingham (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/Birmingham/Transaction-Advisory-Services--Assistant-Manager_R1037726",
    "posted": "2026-11-18",
    "department": "",
    "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
@@ -1013,102 +1058,6 @@
    "advert_read": true
   },
   {
-   "source": "efinancialcareers",
-   "company": "Verition Group LLC",
-   "category": "hedge_fund",
-   "title": "Portfolio Finance Associate",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Portfolio_Finance_Associate.id24950823",
-   "posted": "2026-10-31",
-   "department": "",
-   "description": "Firm Overview Verition Fund Management LLC (\"Verition\") is a multi-strategy, multi-manager hedge fund founded in 2008. Verition focuses on global investment strategies including Fixed Income & Macro, Event & Multi-Asset RV, Equity L/S & Capital Markets, and Quantitative Trading. ",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Hedge fund",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 0.8,
-   "tracks": [
-    "PE portfolio / fund finance",
-    "Finance"
-   ],
-   "workplace_type": "unknown",
-   "summary": "Working closely with Portfolio Managers, the team executes securities financin",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 170000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.26,
-   "flags": [
-    "Advert text not read - check whether deal experience is required",
-    "IB / PE associate roles mostly hire ex-analysts or Big 4 deals people - a stretch straight from audit"
-   ],
-   "pros": [],
-   "match": 38076,
-   "deal_exp": null,
-   "advert_read": false
-  },
-  {
-   "source": "avature",
-   "company": "Deloitte UK",
-   "category": "big4",
-   "title": "Assistant Manager, Financial Due Diligence, Private Equity, TMT Tech",
-   "location": "Manchester",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Assistant-Manager-Financial-Due-Diligence-Private-Equity-TMT-Tech/25531",
-   "posted": "2026-10-19",
-   "department": "Strategy, Risk & Transactions Advisory",
-   "description": "article__content__view\"> Location Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 19-Oct-2026 Req # 25531 Job description Connect to your Industry This is your opportunity to join Deloitte's Transaction Services team. Workin",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Deloitte UK",
-   "category_label": "Big 4",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Transaction services",
-    "Private equity",
-    "Finance",
-    "Corporate finance / M&A"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "Working on high profile assignments with some of the best in the field, you will have the opportunity to work on a wide variety of projects, with a mix of both corporate and private equity transactions, within…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 49300.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.77,
-   "flags": [
-    "Deal experience is a plus, not required (\"desirables: exposure to financial due diligence and/or transaction services…\")"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for audit - core to your 5 yrs of audit",
-    "Excel-heavy",
-    "Audit to TS / corporate finance at a Big 4 or mid-tier firm is the standard move"
-   ],
-   "match": 36016,
-   "deal_exp": "desirable",
-   "advert_read": true
-  },
-  {
    "source": "radancy",
    "company": "BDO UK",
    "category": "mid_tier",
@@ -1160,7 +1109,7 @@
    "title": "FIG M&A - Associate - a leading global advisor",
    "location": "London, United Kingdom",
    "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-FIG_MA_-_Associate_-_a_leading_global_advisor.id24692338",
-   "posted": "2026-11-13",
+   "posted": "2026-11-19",
    "department": "",
    "description": "The ideal candidate will be a well-trained FIG banker at Associate level. You will be working in an investment bank, boutique, Big 4 FIG M&A team or corporate M&A team. You will be seeking an ambitious and dynamic team with a strong track record and primed for future growth. Resp",
    "salary_min": null,
@@ -1428,6 +1377,54 @@
    "advert_read": true
   },
   {
+   "source": "efinancialcareers",
+   "company": "Quilter",
+   "category": "asset_manager",
+   "title": "Mergers & Acquisitions Manager",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Mergers__Acquisitions_Manager.id24990311",
+   "posted": "2026-11-17",
+   "department": "",
+   "description": "About the Business Quilter plc is a leading wealth management business, helping to enable brighter financial futures for every generation. Quilter oversees £157.4 billion in customer investments (as of August 2026). It has an adviser and customer offering spanning financial advic",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": "",
+    "full_text": true
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Asset manager / markets infra",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Private equity"
+   ],
+   "workplace_type": "unknown",
+   "summary": "Level - 4 Department- Mergers & Acquisitions Location - London Contract - Permanent Please note: this role is known internally as Practice Buy Out Manager.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 120000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.26,
+   "flags": [
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Asks for assurance - core to your 5 yrs of audit"
+   ],
+   "match": 30870,
+   "deal_exp": null,
+   "advert_read": true
+  },
+  {
    "source": "oracle",
    "company": "J.P. Morgan",
    "category": "bulge_bracket",
@@ -1561,6 +1558,56 @@
    ],
    "pros": [],
    "match": 30000,
+   "deal_exp": null,
+   "advert_read": true
+  },
+  {
+   "source": "workday",
+   "company": "Lloyds Banking Group",
+   "category": "retail_bank",
+   "title": "Senior Fund Accountant",
+   "location": "London (United Kingdom)",
+   "url": "https://lbg.wd3.myworkdayjobs.com/LBG_Careers/job/London/Senior-Fund-Accountant_166795-1",
+   "posted": "2026-11-19",
+   "department": "",
+   "description": "End Date Monday 30 November 2026 Salary Range £0 - £0 We support flexible working – click here for more information on flexible working options Flexible Working Options Hybrid Working, Job Share Job Description Summary Title: Senior Fund Accountant Location: One Vine Street, Lond",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {
+    "closes": "2026-12-01"
+   },
+   "src": "Lloyds Banking Group",
+   "category_label": "UK bank",
+   "level": "mid",
+   "function": "back",
+   "region": "UK",
+   "interest": 0.8,
+   "tracks": [
+    "PE portfolio / fund finance",
+    "Finance",
+    "Private equity"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Primary responsibilities Reporting directly into LDC’s Senior Fund Controller, this role is responsible for fund accounting and administration for several UK based PE Funds.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 51000.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.64,
+   "flags": [
+    "Asks for Investran/eFront experience - not something audit gives you"
+   ],
+   "pros": [
+    "Asks for 4+ yrs (experience)) - you have 5",
+    "Wants a qualified accountant - you're ICAEW ACA qualified",
+    "Asks for accounting - core to your 5 yrs of audit"
+   ],
+   "match": 28965,
    "deal_exp": null,
    "advert_read": true
   },
@@ -2185,6 +2232,51 @@
   },
   {
    "source": "efinancialcareers",
+   "company": "Quilter",
+   "category": "asset_manager",
+   "title": "M&A Senior Manager",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-MA_Senior_Manager.id25013973",
+   "posted": "2026-11-19",
+   "department": "",
+   "description": "About the Business Quilter plc is a leading wealth management business, helping to enable brighter financial futures for every generation. Quilter oversees £157.4 billion in customer investments (as of August 2026). It has an adviser and customer offering spanning financial advic",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Asset manager / markets infra",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A"
+   ],
+   "workplace_type": "unknown",
+   "summary": "It has an adviser and customer offering spanning financial advice, investment platforms, multi-asset investment solutions, and discretionary fund management.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 120000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.21,
+   "flags": [
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
+    "Advert text not read - check whether deal experience is required"
+   ],
+   "pros": [],
+   "match": 24990,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
+   "source": "efinancialcareers",
    "company": "Options Group",
    "category": "other",
    "title": "Investment Manager (m/f/d) - Private Equity",
@@ -2231,53 +2323,6 @@
    "match": 24600,
    "deal_exp": null,
    "advert_read": false
-  },
-  {
-   "source": "workday",
-   "company": "Apollo",
-   "category": "pe_megafund",
-   "title": "Fund Accountant",
-   "location": "London, United Kingdom",
-   "url": "https://athene.wd5.myworkdayjobs.com/Apollo_Careers/job/London-United-Kingdom/Fund-Accountant_R254645-1",
-   "posted": "2026-06-15",
-   "department": "",
-   "description": "Position Overview The opportunity is within the Fund Controller team that supports the European Credit Business. The Credit business has seen significant growth and this role will be supporting established and newly launched products . This is a varied role and key to the success",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {},
-   "src": "Apollo",
-   "category_label": "Private equity (large)",
-   "level": "mid",
-   "function": "back",
-   "region": "UK",
-   "interest": 0.8,
-   "tracks": [
-    "PE portfolio / fund finance",
-    "Finance",
-    "Valuations / restructuring"
-   ],
-   "workplace_type": "unknown",
-   "summary": "Position Overview The opportunity is within the Fund Controller team that supports the European Credit Business. The Credit business has seen significant growth and this role will be supporting established and…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 73500.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.39,
-   "flags": [
-    "Asks for Investran experience - not something audit gives you"
-   ],
-   "pros": [
-    "Asks for 4+ yrs (qualified accountant previous fund finance…) - you have 5",
-    "Wants a qualified accountant - you're ICAEW ACA qualified"
-   ],
-   "match": 24500,
-   "deal_exp": null,
-   "advert_read": true
   },
   {
    "source": "oracle",
@@ -2379,12 +2424,12 @@
    "source": "successfactors",
    "company": "EY",
    "category": "big4",
-   "title": "Manager, Private Capital Transactions, London",
+   "title": "Senior Manager, Private Capital Transactions, London",
    "location": "London, United Kingdom, SE1 2AF",
-   "url": "https://careers.ey.com/ey/job/London-Manager%2C-Private-Capital-Transactions%2C-London-SE1-2AF/1251096201/",
+   "url": "https://careers.ey.com/ey/job/London-Senior-Manager%2C-Private-Capital-Transactions%2C-London-SE1-2AF/1250878701/",
    "posted": "",
    "department": "",
-   "description": "At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it to go. Join EY and help to build a better working world. Manager - Private Capital Transactions, Internat",
+   "description": "At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it to go. Join EY and help to build a better working world. Senior Manager - Private Capital Transactions, I",
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
@@ -2427,12 +2472,12 @@
    "source": "successfactors",
    "company": "EY",
    "category": "big4",
-   "title": "Senior Manager, Private Capital Transactions, London",
+   "title": "Manager, Private Capital Transactions, London",
    "location": "London, United Kingdom, SE1 2AF",
-   "url": "https://careers.ey.com/ey/job/London-Senior-Manager%2C-Private-Capital-Transactions%2C-London-SE1-2AF/1250878701/",
+   "url": "https://careers.ey.com/ey/job/London-Manager%2C-Private-Capital-Transactions%2C-London-SE1-2AF/1251096201/",
    "posted": "",
    "department": "",
-   "description": "At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it to go. Join EY and help to build a better working world. Senior Manager - Private Capital Transactions, I",
+   "description": "At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it to go. Join EY and help to build a better working world. Manager - Private Capital Transactions, Internat",
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
@@ -3665,6 +3710,51 @@
   },
   {
    "source": "efinancialcareers",
+   "company": "Rothstein Recruitment",
+   "category": "other",
+   "title": "Investment Analyst - Private Equity",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Investment_Analyst_-_Private_Equity.id25015064",
+   "posted": "2026-11-19",
+   "department": "",
+   "description": "Investment Analyst - Private Equity An exciting opportunity has arisen to join a growing private investment firm as an Investment Analyst based in their London office. This position will focus on investment opportunities within the Hospitality industry, with a view to expanding i",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Excellent",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "entry",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Private equity",
+    "Finance"
+   ],
+   "workplace_type": "unknown",
+   "summary": "This position will focus on investment opportunities within the Hospitality industry, with a view to expanding into further spaces. ou will be responsible for evaluating and executing investment opportunities…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 34000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.42,
+   "flags": [
+    "Advert text not read - check whether deal experience is required"
+   ],
+   "pros": [],
+   "match": 14450,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
+   "source": "efinancialcareers",
    "company": "Marsh McLennan",
    "category": "other",
    "title": "Corporate Development Executive",
@@ -3795,50 +3885,6 @@
    "match": 14226,
    "deal_exp": null,
    "advert_read": true
-  },
-  {
-   "source": "efinancialcareers",
-   "company": "Universities Superannuation Scheme Limited",
-   "category": "other",
-   "title": "Valuations Associate",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Valuations_Associate.id25006939",
-   "posted": "2026-11-17",
-   "department": "",
-   "description": "Valuations Associate Place of Work: London Contract Type: Permanent When you join USS, the size and scale of our pension scheme means you will have numerous opportunities to learn and develop your career. Given our size you'll have real autonomy and influence as you collaborate c",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "mid",
-   "function": "other",
-   "region": "UK",
-   "interest": 0.4,
-   "tracks": [
-    "Valuations / restructuring"
-   ],
-   "workplace_type": "unknown",
-   "summary": "In your role as Valuations Associate you will make a meaningful and valued contribution from the outset. This role will provide a great opportunity to assist in",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 48000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.53,
-   "flags": [
-    "Advert text not read - check whether deal experience is required"
-   ],
-   "pros": [],
-   "match": 13913,
-   "deal_exp": null,
-   "advert_read": false
   },
   {
    "source": "efinancialcareers",
@@ -4214,6 +4260,51 @@
   },
   {
    "source": "efinancialcareers",
+   "company": "Linklaters LLP",
+   "category": "other",
+   "title": "BD Senior Advisor, Private Equity (FTC)",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-BD_Senior_Advisor_Private_Equity_FTC.id24968433",
+   "posted": "2026-11-04",
+   "department": "",
+   "description": "About us: Linklaters is a global law firm, providing legal services in 20 countries and through 30 offices. Linklaters is a people business. Being best in class in the eyes of our clients means that our people must be exceptional. We look not only for brilliant minds, but for peo",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Private equity"
+   ],
+   "workplace_type": "unknown",
+   "summary": "We look not only for brilliant minds, but for people who will thrive in our environment: people who love working collaboratively and demonstrate the innovative, efficient, agile, entrepreneurial, and…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 48000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.26,
+   "flags": [
+    "Advert text not read - check whether deal experience is required",
+    "IB / PE associate roles nearly always ask for prior deal experience - check the advert"
+   ],
+   "pros": [],
+   "match": 12648,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
+   "source": "efinancialcareers",
    "company": "PER, Private Equity Recruitment",
    "category": "other",
    "title": "Experienced Investment Associate, Leading Mid-Market Fund, London, UK",
@@ -4254,6 +4345,55 @@
    ],
    "pros": [],
    "match": 12648,
+   "deal_exp": null,
+   "advert_read": false
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "Morgan McKinley",
+   "category": "other",
+   "title": "Corporate Finance Manager",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Corporate_Finance_Manager.id25013631",
+   "posted": "2026-11-19",
+   "department": "",
+   "description": "Our client is one of the world's largest networks of audit, tax and consulting firms, delivers big ideas and premium service to help middle-market businesses thrive. They're a fast-growing firm with big ambitions - and have a clear goal to become the premium adviser to the middle",
+   "salary_min": 55000.0,
+   "salary_max": 60000.0,
+   "salary_currency": null,
+   "salary_text": "£55k - £60k",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Finance"
+   ],
+   "workplace_type": "unknown",
+   "summary": "In this varied role, you will help the finance function meet internal and external deadlines",
+   "currency": "GBP",
+   "base_pay": 57500,
+   "comp": 60400.0,
+   "comp_basis": "advertised",
+   "base_range": [
+    55000.0,
+    60000.0
+   ],
+   "pay_all_in": false,
+   "reach": 0.21,
+   "flags": [
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
+    "Advert text not read - check whether deal experience is required"
+   ],
+   "pros": [],
+   "match": 12573,
    "deal_exp": null,
    "advert_read": false
   },
@@ -4861,6 +5001,54 @@
    "advert_read": true
   },
   {
+   "source": "workday",
+   "company": "Lloyds Banking Group",
+   "category": "retail_bank",
+   "title": "Associate, Group Corporate Development",
+   "location": "London (United Kingdom)",
+   "url": "https://lbg.wd3.myworkdayjobs.com/LBG_Careers/job/London/Associate--Group-Corporate-Development_166809-1",
+   "posted": "2026-11-19",
+   "department": "",
+   "description": "End Date Friday 04 December 2026 Salary Range £89,739 - £99,710 We support flexible working – click here for more information on flexible working options Flexible Working Options Hybrid Working, Job Share Job Description Summary This is an exciting opportunity to join Group Corpo",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {
+    "closes": "2026-12-05"
+   },
+   "src": "Lloyds Banking Group",
+   "category_label": "UK bank",
+   "level": "mid",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Valuations / restructuring"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "We'll always explain what we need and why, with any request coming from a trusted Lloyds Banking Group person.",
+   "currency": "GBP",
+   "base_pay": 94724,
+   "comp": 104200.0,
+   "comp_basis": "advertised",
+   "base_range": [
+    89700.0,
+    99700.0
+   ],
+   "pay_all_in": false,
+   "reach": 0.07,
+   "flags": [
+    "Requires previous deal experience (\"anking, transaction services or another transaction-focused environment, with experience…\")"
+   ],
+   "pros": [],
+   "match": 8140,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
    "source": "smartrecruiters",
    "company": "FRP Advisory",
    "category": "mid_tier",
@@ -5184,52 +5372,6 @@
   },
   {
    "source": "efinancialcareers",
-   "company": "DWS Group",
-   "category": "other",
-   "title": "Infrastructure Investment Manager - private equity",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Infrastructure_Investment_Manager_-_private_equity.id23471087",
-   "posted": "2026-09-20",
-   "department": "",
-   "description": "Job Description: Employer: DWS Group Title: Infrastructure Investment Manager - private equity Location: London About DWS: Today, markets face a whole new set of pressures - but also a whole lot of opportunity too. Opportunity to innovate differently. Opportunity to invest respon",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Private equity"
-   ],
-   "workplace_type": "unknown",
-   "summary": "Employer: DWS Group Title: Infrastructure Investment Manager - private equity Location: London About DWS: Today, markets face a whole new set of pressures - but also a whole lot of opportunity too.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 68000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.1,
-   "flags": [
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
-    "Advert text not read - check whether deal experience is required",
-    "IB / PE associate roles nearly always ask for prior deal experience - check the advert"
-   ],
-   "pros": [],
-   "match": 7080,
-   "deal_exp": null,
-   "advert_read": false
-  },
-  {
-   "source": "efinancialcareers",
    "company": "LegalAndGeneral",
    "category": "other",
    "title": "Investment Manager - Risk Sharing",
@@ -5326,6 +5468,57 @@
    "match": 6752,
    "deal_exp": "required",
    "advert_read": true
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "LH Partners",
+   "category": "other",
+   "title": "Assistant Fund Controller - Global Alternative Investment Manager - Up to £60,000 - £70,000 + Bonus + Benefits - London",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Assistant_Fund_Controller_-_Global_Alternative_Investment_Manager_-_Up_to_%C2%A360000_-_%C2%A370000__Bonus__Benefits_-_London.id24863830",
+   "posted": "2026-11-19",
+   "department": "",
+   "description": "Our client is a global alternative investment manager that invests across the capital structure, asset classes, industries and geographies. The firm is continuing on its growth journey and is now looking to recruit a highly motivated and technically strong Assistant Fund Controll",
+   "salary_min": 55000.0,
+   "salary_max": 70000.0,
+   "salary_currency": null,
+   "salary_text": "£55k - £70k",
+   "workplace": null,
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Other employer",
+   "level": "senior",
+   "function": "back",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Private equity",
+    "PE portfolio / fund finance",
+    "Finance"
+   ],
+   "workplace_type": "unknown",
+   "summary": "Our client is a global alternative investment manager that invests across the capital structure, asset classes, industries and geographies.",
+   "currency": "GBP",
+   "base_pay": 62500,
+   "comp": 63800.0,
+   "comp_basis": "advertised",
+   "base_range": [
+    55000.0,
+    70000.0
+   ],
+   "pay_all_in": false,
+   "reach": 0.1,
+   "flags": [
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
+    "Advert text not read - check whether deal experience is required",
+    "IB / PE associate roles nearly always ask for prior deal experience - check the advert"
+   ],
+   "pros": [],
+   "match": 6638,
+   "deal_exp": null,
+   "advert_read": false
   },
   {
    "source": "efinancialcareers",
@@ -5755,60 +5948,6 @@
    ],
    "pros": [],
    "match": 5952,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
-   "source": "efinancialcareers",
-   "company": "Baird",
-   "category": "boutique",
-   "title": "Investment Banking Associate - Healthcare",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Investment_Banking_Associate_-_Healthcare.id24544478",
-   "posted": "2026-07-19",
-   "department": "",
-   "description": "Investment Banking Associate - Healthcare About the Role: As a Baird Investment Banker, you will work alongside prominent growth companies and investors on high-profile and thrilling transactions offering the opportunity to gain valuable insights into various products, sectors, a",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": "",
-    "full_text": true
-   },
-   "src": "eFinancialCareers",
-   "category_label": "IB boutique / advisory",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Investment banking",
-    "Transaction services",
-    "Corporate finance / M&A"
-   ],
-   "workplace_type": "unknown",
-   "summary": "Investment Banking Associate - Healthcare About the Role: As a Baird Investment Banker, you will work alongside prominent growth companies and investors on high-profile and thrilling transactions offering the…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 165000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.04,
-   "flags": [
-    "Requires previous deal experience (\"deal execution: hands-on experience supporting transaction processes, including…\")",
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
-    "Asks for a 2:1 degree - check your class meets it",
-    "IB / PE associate roles mostly hire ex-analysts or Big 4 deals people - a stretch straight from audit"
-   ],
-   "pros": [
-    "Asks for 1+ yrs (an associate or equivalent role within an…) - you have 5",
-    "Wants a qualified accountant - you're ICAEW ACA qualified",
-    "Asks for accounting principles - core to your 5 yrs of audit"
-   ],
-   "match": 5929,
    "deal_exp": "required",
    "advert_read": true
   },
@@ -7319,60 +7458,12 @@
   },
   {
    "source": "efinancialcareers",
-   "company": "Linklaters LLP",
-   "category": "other",
-   "title": "BD Senior Advisor, Private Equity (FTC)",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-BD_Senior_Advisor_Private_Equity_FTC.id24968433",
-   "posted": "2026-11-04",
-   "department": "",
-   "description": "BD Senior Advisor, Private Equity (FTC) About us: Linklaters is a global law firm, providing legal services in 20 countries and through 30 offices. Linklaters is a people business. Being best in class in the eyes of our clients means that our people must be exceptional. We look n",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": "",
-    "full_text": true
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Private equity"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "We are looking for a BD Senior Advisor, Private Equity to join our Business Development and Marketing function on a six-month fixed-term contract.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 48000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.08,
-   "flags": [
-    "Requires previous deal experience (\"proven business development experience within private equity, ideally gained within a…\")"
-   ],
-   "pros": [
-    "Wants people management - you run audit teams as an Assistant Manager",
-    "Asks for assurance - core to your 5 yrs of audit"
-   ],
-   "match": 3937,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
-   "source": "efinancialcareers",
    "company": "Goodman Masson",
    "category": "other",
    "title": "M&A Associate - Transport, Logistics & Infrastructure - leading investment bank",
    "location": "London, United Kingdom",
    "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-MA_Associate_-_Transport_Logistics__Infrastructure_-_leading_investment_bank.id13871546",
-   "posted": "2026-11-13",
+   "posted": "2026-11-19",
    "department": "",
    "description": "A leading investment banking name is expanding their London based Transport, Logistics & Infrastructure group and seeking an Associate to help drive execution and increasingly support seniors on origination. This is an exciting time for the platform as it receives significant inv",
    "salary_min": null,
@@ -7418,7 +7509,7 @@
    "title": "Associate - Financial Services Tech & Services/Fintech M&A",
    "location": "London, United Kingdom",
    "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Associate_-_Financial_Services_Tech__ServicesFintech_MA.id24692336",
-   "posted": "2026-11-13",
+   "posted": "2026-11-19",
    "department": "",
    "description": "A well-established Fintech team with a track record or success and sustained growth (and very low turnover) is hiring as the team expands. They are seeking bankers with robust technical skills and solid exposure to TMT and Tech transactions (or Fintech naturally). Responsibilitie",
    "salary_min": null,
@@ -7452,54 +7543,6 @@
    "flags": [
     "Requires previous deal experience (\"they are seeking bankers with robust technical skills and solid exposure to tmt and tech…\")",
     "Asks for a 2:1 degree - check your class meets it"
-   ],
-   "pros": [],
-   "match": 3869,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
-   "source": "efinancialcareers",
-   "company": "Guggenheim Securities LLC",
-   "category": "other",
-   "title": "Associate - Investment Banking, Financial Sponsors Group",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Associate_-_Investment_Banking_Financial_Sponsors_Group.id24788828",
-   "posted": "2026-09-17",
-   "department": "",
-   "description": "Associate - Investment Banking, Financial Sponsors Group Job Description: Position Summary Guggenheim Securities (\"GS\") is seeking an exceptional, Associate to join its Financial Sponsors Group (FSG) located in London. Our London based Financial Sponsors Group (FSG) is a key part",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": "",
-    "full_text": true
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Investment banking",
-    "Finance",
-    "Valuations / restructuring"
-   ],
-   "workplace_type": "unknown",
-   "summary": "Associate - Investment Banking, Financial Sponsors Group Job Description: Position Summary Guggenheim Securities (\"GS\") is seeking an exceptional, Associate to join its Financial Sponsors Group (FSG) located…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 52000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.07,
-   "flags": [
-    "Requires previous deal experience (\"minimum of 3 year of investment banking or equivalent m&a experience\")"
    ],
    "pros": [],
    "match": 3869,
@@ -8341,7 +8384,7 @@
    "title": "M&A Analyst 2 to Associate 1 - Energy & Infrastructure investment banking",
    "location": "London, United Kingdom",
    "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-MA_Analyst_2_to_Associate_1_-_Energy__Infrastructure_investment_banking.id23210153",
-   "posted": "2026-11-13",
+   "posted": "2026-11-19",
    "department": "",
    "description": "A leading European investment bank is expanding there Energy & Infrastructure platform in London and are keen to speak to Analysts and junior Associates with appropriate deal and sector experience. Specific coverage centred on UK and pan-European client base across Renewable Ener",
    "salary_min": null,
@@ -8532,6 +8575,61 @@
     "Asks for accounting - core to your 5 yrs of audit"
    ],
    "match": 3210,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "efinancialcareers",
+   "company": "Moelis & Company",
+   "category": "boutique",
+   "title": "Analyst/Associate, Investment Banking - Infrastructure - London",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-AnalystAssociate_Investment_Banking_-_Infrastructure_-_London.id24986704",
+   "posted": "2026-11-10",
+   "department": "",
+   "description": "Analyst/Associate, Investment Banking - Infrastructure - London We are passionate about our business and our culture, and are seeking individuals with that same drive. Analyst - Infrastructure and Transport - London About Moelis & Company Moelis & Company is a leading global inde",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "Competitive",
+   "workplace": null,
+   "extra": {
+    "closes": "",
+    "full_text": true
+   },
+   "src": "eFinancialCareers",
+   "category_label": "IB boutique / advisory",
+   "level": "entry",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Investment banking",
+    "Finance",
+    "Transaction services",
+    "Corporate finance / M&A",
+    "Private equity",
+    "Valuations / restructuring"
+   ],
+   "workplace_type": "unknown",
+   "summary": "Prior internship or full-time experience in investment banking, corporate finance, infrastructure investing, project finance or a closely related field.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 105000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"prior internship or full-time experience in investment banking, corporate finance…\")",
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
+    "Analyst roles at banks and funds are very competitive, and you'd join below your current grade"
+   ],
+   "pros": [
+    "Asks for accounting - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 3175,
    "deal_exp": "required",
    "advert_read": true
   },
@@ -8968,54 +9066,6 @@
    "advert_read": true
   },
   {
-   "source": "efinancialcareers",
-   "company": "Standard Bank Group",
-   "category": "other",
-   "title": "Equity Capital Markets Associate, Investment Banking, International",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Equity_Capital_Markets_Associate_Investment_Banking_International.id24932562",
-   "posted": "2026-10-24",
-   "department": "",
-   "description": "Equity Capital Markets Associate, Investment Banking, International Company Description Standard Bank Group is a leading Africa-focused financial services group, and an innovative player on the global stage, that offers a variety of career-enhancing opportunities - plus the chanc",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": "",
-    "full_text": true
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "mid",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Investment banking"
-   ],
-   "workplace_type": "unknown",
-   "summary": "To manage workstreams in support of the origination, structuring and execution of Capital Markets transactions by developing a seasoned understanding of the Capital Markets product offering and processes and…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 48000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.06,
-   "flags": [
-    "Requires previous deal experience (\"a genuine interest for financial markets and global economics with relevant industry…\")",
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help"
-   ],
-   "pros": [
-    "Excel-heavy"
-   ],
-   "match": 2857,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
    "source": "avature",
    "company": "Deloitte UK",
    "category": "big4",
@@ -9217,9 +9267,9 @@
    "source": "avature",
    "company": "Deloitte UK",
    "category": "big4",
-   "title": "Senior Manager - Assistant Director, M&A People",
+   "title": "Senior Manager or Assistant Director, Mergers and Acquisitions People",
    "location": "London, Manchester",
-   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Senior-Manager-Assistant-Director-M-A-People/25837",
+   "url": "https://apply.deloitte.co.uk/UKCareers/JobDetail/Senior-Manager-or-Assistant-Director-Mergers-and-Acquisitions-People/25837",
    "posted": "2026-11-18",
    "department": "Strategy, Risk & Transactions Advisory",
    "description": "article__content__view\"> Location London, Manchester Business Line Strategy, Risk & Transactions Advisory Job Type Permanent / FTC Date published 18-Nov-2026 Req # 25837 Job description Connect to your Industry Join the UK’s leading M&A services business. The strength and depth o",
@@ -9897,57 +9947,6 @@
    "advert_read": true
   },
   {
-   "source": "workday",
-   "company": "Grant Thornton UK",
-   "category": "mid_tier",
-   "title": "Corporate Finance Advisory Manager (TMT)",
-   "location": "London (United Kingdom)",
-   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/London/Corporate-Finance-Advisory-Manager--TMT-_R1036692",
-   "posted": "2026-11-12",
-   "department": "",
-   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {
-    "closes": "2026-11-20"
-   },
-   "src": "Grant Thornton UK",
-   "category_label": "Mid-tier advisory",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Finance",
-    "Transaction services"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "We are seeking self-motivated candidates with a view to supporting their career development within this exciting service line embedded in a strong team culture.",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 75000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Requires previous deal experience (\"ing us as a manager, the minimum criteria you'll need is to have: all applicants must…\")",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for assurance - core to your 5 yrs of audit",
-    "Excel-heavy"
-   ],
-   "match": 2431,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
    "source": "efinancialcareers",
    "company": "Grant Thornton",
    "category": "mid_tier",
@@ -10488,58 +10487,13 @@
    "advert_read": true
   },
   {
-   "source": "efinancialcareers",
-   "company": "Carta",
-   "category": "other",
-   "title": "Director, Fund Accounting",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Director_Fund_Accounting.id24899069",
-   "posted": "2026-10-17",
-   "department": "",
-   "description": "The Company You'll Join Carta is the connected platform and AI-native ecosystem for private capital. Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund m",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": ""
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Other employer",
-   "level": "exec",
-   "function": "back",
-   "region": "UK",
-   "interest": 0.8,
-   "tracks": [
-    "PE portfolio / fund finance",
-    "Finance"
-   ],
-   "workplace_type": "unknown",
-   "summary": "Built to replace fragmented tools with a single system of record, Carta brings together the software, services, and legal infrastructure that founders use to manage equity, fund managers use to run…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 99800.0,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.03,
-   "flags": [
-    "Advert text not read - check whether deal experience is required"
-   ],
-   "pros": [],
-   "match": 2162,
-   "deal_exp": null,
-   "advert_read": false
-  },
-  {
    "source": "oracle",
    "company": "J.P. Morgan",
    "category": "bulge_bracket",
    "title": "Investment Banking - London - 2027 ReEntry Program",
    "location": "LONDON, LONDON, United Kingdom",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210808905",
-   "posted": "2026-11-16",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210810757",
+   "posted": "2026-11-19",
    "department": "Seasonal Employee / Administration",
    "description": "At JPMorganChase, we recognize that rewarding careers do not always follow a conventional path. We value the diversity, fresh perspective and wealth of experience that returning professionals can bring. The ReEntry program offers experienced professionals, who are currently on an",
    "salary_min": null,
@@ -11226,60 +11180,6 @@
   },
   {
    "source": "workday",
-   "company": "MUFG",
-   "category": "bulge_bracket",
-   "title": "Vice President, Leveraged Finance",
-   "location": "London (United Kingdom)",
-   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/Vice-President--Leveraged-Finance_10074111-WD",
-   "posted": "2026-10-28",
-   "department": "",
-   "description": "Do you want your voice heard and your actions to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG), one of the world’s leading financial groups. Across the globe, we’re 150,000 colleagues, striving to make a difference for every client, organization, and",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "",
-   "workplace": null,
-   "extra": {
-    "closes": "2026-11-20"
-   },
-   "src": "MUFG",
-   "category_label": "Investment bank",
-   "level": "senior",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Corporate finance / M&A",
-    "Finance",
-    "Transaction services",
-    "Private equity"
-   ],
-   "workplace_type": "hybrid",
-   "summary": "NUMBER OF DIRECT REPORTS None MAIN PURPOSE OF THE ROLE Undertake analysis and manage processes to successfully structure and execute leveraged finance transactions, defined as large cap underwritten LBO…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 260000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.01,
-   "flags": [
-    "Requires previous deal experience (\"work experience at least six years of experience in transacting european private equity…\")",
-    "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
-    "Asks for a master's / MBA - check whether your degree counts",
-    "Manager-level: a step up from Assistant Manager while changing field - a stretch",
-    "IB / PE associate roles mostly hire ex-analysts or Big 4 deals people - a stretch straight from audit"
-   ],
-   "pros": [
-    "Mentions ACA / a professional qualification - you hold the ACA",
-    "Asks for accounting knowledge - core to your 5 yrs of audit"
-   ],
-   "match": 2023,
-   "deal_exp": "required",
-   "advert_read": true
-  },
-  {
-   "source": "workday",
    "company": "Morgan Stanley",
    "category": "bulge_bracket",
    "title": "Investment Banking - UK FIG - Vice President / Snr Associate",
@@ -11430,7 +11330,7 @@
    "title": "FIG & Fintech investment banking - VP/Associate 3",
    "location": "London, United Kingdom",
    "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-FIG__Fintech_investment_banking_-_VPAssociate_3.id10464009",
-   "posted": "2026-11-13",
+   "posted": "2026-11-19",
    "department": "",
    "description": "A US firm with a strong FIG, Fintech and Tech track record is expanding and keen to speak with FIG and/or Fintech M&A professionals at circa Senior Associate and VP levels in London. Your responsibilities will include: • Working on a range of buy-side and sell-side transactions •",
    "salary_min": null,
@@ -11574,9 +11474,9 @@
    "source": "successfactors",
    "company": "EY",
    "category": "big4",
-   "title": "Assurance - Transaction Forensics - Sale & Purchase Agreements - Senior Manager - London/Regions",
+   "title": "Assurance - Transaction Forensics - Sale & Purchase Agreements - Senior Manager - London",
    "location": "London, United Kingdom, SE1 2AF +3 more…",
-   "url": "https://careers.ey.com/ey/job/London-Assurance-Transaction-Forensics-Sale-&amp;-Purchase-Agreements-Senior-Manager-LondonRegions-SE1-2AF/1443326733/",
+   "url": "https://careers.ey.com/ey/job/London-Assurance-Transaction-Forensics-Sale-&amp;-Purchase-Agreements-Senior-Manager-London-SE1-2AF/1443326833/",
    "posted": "",
    "department": "",
    "description": "At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it to go. Join EY and help to build a better working world. UKI Assurance - Transaction Forensics - Sales & ",
@@ -11623,9 +11523,9 @@
    "source": "successfactors",
    "company": "EY",
    "category": "big4",
-   "title": "Assurance - Transaction Forensics - Sale & Purchase Agreements - Senior Manager - London",
+   "title": "Assurance - Transaction Forensics - Sale & Purchase Agreements - Senior Manager - London/Regions",
    "location": "London, United Kingdom, SE1 2AF +3 more…",
-   "url": "https://careers.ey.com/ey/job/London-Assurance-Transaction-Forensics-Sale-&amp;-Purchase-Agreements-Senior-Manager-London-SE1-2AF/1443326833/",
+   "url": "https://careers.ey.com/ey/job/London-Assurance-Transaction-Forensics-Sale-&amp;-Purchase-Agreements-Senior-Manager-LondonRegions-SE1-2AF/1443326733/",
    "posted": "",
    "department": "",
    "description": "At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it to go. Join EY and help to build a better working world. UKI Assurance - Transaction Forensics - Sales & ",
@@ -11880,7 +11780,7 @@
    "title": "Investment Executive, Mid Market Tech and Services focused PE Fund, London, UK",
    "location": "London, United Kingdom",
    "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Investment_Executive_Mid_Market_Tech_and_Services_focused_PE_Fund_London_UK.id24933447",
-   "posted": "2026-11-15",
+   "posted": "2026-11-19",
    "department": "",
    "description": "Investment Executive, Mid Market Tech and Services focused PE Fund, London, UK When you click apply, you will be redirected to the company’s website . Please ensure you have completed the company’s application process on their platform to fully apply. About our client We are work",
    "salary_min": null,
@@ -11928,7 +11828,7 @@
    "title": "FIG M&A Analyst",
    "location": "London, United Kingdom",
    "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-FIG_MA_Analyst.id24692341",
-   "posted": "2026-11-13",
+   "posted": "2026-11-19",
    "department": "",
    "description": "My client is a boutique with strong global FIG credentials and they are expanding their London FIG team. You will already be a FIG M&A Analyst or have completed FIG investment banking internships with reputable banks/boutiques. You have developed a financial modelling skillset an",
    "salary_min": null,
@@ -12221,6 +12121,239 @@
    "advert_read": true
   },
   {
+   "source": "workday",
+   "company": "Grant Thornton UK",
+   "category": "mid_tier",
+   "title": "Forensic & Investigations Associate Director – Disputes and Contentious Valuations",
+   "location": "London (United Kingdom)",
+   "url": "https://ukgrantt.wd3.myworkdayjobs.com/CareersGrantThornton/job/London/Forensic---Investigations-Associate-Director---Disputes-and-Contentious-Valuations_R1035645",
+   "posted": "2026-08-04",
+   "department": "",
+   "description": "Alternatively, Grant Thornton At Grant Thornton we do things differently - looking to the future, driving ambitious growth and pioneering positive change in our industry. Providing audit, tax and advisory services, we empower clients through strategic insight, curiosity, and genu",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Grant Thornton UK",
+   "category_label": "Mid-tier advisory",
+   "level": "senior",
+   "function": "other",
+   "region": "UK",
+   "interest": 0.4,
+   "tracks": [
+    "Valuations / restructuring"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Forensic and Investigation Services (FIS) at Grant Thornton is a multi-disciplinary team including specialists in disputes and investigations, contentious valuations, competition, cyber, digital forensic and…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 75000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"contentious valuations practice, the minimum criteria you'll need is experience managing…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Wants people management - you run audit teams as an Assistant Manager",
+    "Excel-heavy"
+   ],
+   "match": 1273,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "workable",
+   "company": "Interpath Advisory",
+   "category": "mid_tier",
+   "title": "Manager, Restructuring & Insolvency - National Markets",
+   "location": "Glasgow, United Kingdom / Edinburgh, United Kingdom",
+   "url": "https://apply.workable.com/interpath-advisory/j/734237AABD/",
+   "posted": "2026-11-19",
+   "department": "Restructuring",
+   "description": "Manager, Restructuring & Insolvency – National Markets Interpath Glasgow or Edinburgh, Scotland Interpath Advisory is a leading financial advisory firm that offers critical restructuring and advisory services to clients across various sectors. With a strong international presence",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": "on_site",
+   "extra": {},
+   "src": "Interpath Advisory",
+   "category_label": "Mid-tier advisory",
+   "level": "senior",
+   "function": "other",
+   "region": "UK",
+   "interest": 0.4,
+   "tracks": [
+    "Valuations / restructuring"
+   ],
+   "workplace_type": "office",
+   "summary": "Will be based in our Glasgow or Edinburgh office – albeit, the nature of the work is likely to necessitate some multi-office and on-site working across Scotland and nationally when required.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 63800.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.04,
+   "flags": [
+    "Asks for 5+ years' experience (corporate insolvency) - you have 5",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [],
+   "match": 1136,
+   "deal_exp": null,
+   "advert_read": true
+  },
+  {
+   "source": "smartrecruiters",
+   "company": "FRP Advisory",
+   "category": "mid_tier",
+   "title": "Valuation Manager – Financial Services",
+   "location": "London, England, United Kingdom",
+   "url": "https://jobs.smartrecruiters.com/frpadvisory/744000160923404",
+   "posted": "2026-11-10",
+   "department": "FRP - Financial Advisory",
+   "description": "Job Title - Valuation Manager – Financial Services Location - London Job Type - Permanent – Full Time Role overview The Valuation Manager will oversee financial analysis, industry, and market research to support various projects, with a specific focus in the financial services se",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "FRP Advisory",
+   "category_label": "Mid-tier advisory",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 0.4,
+   "tracks": [
+    "Valuations / restructuring",
+    "Finance"
+   ],
+   "workplace_type": "unknown",
+   "summary": "Job Title - Valuation Manager – Financial Services Location - London Job Type - Permanent – Full Time Role overview The Valuation Manager will oversee financial analysis, industry, and market research to…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 75000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"and guide junior team members, ensuring high standards of work quality extensive work…\")",
+    "Wants financial modelling skills - audit doesn't build these; a modelling course would help",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Wants a qualified accountant - you're ICAEW ACA qualified"
+   ],
+   "match": 1116,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "successfactors",
+   "company": "EY",
+   "category": "big4",
+   "title": "Assistant Director - M&A Analytics - EY Parthenon, Birmingham",
+   "location": "Birmingham, United Kingdom, B4 6HQ",
+   "url": "https://careers.ey.com/ey/job/Birmingham-Assistant-Director-M&amp;A-Analytics-EY-Parthenon%2C-Birmingham-B4-6HQ/1403717633/",
+   "posted": "",
+   "department": "",
+   "description": "At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it to go. Join EY and help to build a better working world. Assistant Director, M&A Analytics – EY-Parthenon",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "EY",
+   "category_label": "Big 4",
+   "level": "senior",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Corporate finance / M&A",
+    "Transaction services",
+    "Private equity"
+   ],
+   "workplace_type": "unknown",
+   "summary": "At Assistant Director level, this is also a leadership opportunity: you will play a central role in growing the Birmingham Transaction Analytics team, developing people, building client relationships and…",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 72200.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.02,
+   "flags": [
+    "Requires previous deal experience (\"experience leading analytics, transaction, financial due diligence, corporate finance…\")",
+    "Needs coding (Python/SQL)",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Mentions ACA / a professional qualification - you hold the ACA",
+    "Asks for assurance - core to your 5 yrs of audit",
+    "Excel-heavy"
+   ],
+   "match": 1004,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
+   "source": "smartrecruiters",
+   "company": "FRP Advisory",
+   "category": "mid_tier",
+   "title": "Forensic Accounting - Assistant Manager or Manager",
+   "location": "Birmingham, England, United Kingdom",
+   "url": "https://jobs.smartrecruiters.com/frpadvisory/744000139581249",
+   "posted": "2026-07-24",
+   "department": "FRP - Forensic Services",
+   "description": "Role overview Based within the Forensic Accounting team in Birmingham, this role focuses on dispute-related matters and forensic accounting investigations work. The position supports complex engagements including litigation, arbitration and financial investigations, working close",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": "hybrid",
+   "extra": {},
+   "src": "FRP Advisory",
+   "category_label": "Mid-tier advisory",
+   "level": "senior",
+   "function": "other",
+   "region": "UK",
+   "interest": 0.4,
+   "tracks": [
+    "Valuations / restructuring",
+    "Finance"
+   ],
+   "workplace_type": "hybrid",
+   "summary": "Based within the Forensic Accounting team in Birmingham, this role focuses on dispute-related matters and forensic accounting investigations work.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 63800.0,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.03,
+   "flags": [
+    "Requires previous deal experience (\"ed accountancy qualification proven experience in a forensic accounting role experience…\")",
+    "Manager-level: a step up from Assistant Manager while changing field - a stretch"
+   ],
+   "pros": [
+    "Wants people management - you run audit teams as an Assistant Manager",
+    "Mentions ACA / a professional qualification - you hold the ACA"
+   ],
+   "match": 974,
+   "deal_exp": "required",
+   "advert_read": true
+  },
+  {
    "source": "workable",
    "company": "Interpath Advisory",
    "category": "mid_tier",
@@ -12412,6 +12545,49 @@
    "advert_read": true
   },
   {
+   "source": "oleeo",
+   "company": "Jefferies",
+   "category": "bulge_bracket",
+   "title": "2027 Investment Banking Spring Week Programme - London",
+   "location": "London",
+   "url": "https://jefferies.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/1934-2027-Investment-Banking-Spring-Week-Programme-London/en-GB",
+   "posted": "2026-08-31",
+   "department": "",
+   "description": "Please note you can only make one application per recruitment season; duplicate profiles cannot be considered. Recruitment Timelines: Spring Deadline: Applications for this opportunity will close on December 1st 2026. Recruitment for this programme will commence in the new year ,",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_currency": null,
+   "salary_text": "",
+   "workplace": null,
+   "extra": {},
+   "src": "Jefferies",
+   "category_label": "Investment bank",
+   "level": "intern",
+   "function": "front",
+   "region": "UK",
+   "interest": 1.0,
+   "tracks": [
+    "Investment banking",
+    "Corporate finance / M&A"
+   ],
+   "workplace_type": "unknown",
+   "summary": "Our Investment Banking Spring Insight Programme Our Investment Banking Spring Insight is a programme designed for students interested in pursuing a career in banking.",
+   "currency": "GBP",
+   "base_pay": null,
+   "comp": 60000,
+   "comp_basis": "estimated",
+   "base_range": null,
+   "pay_all_in": null,
+   "reach": 0.01,
+   "flags": [
+    "Internship / apprenticeship - not for a qualified Assistant Manager"
+   ],
+   "pros": [],
+   "match": 360,
+   "deal_exp": null,
+   "advert_read": true
+  },
+  {
    "source": "oracle",
    "company": "J.P. Morgan",
    "category": "bulge_bracket",
@@ -12455,47 +12631,49 @@
    "advert_read": true
   },
   {
-   "source": "oleeo",
-   "company": "Jefferies",
-   "category": "bulge_bracket",
-   "title": "2027 Investment Banking Spring Week Programme - London",
-   "location": "London",
-   "url": "https://jefferies.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/1934-2027-Investment-Banking-Spring-Week-Programme-London/en-GB",
-   "posted": "2026-08-31",
+   "source": "efinancialcareers",
+   "company": "KKR",
+   "category": "pe_megafund",
+   "title": "2027 Off Cycle Intern - Private Equity - Global Impact",
+   "location": "London, United Kingdom",
+   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-2027_Off_Cycle_Intern_-_Private_Equity_-_Global_Impact.id24953703",
+   "posted": "2026-10-30",
    "department": "",
-   "description": "Please note you can only make one application per recruitment season; duplicate profiles cannot be considered. Recruitment Timelines: Spring Deadline: Applications for this opportunity will close on December 1st 2026. Recruitment for this programme will commence in the new year ,",
+   "description": "COMPANY OVERVIEW KKR is a leading global investment firm that offers alternative asset management as well as capital markets and insurance solutions. KKR aims to generate attractive investment returns by following a patient and disciplined investment approach, employing world-cla",
    "salary_min": null,
    "salary_max": null,
    "salary_currency": null,
-   "salary_text": "",
+   "salary_text": "Competitive",
    "workplace": null,
-   "extra": {},
-   "src": "Jefferies",
-   "category_label": "Investment bank",
+   "extra": {
+    "closes": ""
+   },
+   "src": "eFinancialCareers",
+   "category_label": "Private equity (large)",
    "level": "intern",
    "function": "front",
    "region": "UK",
    "interest": 1.0,
    "tracks": [
-    "Investment banking",
-    "Corporate finance / M&A"
+    "Private equity"
    ],
    "workplace_type": "unknown",
-   "summary": "Our Investment Banking Spring Insight Programme Our Investment Banking Spring Insight is a programme designed for students interested in pursuing a career in banking.",
+   "summary": "KKR sponsors investment funds that invest in private equity, credit and real assets and has strategic partners that manage hedge funds.",
    "currency": "GBP",
    "base_pay": null,
-   "comp": 60000,
+   "comp": 70000,
    "comp_basis": "estimated",
    "base_range": null,
    "pay_all_in": null,
    "reach": 0.01,
    "flags": [
-    "Internship / apprenticeship - not for a qualified Assistant Manager"
+    "Internship / apprenticeship - not for a qualified Assistant Manager",
+    "Advert text not read - check whether deal experience is required"
    ],
    "pros": [],
-   "match": 360,
+   "match": 357,
    "deal_exp": null,
-   "advert_read": true
+   "advert_read": false
   },
   {
    "source": "oleeo",
@@ -12913,54 +13091,6 @@
    "pros": [],
    "match": 79,
    "deal_exp": null,
-   "advert_read": true
-  },
-  {
-   "source": "efinancialcareers",
-   "company": "KKR",
-   "category": "pe_megafund",
-   "title": "2027 Off Cycle Intern - Private Equity - Global Impact",
-   "location": "London, United Kingdom",
-   "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-2027_Off_Cycle_Intern_-_Private_Equity_-_Global_Impact.id24953703",
-   "posted": "2026-10-30",
-   "department": "",
-   "description": "2027 Off Cycle Intern - Private Equity - Global Impact COMPANY OVERVIEW KKR is a leading global investment firm that offers alternative asset management as well as capital markets and insurance solutions. KKR aims to generate attractive investment returns by following a patient a",
-   "salary_min": null,
-   "salary_max": null,
-   "salary_currency": null,
-   "salary_text": "Competitive",
-   "workplace": null,
-   "extra": {
-    "closes": "",
-    "full_text": true
-   },
-   "src": "eFinancialCareers",
-   "category_label": "Private equity (large)",
-   "level": "intern",
-   "function": "front",
-   "region": "UK",
-   "interest": 1.0,
-   "tracks": [
-    "Private equity",
-    "PE portfolio / fund finance"
-   ],
-   "workplace_type": "office",
-   "summary": "A Global Impact Private Equity Intern in our London office will engage in all aspects of the private equity investment process, including sourcing and evaluating potential investments, presenting opportunities…",
-   "currency": "GBP",
-   "base_pay": null,
-   "comp": 70000,
-   "comp_basis": "estimated",
-   "base_range": null,
-   "pay_all_in": null,
-   "reach": 0.0,
-   "flags": [
-    "Internship / apprenticeship - not for a qualified Assistant Manager",
-    "Student / recent-graduate only",
-    "Deal experience is a plus, not required (\"given the strong autonomy provided to interns, a former experience in private…\")"
-   ],
-   "pros": [],
-   "match": 78,
-   "deal_exp": "desirable",
    "advert_read": true
   },
   {
